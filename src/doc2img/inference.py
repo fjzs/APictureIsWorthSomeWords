@@ -6,6 +6,7 @@ from tqdm import tqdm
 import argparse
 from transformers import DistilBertTokenizer
 import matplotlib.pyplot as plt
+import pandas as pd
 
 import config as CFG
 from train import build_loaders
