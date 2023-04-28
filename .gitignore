@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Data
+src/doc2img/archive/
+
+# Model
+src/doc2img/best.pt

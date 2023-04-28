@@ -3,9 +3,9 @@ from torch import nn
 import torch.nn.functional as F
 
 import config as CFG
-from image_encoders import ImageEncoder
-from text_encoders import TextEncoder
-from projection_head import ProjectionHead
+from encoders.image_encoders import ImageEncoder
+from encoders.text_encoders import TextEncoder
+from encoders.projection_head import ProjectionHead
 
 class CLIPModel(nn.Module):
     def __init__(

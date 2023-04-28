@@ -3,12 +3,14 @@ import cv2
 import torch
 import torch.nn.functional as F
 from tqdm import tqdm
+import argparse
 from transformers import DistilBertTokenizer
 import matplotlib.pyplot as plt
 
 import config as CFG
-from main import build_loaders
+from train import build_loaders
 from encoders.clip import CLIPModel
+import albumentations as A
 
 def get_image_embeddings(valid_df, model_path):
     tokenizer = DistilBertTokenizer.from_pretrained(CFG.text_tokenizer)
@@ -24,7 +26,50 @@ def get_image_embeddings(valid_df, model_path):
             image_features = model.image_encoder(batch["image"].to(CFG.device))
             image_embeddings = model.image_projection(image_features)
             valid_image_embeddings.append(image_embeddings)
+
+
     return model, torch.cat(valid_image_embeddings)
+
+def get_image_query_similarity(image_path, query, model_path):
+    model = CLIPModel().to(CFG.device)
+    model.load_state_dict(torch.load(model_path, map_location=CFG.device))
+    model.eval()
+
+    # Configure Image
+    image = cv2.imread(f"{image_path}")
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+    transform = A.Compose(
+        [
+            A.Resize(CFG.size, CFG.size, always_apply=True),
+            A.Normalize(max_pixel_value=255.0, always_apply=True),
+        ]
+    )
+    image = transform(image=image)['image']
+    image = torch.tensor(image).permute(2, 0, 1).float()
+    image = image.unsqueeze(0)
+
+    with torch.no_grad():
+        image_features = model.image_encoder(image.to(CFG.device))
+        image_embeddings = model.image_projection(image_features)
+
+    # Configure Query
+    tokenizer = DistilBertTokenizer.from_pretrained(CFG.text_tokenizer)
+    encoded_query = tokenizer([query])
+    batch = {
+        key: torch.tensor(values).to(CFG.device)
+        for key, values in encoded_query.items()
+    }
+    with torch.no_grad():
+        text_features = model.text_encoder(
+            input_ids=batch["input_ids"], attention_mask=batch["attention_mask"]
+        )
+        text_embeddings = model.text_projection(text_features)
+    
+    image_embeddings_n = F.normalize(image_embeddings, p=2, dim=-1)
+    text_embeddings_n = F.normalize(text_embeddings, p=2, dim=-1)
+    dot_similarity = text_embeddings_n @ image_embeddings_n.T
+    return dot_similarity[0][0]
+
 
 def find_matches(model, image_embeddings, query, image_filenames, n=9):
     tokenizer = DistilBertTokenizer.from_pretrained(CFG.text_tokenizer)
@@ -54,3 +99,42 @@ def find_matches(model, image_embeddings, query, image_filenames, n=9):
         ax.axis("off")
     
     plt.show()
+
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--query', type=str, default="dogs on the grass")
+    parser.add_argument('--image_path', type=str, default=None)
+    parser.add_argument('--operation', type=str, choices=['search', 'similarity'], default='search')
+    parser.add_argument('--data_path', type=str, default=None)
+    parser.add_argument('--model_path', type=str, default='best.pt')
+    parser.add_argument('--n', type=int, default=3)
+    args = parser.parse_args()
+
+
+    if args.operation == 'search':
+        if args.data_path == None:
+            raise ValueError("Data Path needs to be specified. Please set the data_path argument.")
+        test_data = pd.read_csv(f"{args.data_path}/captions.txt")
+        model, embeddings = get_image_embeddings(test_data, args.model_path)
+
+        find_matches(
+            model, 
+            embeddings, 
+            query=args.query, 
+            image_filenames=test_data['image'].values, 
+            n=args.n
+        )
+
+    else:
+        if args.image_path == None:
+            raise ValueError("Image Path needs to be specified. Please set the image_path argument.")
+        
+        similarity = get_image_query_similarity(
+            args.image_path, 
+            args.query, 
+            args.model_path
+        )
+
+        print("Similarity between Query and Image: {}".format(similarity))
