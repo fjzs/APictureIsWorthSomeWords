@@ -1,0 +1,12 @@
+[paths]
+base_dir = /Users/prashant/Desktop/Spring_2023/CSE291/APictureIsWorthSomeWords
+
+[diffusion]
+model = CompVis/stable-diffusion-v1-4
+img_save_path = img-0.jpg
+inf_steps = 50
+
+[summarization]
+model = sshleifer/distilbart-cnn-12-6
+min_length = 5
+max_length = 25
