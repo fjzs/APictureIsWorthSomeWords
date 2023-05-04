@@ -6,7 +6,20 @@ PATH_DATASET_POEMS = "./../doc2img_data/poems"
 
 
 def get_raw_dataset(dataset_name:str = "poems", max_examples:int = 10) -> pd.DataFrame:
-    
+    """Retrieves the dataframe associated with a particular dataset name
+
+    Args:
+        dataset_name (str, optional): Defaults to "poems".
+        max_examples (int, optional): Defaults to 10.
+
+    Raises:
+        NotImplementedError: if the dataset_name is not recognized
+
+    Returns:
+        pd.DataFrame: DF form has columns=["text", "topic"]
+    """
+
+
     # This is the dataframe we are going to fill
     # First column is the raw text, the other columns are metadata
     df = pd.DataFrame(columns=["text", "topic"])
