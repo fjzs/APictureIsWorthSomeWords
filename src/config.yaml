@@ -1,0 +1,14 @@
+default:
+    summary_method: hf
+    
+datasets:
+    poems: ./../doc2img_data/poems_dataset
+image_generation:
+    model_id: runwayml/stable-diffusion-v1-5
+    seed: 1024
+    inference_steps: 25
+    img_save_path: img-0.jpg
+summarization:
+    model : sshleifer/distilbart-cnn-12-6
+    min_length: 5
+    max_length: 25
