@@ -1,9 +1,14 @@
 import os
 import pandas as pd
+import yaml
 
 
-PATH_DATASET_POEMS = "./../doc2img_data/poems"
+config_file = './config.yaml'
 
+with open(config_file) as cf_file:
+    config = yaml.safe_load( cf_file.read())
+
+PATH_DATASET_POEMS = config['datasets']['poems']
 
 def get_raw_dataset(dataset_name:str = "poems", max_examples:int = 10) -> pd.DataFrame:
     """Retrieves the dataframe associated with a particular dataset name
@@ -79,8 +84,13 @@ def get_dataset_poems(path_to_dataset:str, df:pd.DataFrame, max_examples:int = 1
     topics = os.listdir(os.path.join(path_to_dataset, "topics"))
     for topic in topics:
         
+        topic_path = os.path.join(path_to_dataset, "topics", topic)
+
+        #Avoiding error due to meta files such as .DS_Store
+        if not os.path.isdir(topic_path): continue
+        
         # Assemble the docs by type
-        list_docs = os.listdir(os.path.join(path_to_dataset, "topics", topic))
+        list_docs = os.listdir(topic_path)
         
         # Get the list of docs of this subfolder
         for doc in list_docs:

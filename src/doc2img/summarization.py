@@ -2,7 +2,19 @@
 # Given a big input of text, the output is a shorter text
 
 import pandas as pd
+import yaml
 
-def get_summary(method_name:str, df:pd.Dataframe, max_tokens:int=77) -> pd.DataFrame:
-    # Add a column to the df called "summary" of type str
-    pass
+#reading config file
+config_file = './config.yaml'
+with open(config_file) as cf_file:
+    config = yaml.safe_load(cf_file.read())
+   
+summary_method = config['summary_method']
+
+def get_summary(df, max_tokens):
+    # Adding a column to the df called "summary" of type str
+    if summary_method == 'tfidf':
+        from doc2img.summarization_tfidf import SummarizerPoems
+        summarizer = SummarizerPoems(100)
+        df['summary'] = summarizer.summary[0:len(df)]
+        return df
