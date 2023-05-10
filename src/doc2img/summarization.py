@@ -1,8 +1,15 @@
 # The pupose of this model is to provide summarization functions
 # Given a big input of text, the output is a shorter text
 
-import pandas as pd
+from transformers import pipeline
+from doc2img.summarization_hf import *
+from doc2img.summarization_tfidf import *
 
-def get_summary(method_name:str, df:pd.Dataframe, max_tokens:int=77) -> pd.DataFrame:
-    # Add a column to the df called "summary" of type str
-    pass
+def get_summary(df, config):
+    if config['summary_method'] == 'tf-idf':
+        summarizer = SummarizerPoems(100)
+        df['summary'] = summarizer.summary[0:len(df)]
+        return df
+    
+    elif config['summary_method']=='hf':
+        return text_summarization_hf(df, config)

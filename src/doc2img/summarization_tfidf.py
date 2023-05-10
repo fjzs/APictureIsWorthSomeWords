@@ -1,10 +1,13 @@
-from dataloader import get_raw_dataset
+
+from doc2img.dataloader import get_raw_dataset
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 import string
+import yaml
+
 
 
 class SummarizerPoems:
@@ -95,4 +98,5 @@ if __name__ == "__main__":
         print(f"Document:\n{document}")
         print(f"Summary:\n{summary}")
         print("_______________________________________")
+        
 """
