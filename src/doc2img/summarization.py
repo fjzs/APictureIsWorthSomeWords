@@ -13,4 +13,3 @@ def get_summary(df, config):
     
     elif config['summary_method']=='hf':
         return text_summarization_hf(df, config)
-    
