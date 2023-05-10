@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from diffusers import StableDiffusionPipeline
 import torch
 import yaml
+import os
 
 #setting device to gpu if available
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
