@@ -1,6 +1,11 @@
 datasets:
     poems: ./../doc2img_data/poems_dataset
+    
 image_generation:
+     save_folder: experiment_1
+     save_flag: True
      model_id: runwayml/stable-diffusion-v1-5
      seed: 1024
      inference_steps: 25
+     
+summary_method: tfidf
