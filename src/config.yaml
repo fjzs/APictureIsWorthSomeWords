@@ -1,13 +1,16 @@
-default:
-    summary_method: hf
-    
+summary_method: hf
+max_docs: 10
+
 datasets:
     poems: ./../doc2img_data/poems_dataset
+
 image_generation:
+    save_folder: experiment_1
+    save_flag: True
     model_id: runwayml/stable-diffusion-v1-5
     seed: 1024
     inference_steps: 25
-    img_save_path: img-0.jpg
+
 summarization:
     model : sshleifer/distilbart-cnn-12-6
     min_length: 5
