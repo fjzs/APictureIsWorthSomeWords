@@ -10,12 +10,14 @@ import pandas as pd
 
 import config as CFG
 from train import build_loaders
-from encoders.clip import CLIPModel
+# from encoders.clip import CLIPModel
 import albumentations as A
 from PIL import Image
 
 
-def get_pretrained_clip_scores(image_path, text):
+def get_pretrained_clip_scores(
+        image_path,text
+    ):
     model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
     processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 
@@ -127,6 +129,7 @@ if __name__ == "__main__":
     parser.add_argument('--data_path', type=str, default=None)
     parser.add_argument('--model_path', type=str, default='best.pt')
     parser.add_argument('--n', type=int, default=3)
+    parser.add_argument('--pretrained', type=bool, default=True)
     args = parser.parse_args()
 
 
@@ -148,10 +151,16 @@ if __name__ == "__main__":
         if args.image_path == None:
             raise ValueError("Image Path needs to be specified. Please set the image_path argument.")
         
-        similarity = get_image_query_similarity(
-            args.image_path, 
-            args.query, 
-            args.model_path
-        )
+        if args.pretrained:
+            similarity = get_pretrained_clip_scores(
+                args.image_path,
+                args.query
+            )
+        else:
+            similarity = get_image_query_similarity(
+                args.image_path, 
+                args.query, 
+                args.model_path
+            )
 
         print("Similarity between Query and Image: {}".format(similarity))
