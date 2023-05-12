@@ -10,9 +10,10 @@ import yaml
 
 class SummarizerPoems:
     
-    def __init__(self, max_docs:int=100, top_k:int=77):
+    def __init__(self, df, max_docs:int=100, top_k:int=77):
         self.top_k = top_k
-        self.df = get_raw_dataset(max_examples=max_docs)
+        #self.df = get_raw_dataset(max_examples=max_docs)
+        self.df = df
         self.summary = [None] * len(self.df) # this is a list of tokens
         self.__summarize()
 
@@ -41,7 +42,7 @@ class SummarizerPoems:
             row = tfidf_matrix[i]
             top_indices = np.argpartition(row, -self.top_k)[-self.top_k:]
             reduced_text = [index_to_vocabulary[j] for j in top_indices]
-            self.summary[i] = reduced_text
+            self.summary[i] = " ".join(reduced_text)
             
 
 """
