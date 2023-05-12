@@ -6,6 +6,6 @@ image_generation:
      save_flag: True
      model_id: runwayml/stable-diffusion-v1-5
      seed: 1024
-     inference_steps: 25
+     inference_steps: 5
      
 summary_method: tfidf
