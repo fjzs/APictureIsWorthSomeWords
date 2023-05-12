@@ -180,6 +180,3 @@ widgetsnbextension==3.5.2
 wrapt==1.14.1
 yarl==1.9.2
 zipp==3.6.0
-
-[notice] A new release of pip available: 22.1.2 -> 23.1.2
-[notice] To update, run: pip install --upgrade pip
