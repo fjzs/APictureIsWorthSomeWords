@@ -20,15 +20,22 @@ def get_pretrained_clip_scores(
     ):
     model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
     processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
-
-    image = Image.open(image_path)
-
-    inputs = processor(text=[text], images=image, return_tensors="pt", padding=True)
-    outputs = model(**inputs)
-    logits_per_image = outputs.logits_per_image # this is the image-text similarity score
-    # probs = logits_per_image.softmax(dim=1) # we can take the softmax to get the label probabilities
-
-    return logits_per_image
+    
+    scores = []
+    df['clip_scores'] = None
+    
+    with torch.no_grad():
+        for idx in range(len(df)):
+            image_path = df.iloc[idx]['img_path']
+            image = Image.open(image_path)
+            text = df.iloc[idx]['text'][0:75] #max length excluding start and end
+            inputs = processor(text=[text], images=image, return_tensors="pt", padding=True)
+            outputs = model(**inputs)
+            logits_per_image = outputs.logits_per_image.item() # this is the image-text similarity score
+            scores.append(logits_per_image)
+        
+    df['clip_scores'] = scores
+    return df
 
 
 def get_image_embeddings(valid_df, model_path):
@@ -118,6 +125,7 @@ def find_matches(model, image_embeddings, query, image_filenames, n=9):
         ax.axis("off")
     
     plt.show()
+
 
 
 

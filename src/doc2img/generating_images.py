@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 from diffusers import StableDiffusionPipeline
 import torch
 import yaml
+import os
 
 #setting device to gpu if available
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -24,8 +25,7 @@ save_flag = config['image_generation']['save_flag']
 #creating model
 pipe = StableDiffusionPipeline.from_pretrained(model_id)
 
-#setting seed
-generator = torch.Generator(device).manual_seed(seed)
+
 
 def generate_image(df):
     
@@ -34,17 +34,22 @@ def generate_image(df):
     #Outputs:
     #  df: datarframe containing summaries and associated saved image paths
     
-    #Creating new column
-    df['img_path'] = None
+    
+    os.mkdir(save_folder)
+    save_paths = []
     
     #Generating images one by one
     for index,prompt in enumerate(df['summary']):
+        
+        #setting seed
+        generator = torch.Generator(device).manual_seed(seed)
+        
         image = pipe(prompt, generator=generator, num_inference_steps=inference_steps, output_type="np").images
         
         #saving images 
         if save_flag:
-            save_path = os.path.join(save_folder,index +'.jpg')
-            df['img_path'][index] = save_path
+            save_path = os.path.join(save_folder,str(index) +'.jpg')
+            save_paths.append(save_path)
             plt.imsave(save_path, image[0])
-     
+    df['img_path'] = save_paths
     return df
