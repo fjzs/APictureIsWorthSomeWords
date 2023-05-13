@@ -4,17 +4,21 @@
 import pandas as pd
 import yaml
 
-#reading config file
-config_file = './config.yaml'
-with open(config_file) as cf_file:
-    config = yaml.safe_load(cf_file.read())
+# #reading config file
+# config_file = './config.yaml'
+# with open(config_file) as cf_file:
+#     config = yaml.safe_load(cf_file.read())
    
-summary_method = config['summary_method']
+from transformers import pipeline
+from doc2img.summarization_hf import *
+from doc2img.summarization_tfidf import *
 
-def get_summary(df, max_tokens):
-    # Adding a column to the df called "summary" of type str
-    if summary_method == 'tfidf':
+def get_summary(df, config):
+    if config['summary_method'] == 'tfidf':
         from doc2img.summarization_tfidf import SummarizerPoems
-        summarizer = SummarizerPoems(df=df,top_k = max_tokens)
+        summarizer = SummarizerPoems(df=df,top_k = config['summarization']['max_tokens'])
         df['summary'] = summarizer.summary[0:len(df)]
         return df
+    
+    elif config['summary_method']=='hf':
+        return text_summarization_hf(df, config)

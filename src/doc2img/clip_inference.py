@@ -8,10 +8,10 @@ from transformers import DistilBertTokenizer, CLIPProcessor, CLIPModel
 import matplotlib.pyplot as plt
 import pandas as pd
 
-import config as CFG
-from train import build_loaders
+# import config as CFG
+# from train import build_loaders
 # from encoders.clip import CLIPModel
-import albumentations as A
+# import albumentations as A
 from PIL import Image
 
 
