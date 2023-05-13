@@ -166,14 +166,15 @@ def __nyt_to_csv():
 """
 if __name__ == "__main__":
     # Testing poems    
-    df = get_raw_dataset(max_examples=10)
-    print(f"\nlen of df: {len(df)}")
-    print(df.head())
+    #df = get_raw_dataset(max_examples=10)
+    #print(f"\nlen of df: {len(df)}")
+    #print(df.head())
     
     # Testing nyt
-    df = get_raw_dataset("nyt")
-    print(df.head())
-    print(df["text"][0])    
+    # df = get_raw_dataset("nyt")
+    # Getting a random number of rows
+    #df = df.sample(n=30)
+    # df.to_csv("nyt_30.csv")
 """
     
 
