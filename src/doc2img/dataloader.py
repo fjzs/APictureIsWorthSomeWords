@@ -3,18 +3,16 @@ import pandas as pd
 import yaml
 
 
-config_file = './config.yaml'
-
+config_file = './src/config.yaml'
 with open(config_file) as cf_file:
     config = yaml.safe_load( cf_file.read())
 
-PATH_DATASET_POEMS = config['datasets']['poems']
 
 def get_raw_dataset(dataset_name:str = "poems", max_examples:int = 10) -> pd.DataFrame:
     """Retrieves the dataframe associated with a particular dataset name
 
     Args:
-        dataset_name (str, optional): Defaults to "poems".
+        dataset_name (str, optional): some of ["poems", "nyt"]
         max_examples (int, optional): Defaults to 10.
 
     Raises:
@@ -24,13 +22,15 @@ def get_raw_dataset(dataset_name:str = "poems", max_examples:int = 10) -> pd.Dat
         pd.DataFrame: DF form has columns=["text", "topic"]
     """
 
-
     # This is the dataframe we are going to fill
     # First column is the raw text, the other columns are metadata
     df = pd.DataFrame(columns=["text", "topic"])
+    path_to_dataset = config['datasets'][dataset_name]
 
     if dataset_name == "poems":
-        return get_dataset_poems(PATH_DATASET_POEMS, df, max_examples)
+        return get_dataset_poems(path_to_dataset, df, max_examples)
+    elif dataset_name == "nyt":
+        return get_dataset_nyt(path_to_dataset, df, max_examples)
     else:
         raise NotImplementedError(f"Dataset {dataset_name} not implemented")
 
@@ -56,6 +56,29 @@ def read_text_file(filepath:str):
         success = False
     
     return success, content
+
+
+def get_dataset_nyt(path_to_dataset:str, df:pd.DataFrame, max_examples:int = 10):
+    """
+    Loads the NYT Articles Dataset
+
+    Args:
+        path_to_dataset (str): this is a .csv file
+        df (pd.DataFrame): df to fill
+        max_examples (int, optional): Defaults to 10.
+
+    Returns:
+        pd.DataFrame: df filled
+    """
+    if not path_to_dataset.endswith(".csv"):
+        raise ValueError(f"Error, the path to nyt dataset should be a .csv file, it was: {path_to_dataset}")
+    
+    df_read = pd.read_csv(path_to_dataset)
+    columns_to_fill = df.columns
+    for c in columns_to_fill:
+        df[c] = df_read[c]
+    
+    return df
 
 
 def get_dataset_poems(path_to_dataset:str, df:pd.DataFrame, max_examples:int = 10) -> pd.DataFrame:
@@ -106,8 +129,51 @@ def get_dataset_poems(path_to_dataset:str, df:pd.DataFrame, max_examples:int = 1
     
     return df
 
+def __nyt_to_csv():
+    # Code for creating the nyt df for the first time
+    # https://www.kaggle.com/code/aneridalwadi/3x-accelerated-spacy-pipelines
+    URL = []
+    content = []
+    flag = False
+    with open(".//..//doc2img_data//nytimes_news_articles.txt", "r", encoding="utf8") as file:
+        for line in file:
+            if(flag):
+                if line.startswith("URL: "):
+                    # When current article ends
+                    # Append all content, set the flag
+                    flag = False
+                    content.append(get_content)
+                    get_content = []
+                else:
+                    # Store article content 
+                    if line.strip():
+                        get_content.append(line)
+                
+            if line.startswith("URL: "):
+                # We are here when we encounter a *new article*
+                get_content = []
+                flag = True
+                URL.append(line.strip().replace("URL: ", ""))
 
-#if __name__ == "__main__":
-#    df = get_raw_dataset(max_examples=10)
-#    print(f"\nlen of df: {len(df)}")
-#    print(df.head())
+    # Since the last URL doesn't have any content, we remove it
+    del URL[-1]
+
+    # Create the df and save it
+    df = pd.DataFrame({'text': content, 'topic': ["n/a"]*len(content)})
+    df['text']= df['text'].str.join(' ')
+    df.to_csv("nyt.csv")
+
+"""
+if __name__ == "__main__":
+    # Testing poems    
+    df = get_raw_dataset(max_examples=10)
+    print(f"\nlen of df: {len(df)}")
+    print(df.head())
+    
+    # Testing nyt
+    df = get_raw_dataset("nyt")
+    print(df.head())
+    print(df["text"][0])    
+"""
+    
+
