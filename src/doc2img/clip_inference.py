@@ -15,15 +15,13 @@ import albumentations as A
 from PIL import Image
 
 
-def get_pretrained_clip_scores(
-        image_path,text
-    ):
+def get_pretrained_clip_scores(df):
     model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
     processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
-    
+
     scores = []
     df['clip_scores'] = None
-    
+
     with torch.no_grad():
         for idx in range(len(df)):
             image_path = df.iloc[idx]['img_path']
@@ -33,7 +31,7 @@ def get_pretrained_clip_scores(
             outputs = model(**inputs)
             logits_per_image = outputs.logits_per_image.item() # this is the image-text similarity score
             scores.append(logits_per_image)
-        
+
     df['clip_scores'] = scores
     return df
 
