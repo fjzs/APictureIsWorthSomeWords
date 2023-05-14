@@ -27,6 +27,9 @@ def get_raw_dataset(dataset_name:str = "poems", max_examples:int = 10) -> pd.Dat
     df = pd.DataFrame(columns=["text", "topic"])
     path_to_dataset = config['datasets'][dataset_name]
 
+    if max_examples is None:
+        raise ValueError("max_examples parameter can't be None")
+
     if dataset_name == "poems":
         return get_dataset_poems(path_to_dataset, df, max_examples)
     elif dataset_name == "nyt":
@@ -78,7 +81,10 @@ def get_dataset_nyt(path_to_dataset:str, df:pd.DataFrame, max_examples:int = 10)
     for c in columns_to_fill:
         df[c] = df_read[c]
     
-    return df
+    if 1 <= max_examples <= len(df):
+        return df.sample(n = max_examples)
+    else:
+        return df
 
 
 def get_dataset_poems(path_to_dataset:str, df:pd.DataFrame, max_examples:int = 10) -> pd.DataFrame:
@@ -171,10 +177,10 @@ if __name__ == "__main__":
     #print(df.head())
     
     # Testing nyt
-    # df = get_raw_dataset("nyt")
-    # Getting a random number of rows
-    #df = df.sample(n=30)
-    # df.to_csv("nyt_30.csv")
+    #df = get_raw_dataset("nyt")
+    #print(df.shape)
 """
+    
+
     
 

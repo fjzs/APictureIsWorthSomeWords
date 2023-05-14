@@ -1,16 +1,19 @@
 import pandas as pd
 from unittest import TestCase
-from src.doc2img.dataloader import get_dataset_poems
+from src.doc2img.dataloader import get_raw_dataset
 
 
 class Test_Dataloader(TestCase):
     def test_poems_passes(self):
-        '''
-        df = pd.DataFrame(columns=["text", "topic"])
-        path_to_dataset = "./tests/datasets/poems"
-        get_dataset_poems(path_to_dataset, df, 100000)
-        self.assertTrue(len(df) == 3)
-        self.assertTrue(type(df) == pd.DataFrame)
-        '''
+        expected_columns = ["text", "topic"]
+        df = get_raw_dataset("poems")        
+        self.assertTrue(type(df) == pd.DataFrame)        
+        for c in df.columns:
+            self.assertTrue(c in expected_columns)
         
-
+    def test_nyt_passes(self):
+        expected_columns = ["text", "topic"]
+        df = get_raw_dataset("nyt")        
+        self.assertTrue(type(df) == pd.DataFrame)        
+        for c in df.columns:
+            self.assertTrue(c in expected_columns)
