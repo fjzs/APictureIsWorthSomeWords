@@ -1,6 +1,7 @@
 datasets:
     poems: ./mini_dataset/poems
-    nyt: ./mini_dataset/nyt.csv
+    nyt: ./mini_dataset/nyt.csv # small
+    #nyt: ./../doc2img_data/nyt.csv # original
     
 image_generation:
      save_folder: experiment_2
