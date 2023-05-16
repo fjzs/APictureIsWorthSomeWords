@@ -3,7 +3,8 @@ import pandas as pd
 import yaml
 
 
-config_file = './src/config.yaml'
+# config_file = './src/config.yaml'
+config_file = './config.yaml'
 with open(config_file) as cf_file:
     config = yaml.safe_load( cf_file.read())
 
