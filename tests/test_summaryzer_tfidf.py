@@ -1,4 +1,3 @@
-import pandas as pd
 from unittest import TestCase
 from src.doc2img.summarization_tfidf import SummarizerTFIDF
 from src.doc2img.dataloader import get_raw_dataset

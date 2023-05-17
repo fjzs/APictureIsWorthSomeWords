@@ -58,6 +58,29 @@ class SummarizerTFIDF:
         assert type(summary) == str
         return summary
 
+    def get_summary_of_dftest(self, df_test: pd.DataFrame) -> pd.DataFrame:
+        """Generates a 'summary' column in the test df
+
+        Args:
+            df_test (pd.DataFrame):
+
+        Returns:
+            pd.DataFrame:
+        """
+        assert type(df_test) == pd.DataFrame
+
+        N = len(df_test)
+        summaries = [None]*N
+        for index, row in df_test.iterrows():
+            text = row['text']
+            topic = row['topic']
+            summary = self.get_summary_of_doc(text, topic)
+            summaries[index] = summary
+        df_test["summary"] = summaries
+        return df_test
+
+
+
     def get_summary_of_doc(self, doc:str, topic:str=None) -> str:
         """Retrieves the summary of a doc already seen
 
@@ -83,6 +106,9 @@ class SummarizerTFIDF:
             return summary
 
     def __summarize(self):
+        """
+        Generates the column "summary" in the df_train passed (self.df)
+        """
         
         # Preprocess the docs
         print("Preprocessing...")

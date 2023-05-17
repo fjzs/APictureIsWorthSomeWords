@@ -1,7 +1,8 @@
 datasets:
-    poems: ./../mini_dataset/poems
-    nyt: ./../mini_dataset/nyt.csv # small
-    #nyt: ./../doc2img_data/nyt.csv # original
+    poems_mini: ./../mini_dataset/poems
+    poems_full: ./../../doc2img_data/poems
+    nyt_mini: ./../mini_dataset/nyt.csv
+    nyt_full: ./../../doc2img_data/nyt.csv
     
 image_generation:
      save_folder: experiment_2
@@ -10,10 +11,10 @@ image_generation:
      seed: 1024
      inference_steps: 5
      
-summary_method: hf
+summary_method: tfidf # hf
 
 summarization:
     model : sshleifer/distilbart-cnn-12-6
     min_length: 5
     max_length: 50
-    max_tokens: 6
+    max_tokens: 75

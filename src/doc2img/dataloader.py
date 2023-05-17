@@ -1,23 +1,17 @@
 import os
 import pandas as pd
-import yaml
 
 
-# config_file = './src/config.yaml'
-config_file = './config.yaml'
-with open(config_file) as cf_file:
-    config = yaml.safe_load( cf_file.read())
-
-
-def get_raw_dataset(dataset_name:str = "poems", max_examples:int = None) -> pd.DataFrame:
+def get_raw_dataset(dataset_type:str, dataset_path: str, max_examples:int = None) -> pd.DataFrame:
     """Retrieves the dataframe associated with a particular dataset name
 
     Args:
-        dataset_name (str, optional): some of ["poems", "nyt"]
-        max_examples (int, optional): Defaults to 10.
+        dataset_type: 'poems' or 'nyt'
+        dataset_path:
+        max_examples:
 
     Raises:
-        NotImplementedError: if the dataset_name is not recognized
+        NotImplementedError: if the dataset_type is not recognized
 
     Returns:
         pd.DataFrame: DF form has columns=["text", "topic"]
@@ -25,15 +19,14 @@ def get_raw_dataset(dataset_name:str = "poems", max_examples:int = None) -> pd.D
 
     # This is the dataframe we are going to fill
     # First column is the raw text, the other columns are metadata
-    df = pd.DataFrame(columns=["text", "topic"])
-    path_to_dataset = config['datasets'][dataset_name]
+    df = pd.DataFrame(columns=["text", "topic"])        
 
-    if dataset_name == "poems":
-        return get_dataset_poems(path_to_dataset, df, max_examples)
-    elif dataset_name == "nyt":
-        return get_dataset_nyt(path_to_dataset, df, max_examples)
+    if dataset_type == "poems":
+        return get_dataset_poems(dataset_path, df, max_examples)
+    elif dataset_type == "nyt":
+        return get_dataset_nyt(dataset_path, df, max_examples)
     else:
-        raise NotImplementedError(f"Dataset {dataset_name} not implemented")
+        raise NotImplementedError(f"Dataset type {dataset_type} not implemented")
 
 
 def read_text_file(filepath:str):
@@ -168,18 +161,19 @@ def __nyt_to_csv():
     #df = df.sample(n=30) activate this line to create a sample
     df.to_csv("nyt.csv")
 
-
-#if __name__ == "__main__":
-    # Testing poems    
-    #df = get_raw_dataset(max_examples=10)
-    #print(f"\nlen of df: {len(df)}")
-    #print(df.head())
+"""
+if __name__ == "__main__":
+    # Testing poems
+    path = './mini_dataset/poems'
+    df = get_raw_dataset("poems", path, max_examples=None)
+    print(f"\nlen of df: {len(df)}")
+    print(df.head())
     
     # Testing nyt
     #df = get_raw_dataset("nyt")
     #print(df.shape)
     #__nyt_to_csv()
-
+"""
     
 
     
