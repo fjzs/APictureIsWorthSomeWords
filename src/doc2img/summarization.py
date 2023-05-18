@@ -5,6 +5,7 @@ import pandas as pd
 
 from doc2img.summarization_hf import *
 from doc2img.summarization_tfidf import SummarizerTFIDF
+from doc2img.summarization_nouns import summarizer_nouns
 
 def get_summary(df_train: pd.DataFrame, df_test: pd.DataFrame, config: dict):
     """Obtains the summary for the df_test
@@ -30,6 +31,9 @@ def get_summary(df_train: pd.DataFrame, df_test: pd.DataFrame, config: dict):
     
     elif method == 'hf':
         return text_summarization_hf(df_test, config)
+    
+    elif method == 'noun_based':
+        return summarizer_nouns(df_test, config['summarization']['no_clusters'])
     
     else:
         raise ValueError(f"Method {method} not implemented")
