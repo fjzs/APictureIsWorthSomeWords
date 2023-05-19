@@ -2,7 +2,6 @@ import pandas as pd
 from unittest import TestCase
 from src.doc2img.dataloader import get_raw_dataset
 
-
 class Test_Dataloader(TestCase):
     def test_poems_passes(self):
         expected_columns = ["text", "topic"]

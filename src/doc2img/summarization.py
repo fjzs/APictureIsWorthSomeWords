@@ -3,25 +3,37 @@
 
 import pandas as pd
 
-# #reading config file
-# config_file = './config.yaml'
-# with open(config_file) as cf_file:
-#     config = yaml.safe_load(cf_file.read())
-   
-
 from doc2img.summarization_hf import *
-from doc2img.summarization_tfidf import *
+from doc2img.summarization_tfidf import SummarizerTFIDF
+from doc2img.summarization_nouns import summarizer_nouns
 
-def get_summary(df, config):
+def get_summary(df_train: pd.DataFrame, df_test: pd.DataFrame, config: dict):
+    """Obtains the summary for the df_test
+
+    Args:
+        df_train (pd.DataFrame):
+        df_test (pd.DataFrame):
+        config (dict):
+
+    Raises:
+        ValueError: _description_
+
+    Returns:
+        df_test: with the "summary" column
+    """
+
     method = config['summary_method']
-    if method == 'tfidf':
-        from doc2img.summarization_tfidf import SummarizerPoems
-        summarizer = SummarizerPoems(df=df,top_k = config['summarization']['max_tokens'])
-        df['summary'] = summarizer.summary[0:len(df)]
-        return df
+    max_tokens = config['summarization']['max_tokens']
+
+    if method == 'tfidf':        
+        summarizer = SummarizerTFIDF(df=df_train, top_k = max_tokens)
+        return summarizer.get_summary_of_dftest(df_test)
     
     elif method == 'hf':
-        return text_summarization_hf(df, config)
+        return text_summarization_hf(df_test, config)
+    
+    elif method == 'noun_based':
+        return summarizer_nouns(df_test, config['summarization']['no_clusters'])
     
     else:
         raise ValueError(f"Method {method} not implemented")
