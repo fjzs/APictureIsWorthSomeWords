@@ -62,7 +62,7 @@ def get_pretrained_clip_scores(df, config: dict):
     df['clip_median'] = None
 
     model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32").to(config['device'])
-    processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32").to(config['device'])
+    processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 
     window_size = config['clip']['window_size']
     step_size = config['clip']['step_size']
@@ -170,6 +170,7 @@ def find_matches(model, image_embeddings, query, image_filenames, n=9):
         ax.axis("off")
     
     plt.show()
+
 
 
 if __name__ == "__main__":
