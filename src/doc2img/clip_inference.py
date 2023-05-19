@@ -15,10 +15,7 @@ import numpy as np
 # import albumentations as A
 from PIL import Image
 
-def sliding_window_scores(text, image, window_size, step_size):
-    model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
-    processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
-
+def sliding_window_scores(model, processor, text, image, window_size, step_size, device):
     # Preprocessing
     # Spacing out numbers
     text = re.sub(r'(\d)', r'\1 ', text)[:-1]
@@ -38,7 +35,7 @@ def sliding_window_scores(text, image, window_size, step_size):
                     images=image, 
                     return_tensors="pt", 
                     padding=True
-                )
+                ).to(config['device'])
                 outputs = model(**inputs)
             except:
                 # Window too big
@@ -54,7 +51,7 @@ def sliding_window_scores(text, image, window_size, step_size):
         "median": np.median(clip_scores)
     }
 
-def get_pretrained_clip_scores(df, window_size, step_size):
+def get_pretrained_clip_scores(df, config: dict):
     scores = {
         "clip_max": [],
         "clip_mean": [],
@@ -64,12 +61,18 @@ def get_pretrained_clip_scores(df, window_size, step_size):
     df['clip_mean'] = None
     df['clip_median'] = None
 
+    model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32").to(config['device'])
+    processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32").to(config['device'])
+
+    window_size = config['clip']['window_size']
+    step_size = config['clip']['step_size']
+
     with torch.no_grad():
         for idx in range(len(df)):
             image_path = df.iloc[idx]['img_path']
             image = Image.open(image_path)
             text = df.iloc[idx]['text']
-            curr_scores = sliding_window_scores(text, image, window_size, step_size)
+            curr_scores = sliding_window_scores(model, processor, text, image, window_size, step_size, config['device'])
             scores["clip_max"].append(curr_scores["max"])
             scores["clip_mean"].append(curr_scores["mean"])
             scores["clip_median"].append(curr_scores["median"])
