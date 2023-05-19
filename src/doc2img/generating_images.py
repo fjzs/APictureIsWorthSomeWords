@@ -24,6 +24,8 @@ save_flag = config['image_generation']['save_flag']
 
 #creating model
 pipe = StableDiffusionPipeline.from_pretrained(model_id)
+pipe = pipe.to(device)
+
 
 
 
