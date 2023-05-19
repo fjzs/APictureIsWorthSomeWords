@@ -1,5 +1,6 @@
 import gc
-import cv2
+# import cv2
+import re
 import torch
 import torch.nn.functional as F
 from tqdm import tqdm
@@ -7,32 +8,75 @@ import argparse
 from transformers import DistilBertTokenizer, CLIPProcessor, CLIPModel
 import matplotlib.pyplot as plt
 import pandas as pd
+import numpy as np
 
 # import config as CFG
 # from train import build_loaders
-# from encoders.clip import CLIPModel
 # import albumentations as A
 from PIL import Image
 
-
-def get_pretrained_clip_scores(df):
+def sliding_window_scores(text, image, window_size, step_size):
     model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
     processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 
-    scores = []
-    df['clip_scores'] = None
+    # Preprocessing
+    # Spacing out numbers
+    text = re.sub(r'(\d)', r'\1 ', text)[:-1]
+    text = re.sub(r'[^\w\s]', '', text.lower())
+
+    elements = text.split()    
+    curr_idx = 0
+    clip_scores = []
+
+    for i in range(0, len(elements) - window_size + 1, step_size):
+        adjustment = 0
+        while True:
+            curr_window = " ".join(elements[i:i+window_size-adjustment])
+            try:
+                inputs = processor(
+                    text=curr_window, 
+                    images=image, 
+                    return_tensors="pt", 
+                    padding=True
+                )
+                outputs = model(**inputs)
+            except:
+                # Window too big
+                adjustment += 1
+                continue
+            # Successful
+            break
+        clip_scores.append(outputs.logits_per_image.item())
+    
+    return {
+        "max": np.max(clip_scores),
+        "mean": np.mean(clip_scores),
+        "median": np.median(clip_scores)
+    }
+
+def get_pretrained_clip_scores(df, window_size, step_size):
+    scores = {
+        "clip_max": [],
+        "clip_mean": [],
+        "clip_median": []
+    }
+    df['clip_max'] = None
+    df['clip_mean'] = None
+    df['clip_median'] = None
 
     with torch.no_grad():
         for idx in range(len(df)):
             image_path = df.iloc[idx]['img_path']
             image = Image.open(image_path)
-            text = df.iloc[idx]['text'][0:75] #max length excluding start and end
-            inputs = processor(text=[text], images=image, return_tensors="pt", padding=True)
-            outputs = model(**inputs)
-            logits_per_image = outputs.logits_per_image.item() # this is the image-text similarity score
-            scores.append(logits_per_image)
+            text = df.iloc[idx]['text']
+            curr_scores = sliding_window_scores(text, image, window_size, step_size)
+            scores["clip_max"].append(curr_scores["max"])
+            scores["clip_mean"].append(curr_scores["mean"])
+            scores["clip_median"].append(curr_scores["median"])
 
-    df['clip_scores'] = scores
+    df['clip_max'] = scores['clip_max']
+    df['clip_mean'] = scores['clip_mean']
+    df['clip_median'] = scores['clip_median']
     return df
 
 
@@ -123,8 +167,6 @@ def find_matches(model, image_embeddings, query, image_filenames, n=9):
         ax.axis("off")
     
     plt.show()
-
-
 
 
 if __name__ == "__main__":
