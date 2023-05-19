@@ -5,7 +5,9 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 import string
 import pandas as pd
-
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
 
 def preprocess_df(df: pd.DataFrame):
     """Removes punctuation and stop words from the df

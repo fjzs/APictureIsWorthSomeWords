@@ -6,6 +6,7 @@ from sklearn.cluster import KMeans
 import numpy as np
 import pandas as pd
 import nltk
+
 nltk.download('averaged_perceptron_tagger')
 
 
@@ -24,7 +25,7 @@ def get_nouns(text):
 def summarizer_nouns(df,n_clusters):
     
     print("Getting word embeddings")
-    glove_file = '.././doc2img_data/glove.6B/glove.6B.100d.txt'
+    glove_file = '../doc2img_data/glove.6B/glove.6B.100d.txt'
     tmp_file = get_tmpfile("test_word2vec.txt")
 
     _ = glove2word2vec(glove_file, tmp_file)

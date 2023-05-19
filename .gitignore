@@ -133,3 +133,8 @@ src/doc2img/archive/
 
 # Model
 src/doc2img/best.pt
+
+# Experiment images
+src/experiment_*
+
+doc2img_data/glove.6B/
