@@ -6,7 +6,7 @@ import yaml
 import os
 
 #setting device to gpu if available
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+# device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 #reading config file
 config_file = './config.yaml'
@@ -24,6 +24,7 @@ save_flag = config['image_generation']['save_flag']
 
 #creating model
 pipe = StableDiffusionPipeline.from_pretrained(model_id)
+pipe = pipe.to(config['device'])
 
 
 
@@ -42,7 +43,7 @@ def generate_image(df):
     for index,prompt in enumerate(df['summary']):
         
         #setting seed
-        generator = torch.Generator(device).manual_seed(seed)
+        generator = torch.Generator(config['device']).manual_seed(seed)
         
         image = pipe(prompt, generator=generator, num_inference_steps=inference_steps, output_type="np").images
         
