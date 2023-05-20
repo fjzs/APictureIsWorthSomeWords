@@ -1,23 +1,26 @@
 datasets:
-    type: nyt
+    type: poems
     poems_mini: ./../mini_dataset/poems
     poems_full: ./../doc2img_data/poems
     nyt_mini: ./../mini_dataset/nyt.csv
     nyt_full: ./../doc2img_data/nyt.csv
     
 image_generation:
-     save_folder: experiment_nouns_nyt
+     save_folder: experiment_poems_tfidf_try
      save_flag: True
      model_id: runwayml/stable-diffusion-v1-5
      seed: 1024
      inference_steps: 50
      
-summary_method: noun_based #tfidf, hf or noun_based
+summary_method: tfidf #tfidf, hf or noun_based
 device: cuda:0
 
+clip:
+  window_size: 75
+  step_size: 30
 
 summarization:
-    model : google/pegasus-xsum #sshleifer/distilbart-cnn-12-6
+    model : google/pegasus-xsum # sshleifer/distilbart-cnn-12-6
     min_length: 5
     max_length: 50
     max_tokens: 50

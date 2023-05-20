@@ -36,4 +36,6 @@ def get_summary(df_train: pd.DataFrame, df_test: pd.DataFrame, config: dict):
         return summarizer_nouns(df_test, config['summarization']['no_clusters'])
     
     else:
-        raise ValueError(f"Method {method} not implemented")
+        df_test['summary'] = df_test['text']
+        return df_test
+        # raise ValueError(f"Method {method} not implemented")

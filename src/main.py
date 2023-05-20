@@ -8,8 +8,10 @@ from doc2img.summarization import get_summary
 from doc2img.clip_inference import get_pretrained_clip_scores
 import yaml
 import matplotlib.pyplot as plt
+import sys
+from pdb import set_trace as bp
 
-config_file = 'config.yaml'
+config_file = sys.argv[1]
 with open(config_file) as cf_file:
     config = yaml.safe_load( cf_file.read())
 
@@ -30,4 +32,8 @@ df = get_summary(df_full, df_mini, config)
 print("Generating Images")
 df = generate_image(df)
 
-# get_pretrained_clip_scores(df)
+print("Getting CLIP scores")
+df = get_pretrained_clip_scores(df, config)
+
+print("Saving DF with summary, image paths and clip scores")
+df.to_csv(f"{config['image_generation']['save_folder']}/df.csv", index=False)

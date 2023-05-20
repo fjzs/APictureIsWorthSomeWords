@@ -13,7 +13,6 @@ image_generation:
      inference_steps: 50
      
 summary_method: hf
-
 device: cuda:0
 
 clip:

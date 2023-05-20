@@ -136,5 +136,6 @@ src/doc2img/best.pt
 
 # Experiment images
 src/experiment_*
+src/old_experiments/
 
 doc2img_data/glove.6B/

@@ -35,7 +35,7 @@ def sliding_window_scores(model, processor, text, image, window_size, step_size,
                     images=image, 
                     return_tensors="pt", 
                     padding=True
-                ).to(config['device'])
+                ).to(device)
                 outputs = model(**inputs)
             except:
                 # Window too big
