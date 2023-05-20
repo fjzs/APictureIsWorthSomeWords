@@ -19,3 +19,10 @@ device: cuda:0
 clip:
   window_size: 75
   step_size: 30
+
+summarization:
+    model : google/pegasus-xsum
+    min_length: 5
+    max_length: 50
+    max_tokens: 50
+    no_clusters: 10

@@ -135,7 +135,7 @@ src/doc2img/archive/
 src/doc2img/best.pt
 
 # Experiment images
-src/experiment_*
+#src/experiment_*
 src/old_experiments/
 
 doc2img_data/glove.6B/
