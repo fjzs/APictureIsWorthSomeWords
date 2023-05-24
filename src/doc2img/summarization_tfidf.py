@@ -22,8 +22,8 @@ def preprocess_df(df: pd.DataFrame):
     preprocessed_sentences = []
     for i, row in df.iterrows():
         sent = str(row["text"]).lower()
-        sent = sent.replace("\\n","")
-        sent = sent.replace("\n","")
+        sent = sent.replace("\\n"," ")
+        sent = sent.replace("\n"," ")
         sent_nopuncts = sent.translate(translator)
         words_list = sent_nopuncts.strip().split()
         filtered_words = [word for word in words_list if word not in stop_words and len(word) != 1]
@@ -146,46 +146,29 @@ class SummarizerTFIDF:
 """
 if __name__ == "__main__":    
     
-    df = get_raw_dataset(max_examples=30)
-    docs = df["text"].tolist()
-    punctuation_set = list(string.punctuation)
-    punctuation_set.append("’")
-    stopset = list(set(stopwords.words('english') + punctuation_set))
-    count = CountVectorizer(tokenizer=word_tokenize, stop_words=stopset, analyzer="word")
-    bag_array = count.fit_transform(docs).toarray() #shape is [D,V], D is number of docs, V is number of tokens
-    print(f"\nVector doc is type {type(bag_array)} and is: \n{bag_array}")
-    
-    vocabulary_to_index = count.vocabulary_
-    index_to_vocabulary = [None] * len(vocabulary_to_index)
-    for keyword in vocabulary_to_index:
-        index = vocabulary_to_index[keyword]
-        index_to_vocabulary[index] = keyword
-    print(f"\nvocabulary_to_index is: \n{vocabulary_to_index}")
-    print(f"\nindex_to_vocabulary is: \n{index_to_vocabulary}")   
-    
-
-    np.set_printoptions(precision=2)
-    tfidf = TfidfTransformer(use_idf=True, norm=None, smooth_idf=False)
-    tfidf_matrix = tfidf.fit_transform(bag_array).toarray()
-    print(f"\ntfidf is \n{tfidf_matrix}")
-
-    # Now get the top k keywords from each doc
-    print("\n")
-    k=10
-    for i in range(len(tfidf_matrix)):
-        row = tfidf_matrix[i]
-        top_indices = np.argpartition(row, -k)[-k:]
-        reduced_text = [index_to_vocabulary[j] for j in top_indices]
-        print(f"indices: {top_indices} -> {reduced_text}")
-    
-
     # Example with the pipeline
-    df = get_raw_dataset(dataset_name="nyt")
-    poemsSummary = SummarizerTFIDF(df)    
-    for index, row in poemsSummary.df.iterrows():
-        text = row['text']
-        topic = row['topic']
-        text_preprocessed = row['text_preprocessed']
-        summary = poemsSummary.get_summary_of_index(index)        
-        print(f"\nSummary:\n{summary}")
-    """
+    from dataloader import get_raw_dataset    
+    import yaml
+    from summarization import get_summary    
+
+    config_file = './src/config.yaml'
+    with open(config_file) as cf_file:
+        config = yaml.safe_load( cf_file.read())
+
+    df_mini = get_raw_dataset("poems", "./mini_dataset/poems")
+    df_full = get_raw_dataset("poems", "./../doc2img_data/poems")
+
+    poemsSummary = SummarizerTFIDF(df_full)    
+    #
+    #for index, row in poemsSummary.df.iterrows():
+    #    text = row['text']
+    #    topic = row['topic']
+    #    text_preprocessed = row['text_preprocessed']
+    #    summary = poemsSummary.get_summary_of_index(index)        
+    #    print(f"\nSummary:\n{summary}")
+    
+    df = get_summary(df_full, df_mini, config)
+    df.to_csv("testDF.csv")
+"""
+
+
