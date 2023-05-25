@@ -20,8 +20,7 @@ seed = config['image_generation']['seed']
 inference_steps = config['image_generation']['inference_steps']
 
 #save parameters
-save_folder = "experiment_tfidf_poems_new"
-# config['image_generation']['save_folder']
+save_folder = config['image_generation']['save_folder']
 save_flag = config['image_generation']['save_flag']
 
 #creating model
