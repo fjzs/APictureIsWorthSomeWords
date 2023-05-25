@@ -14,6 +14,7 @@ image_generation:
      
 summary_method: hf
 device: cuda:0
+prompts: ["Photo of ", "Image containing the themes of "]
 
 clip:
   window_size: 75

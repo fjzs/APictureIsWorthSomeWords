@@ -6,16 +6,16 @@ datasets:
     nyt_full: ./../doc2img_data/nyt.csv
     
 image_generation:
-     save_folder: experiment_tfidf_poems
+     save_folder: experiment_tfidf_poems_new
      save_flag: True
      model_id: runwayml/stable-diffusion-v1-5
      seed: 1024
-     inference_steps: 50
+     inference_steps: 1
      
 summary_method: tfidf
 
-device: cuda:0
-
+device: cpu
+prompts: ["Photo of ", "Image containing the themes of "]
 clip:
   window_size: 75
   step_size: 30

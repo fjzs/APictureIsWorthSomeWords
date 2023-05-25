@@ -13,7 +13,7 @@ image_generation:
      inference_steps: 50
      
 summary_method: tfidf
-
+prompts: ["Photo of ", "Image containing the themes of "]
 device: cuda:0
 
 clip:
