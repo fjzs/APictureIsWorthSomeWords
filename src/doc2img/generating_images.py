@@ -55,9 +55,6 @@ def generate_image(df, prompts):
             generator = torch.Generator(config['device']).manual_seed(seed)
             
             image = pipe(text, generator=generator, num_inference_steps=inference_steps, output_type="np").images
-
-            # image = np.zeros([1,100,100,3],dtype=np.uint8)
-            # image.fill(255)
             
             #saving images 
             if save_flag:
