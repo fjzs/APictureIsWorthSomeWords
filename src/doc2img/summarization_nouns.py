@@ -61,8 +61,23 @@ def summarizer_nouns(df,n_clusters):
         kmeans.fit(features)
         centers = kmeans.cluster_centers_
         yhat = kmeans.fit_predict(np.array(features))
+        
+        #computing clusters with maximum words
+        counts = [(i,list(yhat).count(i)) for i in range(n_clusters)]
+        largest_clusters = sorted(counts, key = lambda x: x[1], reverse=True)[0:2]
+        
+        closest_words = []
+        #Computing closest 5 words to center in 2 largest clusters
+        for (cluster_no,cluster_size) in largest_clusters:
+            cluster_indices = np.where(yhat==cluster_no)[0]
+            cluster_words = [feature_indices[i] for i in cluster_indices]
+            cluster_features = np.array([features[i] for i in cluster_indices])
+            closest_indices = np.argsort(np.linalg.norm(cluster_features - centers[cluster_no], axis=1))[0:5]
+            closest_words += [feature_indices[cluster_indices[i]] for i in closest_indices]
+        summaries[df_index] = " ".join(closest_words)
 
         #getting nouns closest to cluster centers
+        '''
         center_words = []
         for cluster_no in range(n_clusters):
             cluster_indices = np.where(yhat==cluster_no)[0]
@@ -72,8 +87,9 @@ def summarizer_nouns(df,n_clusters):
             center_word = cluster_indices[center_index]
             center_words.append(feature_indices[center_word])
         
-        #summary is a comma separated list of center nouns
-        summaries[df_index] = ", ".join(center_words)
+        #summary is a space separated list of center nouns
+        summaries[df_index] = " ".join(center_words)
+        '''
   
     df["summary"] = summaries
     return df
