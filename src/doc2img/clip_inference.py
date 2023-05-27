@@ -52,14 +52,13 @@ def sliding_window_scores(model, processor, text, image, window_size, step_size,
     }
 
 def get_pretrained_clip_scores(df, config: dict):
+    # No. of columns in df = text + topic + summary + no. of prompts
+
+    total_prompts = len(df.columns) - 3
+
     scores = {
-        "clip_max": [],
-        "clip_mean": [],
-        "clip_median": []
+        "prompt_{}_score".format(i): [] for i in range(total_prompts) 
     }
-    df['clip_max'] = None
-    df['clip_mean'] = None
-    df['clip_median'] = None
 
     model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32").to(config['device'])
     processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
@@ -69,17 +68,17 @@ def get_pretrained_clip_scores(df, config: dict):
 
     with torch.no_grad():
         for idx in range(len(df)):
-            image_path = df.iloc[idx]['img_path']
-            image = Image.open(image_path)
-            text = df.iloc[idx]['text']
-            curr_scores = sliding_window_scores(model, processor, text, image, window_size, step_size, config['device'])
-            scores["clip_max"].append(curr_scores["max"])
-            scores["clip_mean"].append(curr_scores["mean"])
-            scores["clip_median"].append(curr_scores["median"])
+            for prompt_idx in range(total_prompts):
+                image_path = df.iloc[idx]['prompt_{}'.format(prompt_idx)]
+                image = Image.open(image_path)
+                text = df.iloc[idx]['text']
+                curr_scores = sliding_window_scores(model, processor, text, image, window_size, step_size, config['device'])
+                curr_clip_max = curr_scores["max"]
+                curr_clip_mean = curr_scores["mean"]
+                curr_clip_median = curr_scores["median"]
+                scores["prompt_{}_score".format(prompt_idx)].append([curr_clip_max, curr_clip_mean, curr_clip_median])
 
-    df['clip_max'] = scores['clip_max']
-    df['clip_mean'] = scores['clip_mean']
-    df['clip_median'] = scores['clip_median']
+    df = pd.concat([df, pd.DataFrame.from_dict(scores)], axis=1)
     return df
 
 
