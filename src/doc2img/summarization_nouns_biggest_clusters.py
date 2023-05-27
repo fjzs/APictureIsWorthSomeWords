@@ -22,7 +22,7 @@ def get_nouns(text):
     nouns = [word for (word, pos) in nltk.pos_tag(tokenized) if is_noun(pos)]
     return nouns
 
-def summarizer_nouns(df,n_clusters):
+def summarizer_biggest_cluster(df,n_clusters):
     
     print("Getting word embeddings")
     glove_file = '../doc2img_data/glove.6B/glove.6B.100d.txt'
