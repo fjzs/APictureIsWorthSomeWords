@@ -25,6 +25,8 @@ def get_raw_dataset(dataset_type:str, dataset_path: str, max_examples:int = None
         return get_dataset_poems(dataset_path, df, max_examples)
     elif dataset_type == "nyt":
         return get_dataset_nyt(dataset_path, df, max_examples)
+    elif dataset_type=='stories':
+        return get_dataset_stories(dataset_path, pd.DataFrame(columns=['text','topic']), max_examples)
     else:
         raise NotImplementedError(f"Dataset type {dataset_type} not implemented")
 
@@ -76,6 +78,17 @@ def get_dataset_nyt(path_to_dataset:str, df:pd.DataFrame, max_examples:int = 10)
         return df.sample(n = max_examples)
     else:
         return df
+
+def get_dataset_stories(path_to_dataset:str, df:pd.DataFrame, max_examples:int=10):
+    texts = os.listdir(path_to_dataset)
+    # df = pd.DataFrame(columns=['text',''])
+
+    for text in texts:
+        success, content = read_text_file(os.path.join(path_to_dataset, text))
+        if success:
+            new_row = {'text':content, 'topic':'no topic'}
+            df.loc[len(df)] = new_row
+    return df 
 
 
 def get_dataset_poems(path_to_dataset:str, df:pd.DataFrame, max_examples:int = 10) -> pd.DataFrame:

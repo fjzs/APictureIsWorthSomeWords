@@ -13,7 +13,7 @@ image_generation:
      inference_steps: 50
      
 summary_method: tfidf
-prompts: ["Photo of ", "Image containing the themes of "]
+prompts: prompts: ["", "A high resolution photo of", "An image illustrating", "Create an image inspired by", "Generate an artistic interpretation of the text","Imagine an illustration that captures the central theme of the text", "A realistic image of", "Create an abstract artwork captures the essence of the following: "]
 device: cuda:0
 
 clip:

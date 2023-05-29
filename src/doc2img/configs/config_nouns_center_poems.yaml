@@ -1,0 +1,28 @@
+datasets:
+    type: poems
+    poems_mini: ./../mini_dataset/poems
+    poems_full: ./../doc2img_data/poems
+    nyt_mini: ./../mini_dataset/nyt.csv
+    nyt_full: ./../doc2img_data/nyt.csv
+    
+image_generation:
+     save_folder: experiment_nouns_poems
+     save_flag: True
+     model_id: runwayml/stable-diffusion-v1-5
+     seed: 1024
+     inference_steps: 50
+     
+summary_method: noun_based_center
+prompts: prompts: ["", "A high resolution photo of", "An image illustrating", "Create an image inspired by", "Generate an artistic interpretation of the text","Imagine an illustration that captures the central theme of the text", "A realistic image of", "Create an abstract artwork captures the essence of the following: "]
+device: cuda:0
+
+clip:
+  window_size: 75
+  step_size: 30
+
+summarization:
+    model : google/pegasus-xsum
+    min_length: 5
+    max_length: 50
+    max_tokens: 50
+    no_clusters: 10

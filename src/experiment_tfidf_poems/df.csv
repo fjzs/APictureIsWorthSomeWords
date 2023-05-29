@@ -1,46 +1,1290 @@
-text,topic,summary,img_path,clip_max,clip_mean,clip_median
-"WAS it light that spake from the darkness,
-or music that shone from the word,
-When the night was enkindled with sound
-of the sun or the first-born bird?
-Souls enthralled and entrammelled in bondage
-of seasons that fall and rise,
-Bound fast round with the fetters of flesh,
-and blinded with light that dies,
-Lived not surely till music spake,
-and the spirit of life was heard.
-Music, sister of sunrise, and herald of life to be,
-Smiled as dawn on the spirit of man,
-and the thrall was free.
-Slave of nature and serf of time,
-the bondman of life and death,
-Dumb with passionless patience that breathed
-but forlorn and reluctant breath,
-Heard, beheld, and his soul made answer,
-and communed aloud with the sea.
-Morning spake, and he heard:
-and the passionate silent noon
-Kept for him not silence:
-and soft from the mounting moon
-Fell the sound of her splendour,
-heard as dawn's in the breathless night,
-Not of men but of birds whose note
-bade man's soul quicken and leap to light:
-And the song of it spake, and the light and the darkness
-of earth were as chords in tune.",music,flesh surely dies smiled tune shone man forlorn dumb passionate aloud night leap seasons beheld slave patience soul enkindled breathless serf herald notebade enthralled heard reluctant blinded music noonkept darknessof communed entrammelled bondman passionless light thrall quicken life soundof spake bondageof mounting chords moonfell fetters sunrise dawn spirit breathedbut splendour,experiment_tfidf_poems/0.jpg,19.757110595703125,19.00535354614258,18.56338882446289
-"SINCE first I saw your face I resolved to honour and renown ye;
-If now I be disdained I wish my heart had never known ye.
-What? I that loved and you that liked, shall we begin to wrangle?
-No, no, no, my heart is fast, and cannot disentangle.
-If I admire or praise you too much, that fault you may forgive me;
-Or if my hands had stray'd but a touch, then justly might you leave
-me.
-I ask'd you leave, you bade me love; is 't now a time to chide me?
-No, no, no, I'll love you still what fortune e'er betide me.
-The Sun, whose beams most glorious are, rejecteth no beholder,
-And your sweet beauty past compare made my poor eyes the bolder:
-Where beauty moves and wit delights and signs of kindness bind me,
-There, O there! where'er I go I'll leave my heart behind me!",music,not touch can loved behind whose known poor wish since past ask fast ye beauty admire resolved honour fault forgive stray signs delights justly bind bolder wrangle heart leaveme disdained beholder beams love er leave moves renown liked rejecteth begin betide glorious praise wit compare bade chide kindness fortune disentangle,experiment_tfidf_poems/1.jpg,24.949729919433594,24.423035939534504,24.763952255249023
+text,topic,summary,prompt_0,prompt_1,prompt_2,prompt_3,prompt_4,prompt_5,prompt_6,prompt_7,prompt_0_score,prompt_1_score,prompt_2_score,prompt_3_score,prompt_4_score,prompt_5_score,prompt_6_score,prompt_7_score
+"By this, sad Hero, with love unacquainted,
+Viewing Leander's face, fell down and fainted.
+He kissed her and breathed life into her lips,
+Wherewith as one displeased away she trips.
+Yet, as she went, full often looked behind,
+And many poor excuses did she find
+To linger by the way, and once she stayed,
+And would have turned again, but was afraid,
+In offering parley, to be counted light.
+So on she goes and in her idle flight
+Her painted fan of curled plumes let fall,
+Thinking to train Leander therewithal.
+He, being a novice, knew not what she meant
+But stayed, and after her a letter sent,
+Which joyful Hero answered in such sort,
+As he had hope to scale the beauteous fort
+Wherein the liberal Graces locked their wealth,
+And therefore to her tower he got by stealth.
+Wide open stood the door, he need not climb,
+And she herself before the pointed time
+Had spread the board, with roses strowed the room,
+And oft looked out, and mused he did not come.
+At last he came.
+O who can tell the greeting
+These greedy lovers had at their first meeting.
+He asked, she gave, and nothing was denied.
+Both to each other quickly were affied.
+Look how their hands, so were their hearts united,
+And what he did she willingly requited.
+(Sweet are the kisses, the embracements sweet,
+When like desires and affections meet,
+For from the earth to heaven is Cupid raised,
+Where fancy is in equal balance peised.)
+Yet she this rashness suddenly repented
+And turned aside, and to herself lamented
+As if her name and honour had been wronged
+By being possessed of him for whom she longed.
+Ay, and she wished, albeit not from her heart
+That he would leave her turret and depart.
+The mirthful god of amorous pleasure smiled
+To see how he this captive nymph beguiled.
+For hitherto he did but fan the fire,
+And kept it down that it might mount the higher.
+Now waxed she jealous lest his love abated,
+Fearing her own thoughts made her to be hated.
+Therefore unto him hastily she goes
+And, like light Salmacis, her body throws
+Upon his bosom where with yielding eyes
+She offers up herself a sacrifice
+To slake his anger if he were displeased.
+O, what god would not therewith be appeased?
+Like Aesop's cock this jewel he enjoyed
+And as a brother with his sister toyed
+Supposing nothing else was to be done,
+Now he her favour and good will had won.
+But know you not that creatures wanting sense
+By nature have a mutual appetence,
+And, wanting organs to advance a step,
+Moved by love's force unto each other lep?
+Much more in subjects having intellect
+Some hidden influence breeds like effect.
+Albeit Leander rude in love and raw,
+Long dallying with Hero, nothing saw
+That might delight him more, yet he suspected
+Some amorous rites or other were neglected.
+Therefore unto his body hers he clung.
+She, fearing on the rushes to be flung,
+Strived with redoubled strength; the more she strived
+The more a gentle pleasing heat revived,
+Which taught him all that elder lovers know.
+And now the same gan so to scorch and glow
+As in plain terms (yet cunningly)  he craved it.
+Love always makes those eloquent that have it.
+She, with a kind of granting, put him by it
+And ever, as he thought himself most nigh it,
+Like to the tree of Tantalus, she fled
+And, seeming lavish, saved her maidenhead.
+Ne'er king more sought to keep his diadem,
+Than Hero this inestimable gem.
+Above our life we love a steadfast friend,
+Yet when a token of great worth we send,
+We often kiss it, often look thereon,
+And stay the messenger that would be gone.
+No marvel then, though Hero would not yield
+So soon to part from that she dearly held.
+Jewels being lost are found again, this never;
+'Tis lost but once, and once lost, lost forever.
+Now had the morn espied her lover's steeds,
+Whereat she starts, puts on her purple weeds,
+And red for anger that he stayed so long
+All headlong throws herself the clouds among.
+And now Leander, fearing to be missed,
+Embraced her suddenly, took leave, and kissed.
+Long was he taking leave, and loath to go,
+And kissed again as lovers use to do.
+Sad Hero wrung him by the hand and wept
+Saying, 'Let your vows and promises be kept.'
+Then standing at the door she turned about
+As loath to see Leander going out.
+And now the sun that through th' horizon peeps,
+As pitying these lovers, downward creeps,
+So that in silence of the cloudy night,
+Though it was morning, did he take his flight.
+But what the secret trusty night concealed
+Leander's amorous habit soon revealed.
+With Cupid's myrtle was his bonnet crowned,
+About his arms the purple riband wound
+Wherewith she wreathed her largely spreading hair.
+Nor could the youth abstain, but he must wear
+The sacred ring wherewith she was endowed
+When first religious chastity she vowed.
+Which made his love through Sestos to be known,
+And thence unto Abydos sooner blown
+Than he could sail; for incorporeal fame
+Whose weight consists in nothing but her name,
+Is swifter than the wind, whose tardy plumes
+Are reeking water and dull earthly fumes.
+Home when he came, he seemed not to be there,
+But, like exiled air thrust from his sphere,
+Set in a foreign place; and straight from thence,
+Alcides like, by mighty violence
+He would have chased away the swelling main
+That him from her unjustly did detain.
+Like as the sun in a diameter
+Fires and inflames objects removed far,
+And heateth kindly, shining laterally,
+So beauty sweetly quickens when 'tis nigh,
+But being separated and removed,
+Burns where it cherished, murders where it loved.
+Therefore even as an index to a book,
+So to his mind was young Leander's look.
+O, none but gods have power their love to hide,
+Affection by the countenance is descried.
+The light of hidden fire itself discovers,
+And love that is concealed betrays poor lovers,
+His secret flame apparently was seen.
+Leander's father knew where he had been
+And for the same mildly rebuked his son,
+Thinking to quench the sparkles new begun.
+But love resisted once grows passionate,
+And nothing more than counsel lovers hate.
+For as a hot proud horse highly disdains
+To have his head controlled, but breaks the reins,
+Spits forth the ringled bit, and with his hooves
+Checks the submissive ground; so he that loves,
+The more he is restrained, the worse he fares.
+What is it now, but mad Leander dares?
+'O Hero, Hero! ' thus he cried full oft;
+And then he got him to a rock aloft,
+Where having spied her tower, long stared he on't,
+And prayed the narrow toiling Hellespont
+To part in twain, that he might come and go;
+But still the rising billows answered, 'No.'
+With that he stripped him to the ivory skin
+And, crying 'Love, I come,' leaped lively in.
+Whereat the sapphire visaged god grew proud,
+And made his capering Triton sound aloud,
+Imagining that Ganymede, displeased,
+Had left the heavens; therefore on him he seized.
+Leander strived; the waves about him wound,
+And pulled him to the bottom, where the ground
+Was strewed with pearl, and in low coral groves
+Sweet singing mermaids sported with their loves
+On heaps of heavy gold, and took great pleasure
+To spurn in careless sort the shipwrack treasure.
+For here the stately azure palace stood
+Where kingly Neptune and his train abode.
+The lusty god embraced him, called him 'Love,'
+And swore he never should return to Jove.
+But when he knew it was not Ganymede,
+For under water he was almost dead,
+He heaved him up and, looking on his face,
+Beat down the bold waves with his triple mace,
+Which mounted up, intending to have kissed him,
+And fell in drops like tears because they missed him.
+Leander, being up, began to swim
+And, looking back, saw Neptune follow him,
+Whereat aghast, the poor soul 'gan to cry
+'O, let me visit Hero ere I die! '
+The god put Helle's bracelet on his arm,
+And swore the sea should never do him harm.
+He clapped his plump cheeks, with his tresses played
+And, smiling wantonly, his love bewrayed.
+He watched his arms and, as they opened wide
+At every stroke, betwixt them would he slide
+And steal a kiss, and then run out and dance,
+And, as he turned, cast many a lustful glance,
+And threw him gaudy toys to please his eye,
+And dive into the water, and there pry
+Upon his breast, his thighs, and every limb,
+And up again, and close beside him swim,
+And talk of love.
+Leander made reply,
+'You are deceived; I am no woman, I.'
+Thereat smiled Neptune, and then told a tale,
+How that a shepherd, sitting in a vale,
+Played with a boy so fair and kind,
+As for his love both earth and heaven pined;
+That of the cooling river durst not drink,
+Lest water nymphs should pull him from the brink.
+And when he sported in the fragrant lawns,
+Goat footed satyrs and upstaring fauns
+Would steal him thence. Ere half this tale was done,
+'Ay me,' Leander cried, 'th' enamoured sun
+That now should shine on Thetis' glassy bower,
+Descends upon my radiant Hero's tower.
+O, that these tardy arms of mine were wings! '
+And, as he spake, upon the waves he springs.
+Neptune was angry that he gave no ear,
+And in his heart revenging malice bare.
+He flung at him his mace but, as it went,
+He called it in, for love made him repent.
+The mace, returning back, his own hand hit
+As meaning to be venged for darting it.
+When this fresh bleeding wound Leander viewed,
+His colour went and came, as if he rued
+The grief which Neptune felt. In gentle breasts
+Relenting thoughts, remorse, and pity rests.
+And who have hard hearts and obdurate minds,
+But vicious, harebrained, and illiterate hinds?
+The god, seeing him with pity to be moved,
+Thereon concluded that he was beloved.
+(Love is too full of faith, too credulous,
+With folly and false hope deluding us.)
+Wherefore, Leander's fancy to surprise,
+To the rich Ocean for gifts he flies.
+'tis wisdom to give much; a gift prevails
+When deep persuading oratory fails.
+By this Leander, being near the land,
+Cast down his weary feet and felt the sand.
+Breathless albeit he were he rested not
+Till to the solitary tower he got,
+And knocked and called. At which celestial noise
+The longing heart of Hero much more joys
+Than nymphs and shepherds when the timbrel rings,
+Or crooked dolphin when the sailor sings.
+She stayed not for her robes but straight arose
+And, drunk with gladness, to the door she goes,
+Where seeing a naked man, she screeched for fear
+(Such sights as this to tender maids are rare)
+And ran into the dark herself to hide.
+(Rich jewels in the dark are soonest spied) .
+Unto her was he led, or rather drawn
+By those white limbs which sparkled through the lawn.
+The nearer that he came, the more she fled,
+And, seeking refuge, slipped into her bed.
+Whereon Leander sitting thus began,
+Through numbing cold, all feeble, faint, and wan.
+'If not for love, yet, love, for pity sake,
+Me in thy bed and maiden bosom take.
+At least vouchsafe these arms some little room,
+Who, hoping to embrace thee, cheerly swum.
+This head was beat with many a churlish billow,
+And therefore let it rest upon thy pillow.'
+Herewith affrighted, Hero shrunk away,
+And in her lukewarm place Leander lay,
+Whose lively heat, like fire from heaven fet,
+Would animate gross clay and higher set
+The drooping thoughts of base declining souls
+Than dreary Mars carousing nectar bowls.
+His hands he cast upon her like a snare.
+She, overcome with shame and sallow fear,
+Like chaste Diana when Actaeon spied her,
+Being suddenly betrayed, dived down to hide her.
+And, as her silver body downward went,
+With both her hands she made the bed a tent,
+And in her own mind thought herself secure,
+O'ercast with dim and darksome coverture.
+And now she lets him whisper in her ear,
+Flatter, entreat, promise, protest and swear;
+Yet ever, as he greedily assayed
+To touch those dainties, she the harpy played,
+And every limb did, as a soldier stout,
+Defend the fort, and keep the foeman out.
+For though the rising ivory mount he scaled,
+Which is with azure circling lines empaled,
+Much like a globe (a globe may I term this,
+By which love sails to regions full of bliss)
+Yet there with Sisyphus he toiled in vain,
+Till gentle parley did the truce obtain.
+Wherein Leander on her quivering breast
+Breathless spoke something, and sighed out the rest;
+Which so prevailed, as he with small ado
+Enclosed her in his arms and kissed her too.
+And every kiss to her was as a charm,
+And to Leander as a fresh alarm,
+So that the truce was broke and she, alas,
+(Poor silly maiden)  at his mercy was.
+Love is not full of pity (as men say)
+But deaf and cruel where he means to prey.
+Even as a bird, which in our hands we wring,
+Forth plungeth and oft flutters with her wing,
+She trembling strove.
+This strife of hers (like that
+Which made the world)  another world begat
+Of unknown joy. Treason was in her thought,
+And cunningly to yield herself she sought.
+Seeming not won, yet won she was at length.
+In such wars women use but half their strength.
+Leander now, like Theban Hercules,
+Entered the orchard of th' Hesperides;
+Whose fruit none rightly can describe but he
+That pulls or shakes it from the golden tree.
+And now she wished this night were never done,
+And sighed to think upon th' approaching sun;
+For much it grieved her that the bright daylight
+Should know the pleasure of this blessed night,
+And them, like Mars and Erycine, display
+Both in each other's arms chained as they lay.
+Again, she knew not how to frame her look,
+Or speak to him, who in a moment took
+That which so long so charily she kept,
+And fain by stealth away she would have crept,
+And to some corner secretly have gone,
+Leaving Leander in the bed alone.
+But as her naked feet were whipping out,
+He on the sudden clinged her so about,
+That, mermaid-like, unto the floor she slid.
+One half appeared, the other half was hid.
+Thus near the bed she blushing stood upright,
+And from her countenance behold ye might
+A kind of twilight break, which through the hair,
+As from an orient cloud, glimpsed here and there,
+And round about the chamber this false morn
+Brought forth the day before the day was born.
+So Hero's ruddy cheek Hero betrayed,
+And her all naked to his sight displayed,
+Whence his admiring eyes more pleasure took
+Than Dis, on heaps of gold fixing his look.
+By this, Apollo's golden harp began
+To sound forth music to the ocean,
+Which watchful Hesperus no sooner heard
+But he the bright day-bearing car prepared
+And ran before, as harbinger of light,
+And with his flaring beams mocked ugly night,
+Till she, o'ercome with anguish, shame, and rage,
+Danged down to hell her loathsome carriage.",hero,oft went gan whose much cunningly knew look yet poor ganymede upon unto stayed displeased spied therefore love strived kissed god thence sported leander forth lovers nothing arms wound fearing th tardy tower like full amorous albeit made bed mace wherewith half parley pleasure hero took whereat turned pity neptune,experiment_tfidf_poems/poems_0_prompt_0.jpg,experiment_tfidf_poems/poems_0_prompt_1.jpg,experiment_tfidf_poems/poems_0_prompt_2.jpg,experiment_tfidf_poems/poems_0_prompt_3.jpg,experiment_tfidf_poems/poems_0_prompt_4.jpg,experiment_tfidf_poems/poems_0_prompt_5.jpg,experiment_tfidf_poems/poems_0_prompt_6.jpg,experiment_tfidf_poems/poems_0_prompt_7.jpg,"[20.745967864990234, 18.83341340457692, 18.85393524169922]","[27.651870727539062, 24.21467554428998, 24.648151397705078]","[26.757150650024414, 22.9736832113827, 23.39567756652832]","[28.819292068481445, 23.689508976655848, 23.986347198486328]","[28.23834800720215, 24.074973723467657, 24.25529670715332]","[26.275222778320312, 22.96822880015654, 23.27359962463379]","[27.63165855407715, 24.011946599623737, 24.29999351501465]","[26.0595760345459, 23.710517658906824, 23.68839454650879]"
+"Superman my hero
+Is just like my friend
+It was just what I want him to be
+Superman my hero
+Is giving us hope
+He is keeping us free
+God's nation
+Is in chaos
+But there is one man that
+Can save us all
+Superman my Hero
+He flied many times a day in the sky
+He touches heaven
+Just like the birds do
+Superman my hero
+I am so proud of him
+Superman my hero
+I pray for you every day
+You have a job, I have one too
+I will tell you what gets me through
+Strenght, love, and peace
+I pray for peace where I am going to be
+For you and me
+Kids at school
+Sending Postcards to those who died overseas in the war
+Superman my hero
+Keeping busy is what I need to do
+And keeping busy these days seems to be the tool
+I want to make the hour go fast
+So I have to keep myself busy
+Superman my hero
+Doesn't live in fear
+But I do
+Superman my hero
+Makes sacrifices also
+Like I do
+Superman my hero
+Is landing from the sky right now
+He had a perfect landing
+Superman my hero
+I light a candle for you
+May God always bless you
+Superman my hero
+To the world you gave so much love
+Superman my hero
+You are an hero
+Superman my hero
+What are we going to do when our time is up here on earth?
+Superman my hero
+Your spirit will always be alive in me
+You have given your spirit to me and everybody else here on earth
+Superman my hero
+I am dreaming every night
+With you
+I know someday my dreams may come true
+That's why we are fighting for and doing what we do to save our world
+Superman my hero
+I hope that others will learn to love you and respect you like I do
+Superman I hope others
+Will respect our believes and not judge us by what we do
+Or by what we haven't done yesterday, today, or tomorrow
+Superman my hero
+Stands in a shiny sea
+Superman my hero
+Wants a world were he dominates
+And he knows that our land will liberate
+A shiny city on top of the hill
+Superman my hero
+Fighting evil and saving people also
+Superman my hero
+Has a free will
+To help those in need
+Superman my hero
+It is time to remember what freedom means
+It is time to choose freedom
+And embrace the future
+It is time to choose life
+It is time to look after those in need
+Because charity begins at home
+Superman my hero
+I know that together we will get through tough times
+Sometimes we just need some courage
+Sometimes we need a little prayer
+Sometimes we need a helping hand so we can finish our daily tasks
+Superman my hero
+Let the light shine in your heart, my heart, and  all the people here on Earth
+Superman my hero
+It is a lucky day
+Because you are of flying again like a bird in the sky
+Superman my hero
+Miracles we will see one day
+Superman my hero
+Black outs
+All the town is out of lights left in the dark
+Traffic lights are not working
+We can't cook our food
+We have to eat can food for a few days
+We have to survive some how
+Some how we will get through this ordeal
+And you are flying high above in the sky
+The only thing that is shining at night is the moon
+Superman my hero
+I know that nobody will live forever
+Superman my hero
+You were meant to fly
+Superman my hero
+I sometimes feel powerless
+Superman my hero
+Once I need to get out
+And put my foot out of my door
+I know that fresh air  is good for me and everybody else
+I have dreams and desires
+Superman my hero
+Once a while I just need to get away from the computer
+My desk and my computer my favorite hide away
+Superman my hero
+Will take me to a place that I never been before
+Superman I believe that we were meant to be friends
+Superman my hero
+I must speak now or forever hold my peace
+Superman my hero
+Snow, wind, and rain won't bother superman my hero
+Because he always dress up for the kind of weather
+He is smart and wise
+Superman won't melt but he might freeze in the winter
+Because the days are much colder than you ever imagine
+Superman my hero",hero,dreams sacrifices forever others times freedom spirit going world also strenght overseas save outs pray liberate dominates food else ordeal choose days flied know earth respect always postcards flying day lights meant hope need time get keeping everybody sometimes landing us sky computer busy peace hero fighting like superman shiny,experiment_tfidf_poems/poems_1_prompt_0.jpg,experiment_tfidf_poems/poems_1_prompt_1.jpg,experiment_tfidf_poems/poems_1_prompt_2.jpg,experiment_tfidf_poems/poems_1_prompt_3.jpg,experiment_tfidf_poems/poems_1_prompt_4.jpg,experiment_tfidf_poems/poems_1_prompt_5.jpg,experiment_tfidf_poems/poems_1_prompt_6.jpg,experiment_tfidf_poems/poems_1_prompt_7.jpg,"[28.532833099365234, 25.41987379391988, 26.259089469909668]","[29.30549430847168, 26.200331290562946, 26.846046447753906]","[29.382537841796875, 26.59328039487203, 27.429458618164062]","[27.700733184814453, 24.901500781377155, 25.315147399902344]","[28.541269302368164, 25.824448823928833, 26.719138145446777]","[21.748641967773438, 19.778965711593628, 19.573211669921875]","[23.540573120117188, 20.457081079483032, 20.318452835083008]","[22.236848831176758, 20.77156925201416, 20.934667587280273]"
+"See you the towers, that, gray and old,
+Frown through the sunlight's liquid gold,
+Steep sternly fronting steep?
+The Hellespont beneath them swells,
+And roaring cleaves the Dardanelles,
+The rock-gates of the deep!
+Hear you the sea, whose stormy wave,
+From Asia, Europe clove in thunder?
+That sea which rent a world, cannot
+Rend love from love asunder!
+In Hero's, in Leander's heart,
+Thrills the sweet anguish of the dart
+Whose feather flies from love.
+All Hebe's bloom in Hero's cheek--
+And his the hunter's steps that seek
+Delight, the hills above!
+Between their sires the rival feud
+Forbids their plighted hearts to meet;
+Love's fruits hang over danger's gulf,
+By danger made more sweet.
+Alone on Sestos' rocky tower,
+Where upward sent in stormy shower,
+The whirling waters foam,--
+Alone the maiden sits, and eyes
+The cliffs of fair Abydos rise
+Afar--her lover's home.
+Oh, safely thrown from strand to strand,
+No bridge can love to love convey;
+No boatman shoots from yonder shore,
+Yet Love has found the way.--
+That love, which could the labyrinth pierce--
+Which nerves the weak, and curbs the fierce,
+And wings with wit the dull;--
+That love which o'er the furrowed land
+Bowed--tame beneath young Jason's hand--
+The fiery-snorting bull!
+Yes, Styx itself, that ninefold flows,
+Has love, the fearless, ventured o'er,
+And back to daylight borne the bride,
+From Pluto's dreary shore!
+What marvel then that wind and wave,
+Leander doth but burn to brave,
+When love, that goads him, guides!
+Still when the day, with fainter glimmer,
+Wanes pale--he leaps, the daring swimmer,
+Amid the darkening tides;
+With lusty arms he cleaves the waves,
+And strikes for that dear strand afar;
+Where high from Hero's lonely tower
+Lone streams the beacon-star.
+In vain his blood the wave may chill,
+These tender arms can warm it still--
+And, weary if the way,
+By many a sweet embrace, above
+All earthly boons--can liberal love
+The lover's toil repay,
+Until Aurora breaks the dream,
+And warns the loiterer to depart--
+Back to the ocean's icy bed,
+Scared from that loving heart.
+So thirty suns have sped their flight--
+Still in that theft of sweet delight
+Exult the happy pair;
+Caress will never pall caress,
+And joys that gods might envy, bless
+The single bride-night there.
+Ah! never he has rapture known,
+Who has not, where the waves are driven
+Upon the fearful shores of hell,
+Plucked fruits that taste of heaven!
+Now changing in their season are,
+The morning and the Hesper star;--
+Nor see those happy eyes
+The leaves that withering droop and fall,
+Nor hear, when, from its northern hall,
+The neighboring winter sighs;
+Or, if they see, the shortening days
+But seem to them to close in kindness;
+For longer joys, in lengthening nights,
+They thank the heaven in blindness.
+It is the time, when night and day,
+In equal scales contend for sway--
+Lone, on her rocky steep,
+Lingers the girl with wistful eyes
+That watch the sun-steeds down the skies,
+Careering towards the deep.
+Lulled lay the smooth and silent sea,
+A mirror in translucent calm,
+The breeze, along that crystal realm,
+Unmurmuring, died in balm.
+In wanton swarms and blithe array,
+The merry dolphins glide and play
+Amid the silver waves.
+In gray and dusky troops are seen,
+The hosts that serve the ocean-queen,
+Upborne from coral caves:
+They--only they--have witnessed love
+To rapture steal its secret way:
+And Hecate [36] seals the only lips
+That could the tale betray!
+She marks in joy the lulled water,
+And Sestos, thus thy tender daughter,
+Soft-flattering, woos the sea!
+""Fair god--and canst thou then betray?
+No! falsehood dwells with them that say
+That falsehood dwells with thee!
+Ah! faithless is the race of man,
+And harsh a father's heart can prove;
+But thee, the gentle and the mild,
+The grief of love can move!""
+""Within these hated walls of stone,
+Should I, repining, mourn alone,
+And fade in ceaseless care,
+But thou, though o'er thy giant tide,
+Nor bridge may span, nor boat may glide,
+Dost safe my lover bear.
+And darksome is thy solemn deep,
+And fearful is thy roaring wave;
+But wave and deep are won by love--
+Thou smilest on the brave!""
+""Nor vainly, sovereign of the sea,
+Did Eros send his shafts to thee
+What time the rain of gold,
+Bright Helle, with her brother bore,
+How stirred the waves she wandered o'er,
+How stirred thy deeps of old!
+Swift, by the maiden's charms subdued,
+Thou cam'st from out the gloomy waves,
+And in thy mighty arms, she sank
+Into thy bridal caves.""
+""A goddess with a god, to keep
+In endless youth, beneath the deep,
+Her solemn ocean-court!
+And still she smooths thine angry tides,
+Tames thy wild heart, and favoring guides
+The sailor to the port!
+Beautiful Helle, bright one, hear
+Thy lone adoring suppliant pray!
+And guide, O goddess--guide my love
+Along the wonted way!""
+Now twilight dims the waters' flow,
+And from the tower, the beacon's glow
+Waves flickering o'er the main.
+Ah, where athwart the dismal stream,
+Shall shine the beacon's faithful beam
+The lover's eyes shall strain!
+Hark! sounds moan threatening from afar--
+From heaven the blessed stars are gone--
+More darkly swells the rising sea
+The tempest labors on!
+Along the ocean's boundless plains
+Lies night--in torrents rush the rains
+From the dark-bosomed cloud--
+Red lightning skirs the panting air,
+And, loosed from out their rocky lair,
+Sweep all the storms abroad.
+Huge wave on huge wave tumbling o'er,
+The yawning gulf is rent asunder,
+And shows, as through an opening pall,
+Grim earth--the ocean under!
+Poor maiden! bootless wail or vow--
+""Have mercy, Jove--be gracious, thou!
+Dread prayer was mine before!""
+What if the gods have heard--and he,
+Lone victim of the stormy sea,
+Now struggles to the shore!
+There's not a sea-bird on the wave--
+Their hurrying wings the shelter seek;
+The stoutest ship the storms have proved,
+Takes refuge in the creek.
+""Ah, still that heart, which oft has braved
+The danger where the daring saved,
+Love lureth o'er the sea;--
+For many a vow at parting morn,
+That naught but death should bar return,
+Breathed those dear lips to me;
+And whirled around, the while I weep,
+Amid the storm that rides the wave,
+The giant gulf is grasping down
+The rash one to the grave!
+""False Pontus! and the calm I hailed,
+The awaiting murder darkly veiled--
+The lulled pellucid flow,
+The smiles in which thou wert arrayed,
+Were but the snares that love betrayed
+To thy false realm below!
+Now in the midway of the main,
+Return relentlessly forbidden,
+Thou loosenest on the path beyond
+The horrors thou hadst hidden.""
+Loud and more loud the tempest raves
+In thunder break the mountain waves,
+White-foaming on the rock--
+No ship that ever swept the deep
+Its ribs of gnarled oak could keep
+Unshattered by the shock.
+Dies in the blast the guiding torch
+To light the struggler to the strand;
+'Tis death to battle with the wave,
+And death no less to land!
+On Venus, daughter of the seas,
+She calls the tempest to appease--
+To each wild-shrieking wind
+Along the ocean-desert borne,
+She vows a steer with golden horn--
+Vain vow--relentless wind!
+On every goddess of the deep,
+On all the gods in heaven that be,
+She calls--to soothe in calm, awhile
+The tempest-laden sea!
+""Hearken the anguish of my cries!
+From thy green halls, arise--arise,
+Leucothoe the divine!
+Who, in the barren main afar,
+Oft on the storm-beat mariner
+Dost gently-saving shine.
+Oh,--reach to him thy mystic veil,
+To which the drowning clasp may cling,
+And safely from that roaring grave,
+To shore my lover bring!""
+And now the savage winds are hushing.
+And o'er the arched horizon, blushing,
+Day's chariot gleams on high!
+Back to their wonted channels rolled,
+In crystal calm the waves behold
+One smile on sea and sky!
+All softly breaks the rippling tide,
+Low-murmuring on the rocky land,
+And playful wavelets gently float
+A corpse upon the strand!
+'Tis he!--who even in death would still
+Not fail the sweet vow to fulfil;
+She looks--sees--knows him there!
+From her pale lips no sorrow speaks,
+No tears glide down her hueless cheeks;
+Cold-numbed in her despair--
+She looked along the silent deep,
+She looked upon the brightening heaven,
+Till to the marble face the soul
+Its light sublime had given!
+""Ye solemn powers men shrink to name,
+Your might is here, your rights ye claim--
+Yet think not I repine
+Soon closed my course; yet I can bless
+The life that brought me happiness--
+The fairest lot was mine!
+Living have I thy temple served,
+Thy consecrated priestess been--
+My last glad offering now receive
+Venus, thou mightiest queen!""
+Flashed the white robe along the air,
+And from the tower that beetled there
+She sprang into the wave;
+Roused from his throne beneath the waste,
+Those holy forms the god embraced--
+A god himself their grave!
+Pleased with his prey, he glides along--
+More blithe the murmured music seems,
+A gush from unexhausted urns
+His everlasting streams!",hero,blithe guides pall wonted asunder gods steep gulf vow lover glide ocean amid love shore tower danger leander wave sea lulled helle ah lone cleaves waves along falsehood tempest heaven thou stormy beacon main beneath deep sweet solemn calm hero er still sestos maiden afar strand goddess roaring rocky thy,experiment_tfidf_poems/poems_2_prompt_0.jpg,experiment_tfidf_poems/poems_2_prompt_1.jpg,experiment_tfidf_poems/poems_2_prompt_2.jpg,experiment_tfidf_poems/poems_2_prompt_3.jpg,experiment_tfidf_poems/poems_2_prompt_4.jpg,experiment_tfidf_poems/poems_2_prompt_5.jpg,experiment_tfidf_poems/poems_2_prompt_6.jpg,experiment_tfidf_poems/poems_2_prompt_7.jpg,"[25.187278747558594, 21.204790816015127, 21.509624481201172]","[27.275197982788086, 22.68177635815679, 22.770767211914062]","[26.157331466674805, 22.38113917136679, 22.67534065246582]","[25.77608299255371, 22.03269475820113, 22.014537811279297]","[25.54257583618164, 22.587594363154196, 22.461156845092773]","[25.775020599365234, 22.071818332282863, 22.2248592376709]","[26.178281784057617, 22.124372676927216, 22.10065460205078]","[23.284650802612305, 20.5625622418462, 20.63220977783203]"
+"Now was bright Hero weary of the day,
+Thought an Olympiad in Leander's stay.
+Sol and the soft-foot Hours hung on his arms,
+And would not let him swim, foreseeing his harms:
+That day Aurora double grace obtain'd
+Of her love Phoebus; she his horses reign'd,
+Set on his golden knee, and, as she list,
+She pull'd him back; and as she pull'd she kiss'd,
+To have him turn to bed: he lov'd her more,
+To see the love Leander Hero bore:
+Examples profit much; ten times in one,
+In persons full of note, good deeds are done.
+Day was so long, men walking fell asleep;
+The heavy humours that their eyes did steep
+Made them fear mischiefs. The hard streets were beds
+For covetous churls and for ambitious heads,
+That, spite of Nature, would their business ply:
+All thought they had the falling epilepsy,
+Men grovell'd so upon the smother'd ground;
+And pity did the heart of Heaven confound.
+The Gods, the Graces, and the Muses came
+Down to the Destinies, to stay the frame
+Of the true lovers' deaths, and all world's tears:
+But Death before had stopp'd their cruel ears.
+All the celestials parted mourning then,
+Pierc'd with our human miseries more than men:
+Ah, nothing doth the world with mischief fill,
+But want of feeling one another's ill!
+With their descent the day grew something fair,
+And cast a brighter robe upon the air.
+Hero, to shorten time with merriment,
+For young Alcmane and bright Mya sent,
+Two lovers that had long crav'd marriage-dues
+At Hero's hands: but she did still refuse;
+For lovely Mya was her consort vow'd
+In her maid state, and therefore not allow'd
+To amorous nuptials: yet fair Hero now
+Intended to dispense with her cold vow,
+Since hers was broken, and to marry her:
+The rites would pleasing matter minister
+To her conceits, and shorten tedious day.
+They came; sweet Music usher'd th' odorous way,
+And wanton Air in twenty sweet forms danced
+After her fingers; Beauty and Love advanced
+Their ensigns in the downless rosy faces
+Of youths and maids led after by the Graces.
+For all these Hero made a friendly feast,
+Welcom'd them kindly, did much love protest,
+Winning their hearts with all the means she might.
+That, when her fault should chance t' abide the light
+Their loves might cover or extenuate it,
+And high in her worst fate make pity sit.
+She married them; and in the banquet came,
+Borne by the virgins. Hero striv'd to frame
+Her thoughts to mirth: ay me! but hard it is
+To imitate a false and forced bliss;
+Ill may a sad mind forge a merry face,
+Nor hath constrained laughter any grace.
+Then laid she wine on cares to make them sink:
+Who fears the threats of Fortune, let him drink.
+To these quick nuptials enter'd suddenly
+Admired Teras with the ebon thigh;
+A nymph that haunted the green Sestian groves,
+And would consort soft virgins in their loves,
+At gaysome triumphs and on solemn days,
+Singing prophetic elegies and lays,
+And fingering of a silver lute she tied
+With black and purple scarfs by her left side.
+Apollo gave it, and her skill withal,
+And she was term'd his dwarf, she was so small:
+Yet great in virtue, for his beams enclosed
+His virtues in her; never was proposed
+Riddle to her, or augury, strange or new,
+But she resolv'd it; never slight tale flew
+From her charm'd lips without important sense,
+Shown in some grave succeeding consequence.
+This little sylvan, with her songs and tales,
+Gave such estate to feasts and nuptials,
+That though ofttimes she forewent tragedies,
+Yet for her strangeness still she pleas'd their eyes;
+And for her smallness they admir'd her so,
+They thought her perfect born, and could not grow.
+All eyes were on her. Hero did command
+An altar decked with sacred state should stand
+At the feast's upper end, close by the bride,
+On which the pretty nymph might sit espied.
+Then all were silent; every one so hears,
+As all their senses climb'd into their ears:
+And first this amorous tale, that fitted well
+Fair Hero and the nuptials, she did tell.
+_The Tale of Teras._
+Hymen, that now is god of nuptial rites,
+And crowns with honour Love and his delights,
+Of Athens was a youth, so sweet of face,
+That many thought him of the female race;
+Such quickening brightness did his clear eyes dart,
+Warm went their beams to his beholder's heart,
+In such pure leagues his beauties were combin'd,
+That there your nuptial contracts first were signed;
+For as proportion, white and crimson, meet
+In beauty's mixture, all right clear and sweet,
+The eye responsible, the golden hair,
+And none is held, without the other, fair;
+All spring together, all together fade;
+Such intermix'd affections should invade
+Two perfect lovers; which being yet unseen,
+Their virtues and their comforts copied been
+In beauty's concord, subject to the eye;
+And that, in Hymen, pleased so matchlessly,
+That lovers were esteemed in their full grace,
+Like form and colour mixed in Hymen's face;
+And such sweet concord was thought worthy then
+Of torches, music, feasts, and greatest men:
+So Hymen look'd that even the chastest mind
+He mov'd to join in joys of sacred kind;
+For only now his chin's first down consorted
+His head's rich fleece in golden curls contorted;
+And as he was so loved, he loved so too:
+So should best beauties bound by nuptials, do.
+Bright Eucharis, who was by all men said
+The noblest, fairest, and the richest maid
+Of all th' Athenian damsels, Hymen lov'd
+With such transmission, that his heart remov'd
+From his white breast to hers: but her estate,
+In passing his, was so interminate
+For wealth and honour, that his love durst feed
+On naught but sight and hearing, nor could breed
+Hope of requital, the grand prize of love;
+Nor could he hear or see, but he must prove
+How his rare beauty's music would agree
+With maids in consort; therefore robbed he
+His chin of those same few first fruits it bore,
+And, clad in such attire as virgins wore,
+He kept them company, and might right well,
+For he did all but Eucharis excel
+In all the fair of beauty! yet he wanted
+Virtue to make his own desires implanted
+In his dear Eucharis; for women never
+Love beauty in their sex, but envy ever.
+His judgment yet, that durst not suit address,
+Nor, past due means, presume of due success,
+Reason gat Fortune in the end to speed
+To his best prayers: but strange it seemed, indeed,
+That Fortune should a chaste affection bless:
+Preferment seldom graceth bashfulness.
+Nor grac'd it Hymen yet; but many a dart,
+And many an amorous thought, enthralled his heart,
+Ere he obtained her; and he sick became,
+Forced to abstain her sight; and then the flame
+Raged in his bosom. O, what grief did fill him!
+Sight made him sick, and want of sight did kill him.
+The virgins wonder'd where Diaetia stay'd,
+For so did Hymen term himself, a maid.
+At length with sickly looks he greeted them:
+Tis strange to see 'gainst what an extreme stream
+A lover strives; poor Hymen look'd so ill,
+That as in merit he increased still
+By suffering much, so he in grace decreas'd:
+Women are most won, when men merit least:
+If Merit look not well, Love bids stand by;
+Love's special lesson is to please the eye.
+And Hymen soon recovering all he lost,
+Deceiving still these maids, but himself most,
+His love and he with many virgin dames,
+Noble by birth, noble by beauty's flames,
+Leaving the town with songs and hallow'd lights
+To do great Ceres Eleusina rites
+Of zealous sacrifice, were made a prey
+To barbarous rovers, that in ambush lay,
+And with rude hands enforc'd their shining spoil,
+Far from the darkened city, tired with toil:
+And when the yellow issue of the sky
+Came trooping forth, jealous of cruelty
+To their bright fellows of this under-heaven,
+Into a double night they saw them driven,--
+A horrid cave, the thieves' black mansion;
+Where, weary of the journey they had gone,
+Their last night's watch, and drunk with their sweet gains,
+Dull Morpheus enter'd, laden with silken chains,
+Stronger than iron, and bound the swelling veins
+And tired senses of these lawless swains.
+But when the virgin lights thus dimly burn'd,
+O, what a hell was heaven in! how they mourn'd
+And wrung their hands, and wound their gentle forms
+Into the shapes of sorrow! golden storms
+Fell from their eyes; as when the sun appears,
+And yet it rains, so show'd their eyes their tears:
+And, as when funeral dames watch a dead corse,
+Weeping about it, telling with remorse
+What pains he felt, how long in pain he lay,
+How little food he ate, what he would say;
+And then mix mournful tales of other's deaths,
+Smothering themselves in clouds of their own breaths;
+At length, one cheering other, call for wine;
+The golden bowl drinks tears out of their eyne,
+As they drink wine from it; and round it goes,
+Each helping other to relieve their woes;
+So cast these virgins' beauties mutual rays,
+One lights another, face the face displays;
+Lips by reflection kissed, and hands hands shook,
+Even by the whiteness each of other took.
+But Hymen now used friendly Morpheus' aid,
+Slew every thief, and rescued every maid:
+And now did his enamour'd passion take
+Heart from his hearty deed, whose worth did make
+His hope of bounteous Eucharis more strong;
+And now came Love with Proteus, who had long
+Juggled the little god with prayers and gifts,
+Ran through all shapes and varied all his shifts,
+To win Love's stay with him, and make him love him.
+And when he saw no strength of sleight could move him,
+To make him love or stay, he nimbly turned
+Into Love's self, he so extremely burned.
+And thus came Love, with Proteus and his power,
+T' encounter Eucharis: first, like the flower
+That Juno's milk did spring, the silver lily,
+He fell on Hymen's hand, who straight did spy
+The bounteous godhead, and with wondrous joy
+Offer'd it Eucharis. She, wonderous coy,
+Drew back her hand: the subtle flower did woo it,
+And, drawing it near, mixed so you could not know it:
+As two clear tapers mix in one their light,
+So did the lily and the hand their white.
+She viewed it; and her view the form bestows
+Amongst her spirits; for, as colour flows
+From superficies of each thing we see,
+Even so with colours forms emitted be;
+And where Love's form is, Love is; Love is form:
+He entered at the eye; his sacred storm
+Rose from the hand, Love's sweetest instrument:
+It stirred her blood's sea so, that high it went,
+And beat in bashful waves 'gainst the white shore
+Of her divided cheeks; it raged the more,
+Because the tide went 'gainst the haughty wind
+Of her estate and birth: and, as we find,
+In fainting ebbs, the flowery Zephyr hurls
+The green-haired Hellespont, broke in silver curls,
+'Gainst Hero's tower; but in his blast's retreat,
+The waves obeying him, they after beat,
+Leaving the chalky shore a great way pale,
+Then moist it freshly with another gale;
+So ebbed and flowed the blood in Eucharis' face,
+Coyness and Love strived which had greatest grace;
+Virginity did fight on Coyness' side,
+Fear of her parent's frowns and female pride
+Loathing the lower place, more than it loves
+The high contents desert and virtue moves.
+With Love fought Hymen's beauty and his valure,
+Which scarce could so much favour yet allure
+To come to strike, but fameless idle stood:
+Action is fiery valour's sovereign good.
+But Love, once entered, wished no greater aid
+Than he could find within; thought thought betray'd;
+The bribed, but incorrupted, garrison
+Sung 'Io Hymen;' there those songs begun,
+And Love was grown so rich with such a gain,
+And wanton with the ease of his free reign,
+That he would turn into her roughest frowns
+To turn them out; and thus he Hymen crowns
+King of his thoughts, man's greatest empery:
+This was his first brave step to deity.
+Home to the mourning city they repair,
+With news as wholesome as the morning air,
+To the sad parents of each saved maid:
+But Hymen and his Eucharis had laid
+This plat to make the flame of their delight
+Round as the moon at full, and full as bright.
+Because the parents of chaste Eucharis
+Exceeding Hymen's so, might cross their bliss;
+And as the world rewards deserts, that law
+Cannot assist with force; so when they saw
+Their daughter safe, take vantage of their own,
+Praise Hymen's valour much, nothing bestown;
+Hymen must leave the virgins in a grove
+Far off from Athens, and go first to prove,
+If to restore them all with fame and life,
+He should enjoy his dearest as his wife.
+This told to all the maids, the most agree:
+The riper sort, knowing what 'tis to be
+The first mouth of a news so far derived,
+And that to hear and bear news brave folks lived.
+As being a carriage special hard to bear
+Occurrents, these occurrents being so dear,
+They did with grace protest, they were content
+T' accost their friends with all their compliment,
+For Hymen's good; but to incur their harm,
+There he must pardon them. This wit went warm
+To Adolesche's brain, a nymph born high,
+Made all of voice and fire, that upwards fly:
+Her heart and all her forces' nether train
+Climb'd to her tongue, and thither fell her brain,
+Since it could go no higher; and it must go;
+All powers she had, even her tongue, did so:
+In spirit and quickness she much joy did take,
+And loved her tongue, only for quickness' sake;
+And she would haste and tell. The rest all stay:
+Hymen goes one, the nymph another way;
+And what became of her I'll tell at last:
+Yet take her visage now;--moist-lipped, long-faced,
+Thin like an iron wedge, so sharp and tart,
+As 'twere of purpose made to cleave Love's heart:
+Well were this lovely beauty rid of her.
+And Hymen did at Athens now prefer
+His welcome suit, which he with joy aspired:
+A hundred princely youths with him retired
+To fetch the nymphs; chariots and music went;
+And home they came: heaven with applauses rent.
+The nuptials straight proceed, whiles all the town,
+Fresh in their joys, might do them most renown.
+First, gold-locked Hymen did to church repair,
+Like a quick offering burned in flames of hair;
+And after, with a virgin firmament
+The godhead-proving bride attended went
+Before them all: she looked in her command,
+As if form-giving Cypria's silver hand
+Gripped all their beauties, and crushed out one flame;
+She blushed to see how beauty overcame
+The thoughts of all men. Next, before her went
+Five lovely children, decked with ornament
+Of her sweet colours, bearing torches by;
+For light was held a happy augury
+Of generation, whose efficient right
+Is nothing else but to produce to light.
+The odd disparent number they did choose,
+To show the union married loves should use,
+Since in two equal parts it will not sever,
+But the midst holds one to rejoin it ever,
+As common to both parts: men therefore deem
+That equal number gods do not esteem,
+Being authors of sweet peace and unity,
+But pleasing to th' infernal empery,
+Under whose ensigns Wars and Discords fight,
+Since an even number you may disunite
+In two parts equal, naught in middle left
+To reunite each part from other reft;
+And five they hold in most especial prize,
+Since 'tis the first odd number that doth rise
+From the two foremost numbers' unity,
+That odd and even are; which are two and three;
+For one no number is; but thence doth flow
+The powerful race of number. Next, did go
+A noble matron, that did spinning bear
+A huswife's rock and spindle, and did wear
+A wether's skin, with all the snowy fleece,
+To intimate that even the daintiest piece
+And noblest-born dame should industrious be:
+That which does good disgraceth no degree.
+And now to Juno's temple they are come,
+Where her grave priest stood in the marriage-room:
+On his right arm did hang a scarlet veil,
+And from his shoulders to the ground did trail,
+On either side, ribands of white and blue:
+With the red veil he hid the bashful hue
+Of the chaste bride, to show the modest shame,
+In coupling with a man, should grace a dame.
+Then took he the disparent silks, and tied
+The lovers by the waists, and side to side,
+In token that thereafter they must bind
+In one self-sacred knot each other's mind.
+Before them on an altar he presented
+Both fire and water, which was first invented,
+Since to ingenerate every human creature
+And every other birth produc'd by Nature,
+Moisture and heat must mix; so man and wife
+For human race must join in nuptial life.
+Then one of Juno's birds, the painted jay,
+He sacrific'd and took the gall away;
+All which he did behind the altar throw,
+In sign no bitterness of hate should grow,
+'Twixt married loves, nor any least disdain.
+Nothing they spake, for 'twas esteem'd too plain
+For the most silken mildness of a maid,
+To let a public audience hear it said,
+She boldly took the man; and so respected
+Was bashfulness in Athens, it erected
+To chaste Agneia, which is Shamefacedness,
+A sacred temple, holding her a goddess.
+And now to feasts, masks, and triumphant shows,
+The shining troops returned, even till earth-throes
+Brought forth with joy the thickest part of night,
+When the sweet nuptial song, that used to cite
+All to their rest, was by Phemonoee sung,
+First Delphian prophetess, whose graces sprung
+Out of the Muses' well: she sung before
+The bride into her chamber; at which door
+A matron and a torch-bearer did stand:
+A painted box of confits in her hand
+The matron held, and so did other some
+That compassed round the honour'd nuptial room.
+The custom was, that every maid did wear,
+During her maidenhead, a silken sphere
+About her waist, above her inmost weed,
+Knit with Minerva's knot, and that was freed
+By the fair bridegroom on the marriage-night,
+With many ceremonies of delight:
+And yet eternized Hymen's tender bride,
+To suffer it dissolved so, sweetly cried.
+The maids that heard, so loved and did adore her,
+They wished with all their hearts to suffer for her.
+So had the matrons, that with confits stood
+About the chamber, such affectionate blood,
+And so true feeling of her harmless pains,
+That every one a shower of confits rains;
+For which the bride-youths scrambling on the ground,
+In noise of that sweet hail her cries were drown'd.
+And thus blest Hymen joyed his gracious bride,
+And for his joy was after deified.
+The saffron mirror by which Phoebus' love,
+Green Tellus, decks her, now he held above
+The cloudy mountains: and the noble maid,
+Sharp-visaged Adolesche, that was stray'd
+Out of her way, in hasting with her news,
+Not till this hour th' Athenian turrets views;
+And now brought home by guides, she heard by all,
+That her long kept occurrents would be stale,
+And how fair Hymen's honours did excel
+For those rare news which she came short to tell.
+To hear her dear tongue robbed of such a joy,
+Made the well-spoken nymph take such a toy,
+That down she sunk: when lightning from above
+Shrunk her lean body, and, for mere free love,
+Turn'd her into the pied-plum'd Psittacus,
+That now the Parrot is surnam'd by us,
+Who still with counterfeit confusion prates
+Naught but news common to the common'st mates.--
+This told, strange Teras touch'd her lute, and sung
+This ditty, that the torchy evening sprung.
+_Epithalamion Teratos._
+Come, come, dear Night! Love's mart of kisses,
+Sweet close to his ambitious line,
+The fruitful summer of his blisses!
+Love's glory doth in darkness shine.
+O come, soft rest of cares! come, Night!
+Come, naked Virtue's only tire,
+The reaped harvest of the light,
+Bound up in sheaves of sacred fire!
+Love calls to war;
+Sighs his alarms,
+Lips his swords are,
+The field his arms.
+Come, Night, and lay thy velvet hand
+On glorious Day's outfacing face;
+And all thy crowned flames command,
+For torches to our nuptial grace!
+Love calls to war;
+Sighs his alarms,
+Lips his swords are,
+The field his arms.
+No need have we of factious Day,
+To cast, in envy of thy peace,
+Her balls of discord in thy way:
+Here Beauty's day doth never cease;
+Day is abstracted here,
+And varied in a triple sphere.
+Hero, Alcmane, Mya, so outshine thee,
+Ere thou come here, let Thetis thrice refine thee.
+Love calls to war;
+Sighs his alarms,
+Lips his swords are,
+The field his arms.
+The evening star I see:
+Rise, youths! the evening star
+Helps Love to summon war;
+Both now embracing be.
+Rise, youths! Love's rite claims more than banquets; rise!
+Now the bright marigolds, that deck the skies,
+Phoebus' celestial flowers, that, contrary
+To his flowers here, ope when he shuts his eye,
+And shuts when he doth open, crown your sports:
+Now Love in Night, and Night in Love exhorts
+Courtship and dances: all your parts employ,
+And suit Night's rich expansure with your joy.
+Love paints his longings in sweet virgins' eyes:
+Rise, youths! Love's rite claims more than banquets; rise!
+Rise, virgins! let fair nuptial loves enfold
+Your fruitless breasts: the maidenheads ye hold
+Are not your own alone, but parted are;
+Part in disposing them your parents share,
+And that a third part is; so must ye save
+Your loves a third, and you your thirds must have.
+Love paints his longings in sweet virgins' eyes:
+Rise, youths! Love's rite claims more than banquets; rise!
+Herewith the amorous spirit, that was so kind
+To Teras' hair, and comb'd it down with wind,
+Still as it, comet-like, brake from her brain,
+Would needs have Teras gone, and did refrain
+To blow it down: which, staring up, dismay'd
+The timorous feast; and she no longer stay'd;
+But, bowing to the bridegroom and the bride,
+Did, like a shooting exhalation, glide
+Out of their sights: the turning of her back
+Made them all shriek, it look'd so ghastly black.
+O hapless Hero! that most hapless cloud
+Thy soon-succeeding tragedy foreshow'd.
+Thus all the nuptial crew to joys depart;
+But much-wronged Hero stood Hell's blackest dart:
+Whose wound because I grieve so to display,
+I use digressions thus t' increase the day.",hero,two even joy day amorous banquets come made lovers went beauties thus thought youths sweet yet gainst must fair athens chaste number one bride maid news rise occurrents maids confits stay mya men nymph loves night grace beauty came first sacred doth nuptials hymen love eucharis nuptial teras virgins hero,experiment_tfidf_poems/poems_3_prompt_0.jpg,experiment_tfidf_poems/poems_3_prompt_1.jpg,experiment_tfidf_poems/poems_3_prompt_2.jpg,experiment_tfidf_poems/poems_3_prompt_3.jpg,experiment_tfidf_poems/poems_3_prompt_4.jpg,experiment_tfidf_poems/poems_3_prompt_5.jpg,experiment_tfidf_poems/poems_3_prompt_6.jpg,experiment_tfidf_poems/poems_3_prompt_7.jpg,"[27.39516258239746, 22.061447814941406, 22.051044464111328]","[29.392152786254883, 24.522567596435547, 24.47582244873047]","[28.529342651367188, 23.28389041137695, 23.279584884643555]","[29.578149795532227, 23.287144927978517, 23.18730926513672]","[28.401357650756836, 22.56052746582031, 22.556941986083984]","[25.7420654296875, 21.938402038574218, 22.062910079956055]","[27.228042602539062, 21.837353103637696, 21.95595932006836]","[26.303274154663086, 23.101037246704102, 23.20562171936035]"
+"Alas! now o'er the civilised world there hangs a gloom
+For brave General Gordon, that was killed in Khartoum,
+He was a Christian hero, and a soldier of the Cross,
+And to England his death will be a very great loss.
+He was very cool in temper, generous and brave,
+The friend of the poor, the sick, and the slave;
+And many a poor boy he did educate,
+And laboured hard to do so early and late.
+He was a man that did not care for worldly gear,
+Because the living and true God he did fear;
+And the hearts of the poor he liked to cheer,
+And by his companions in arms he was loved most dear.
+He always took the Bible for his guide,
+And he liked little boys to walk by his side;
+He preferred their company more so than men,
+Because he knew there was less guile in them.
+And in his conversation he was modest and plain,
+Denouncing all pleasures he considered sinful and vain,
+And in battle he carried no weapon but a small cane,
+Whilst the bullets fell around him like a shower of rain.
+He burnt the debtors' books that were imprisoned in Khartoum,
+And freed them from a dismal prison gloom,
+Those that were imprisoned for debt they couldn't pay,
+And sent them rejoicing on their way.
+While engaged in the Russian war, in the midst of the fight,
+He stood upon a rising ground and viewed them left and right,
+But for their shot and shell he didn't care a jot,
+While the officers cried, Gordon, come down, or else you'll be shot.
+His cane was christened by the soldiers Gordon's wand of victory
+And when he waved it the soldiers' hearts were filled with glee
+While with voice and gesture he encouraged them in the strife,
+And he himself appeared to possess a charmed life.
+Once when leading a storming party the soldiers drew back,
+But he quickly observed that courage they did lack,
+Then he calmly lighted a cigar, and turned cheerfully found,
+And the soldiers rushed boldly on with a bound.
+And they carried the position without delay,
+And the Chinese rebels soon gave way,
+Because God was with him during the day,
+And with those that trust Him for ever and aye.
+He was always willing to conduct meetings for the poor,
+Also meat and clothing for them he tried to procure,
+And he always had little humorous speeches at command,
+And to hear him deliver them it must have been grand.
+In military life his equal couldn't he found,
+No! if you were to search the wide world around,
+And 'tis pitiful to think he has met with such a doom
+By a base traitor knave while in Khartoum.
+Yes, the black-hearted traitor opened the gates of Khartoum,
+And through that the Christian hero has met his doom,
+For when the gates were opened the Arabs rushed madly in,
+And foully murdered him while they laughingly did grin.
+But he defended himself nobly with axe and sword in hand,
+But, alas! he was soon overpowered by that savage band,
+And his body received a hundred spear wounds and more,
+While his murderers exultingly did loudly shriek and roar.
+But heaven's will,'tis said, must be done,
+And according to his own opinion his time was come;
+But I hope he is now in heaven reaping his reward.
+Although his fate on earth was really very hard.
+I hope the people will his memory revere,
+And take an example from him, and worship God in fear,
+And never be too fond of worldly gear,
+And walk in General Gordon's footsteps, while they are here.",hero,knave meetings officers soon educate procure encouraged revere walk hearts debtors alas reaping civilised arabs tis met always overpowered brave exultingly humorous opened hero laughingly christened gloom foully denouncing jot god storming laboured shot christian traitor gear liked carried doom poor general gordon gates imprisoned soldiers cane worldly rushed khartoum,experiment_tfidf_poems/poems_4_prompt_0.jpg,experiment_tfidf_poems/poems_4_prompt_1.jpg,experiment_tfidf_poems/poems_4_prompt_2.jpg,experiment_tfidf_poems/poems_4_prompt_3.jpg,experiment_tfidf_poems/poems_4_prompt_4.jpg,experiment_tfidf_poems/poems_4_prompt_5.jpg,experiment_tfidf_poems/poems_4_prompt_6.jpg,experiment_tfidf_poems/poems_4_prompt_7.jpg,"[25.60112762451172, 23.371483752602025, 24.133628845214844]","[26.097837448120117, 23.141942576358193, 23.281139373779297]","[28.138887405395508, 23.708275544015986, 24.003023147583008]","[27.095800399780273, 22.975006404675934, 23.04848861694336]","[28.225887298583984, 24.069935949225176, 24.09661865234375]","[27.256315231323242, 23.650109240883275, 23.4864501953125]","[25.89496421813965, 21.449311206215306, 21.75027084350586]","[23.2308292388916, 21.30172358061138, 21.2108154296875]"
 "To know the impossible to be impossible
 and yet to love the attempt;
 to demonstrate that beauty is eternal, yet
@@ -88,7 +1332,7 @@ Debussy will hear the moonlight sliding through the window
 onto the piano's keys...
 of beauty, we can say not much
 of all that may be said.
-(To Michael Gessner, who reminded me about poetry.)",music,evanescent moment yetseen notesheard underlining galette muchof mensmoke haystack peaches surelyneeds beauty monet catch heroic thinning dance resident debussy lustmight whenpast composer impossibleand apricots generalityor windowonto arm yearningfor catchthose tentative dab blurinto brownblur proust yet yetyou cafe renoir gessner maycatch betokens demonstrate andcouples accordionistwhose rememberto lanterns extinguishes andmonsieur moulin piano,experiment_tfidf_poems/2.jpg,22.563220977783203,20.114649859341707,20.39444923400879
+(To Michael Gessner, who reminded me about poetry.)",music,couples dream blindness water baked young irony photograph composer extinguishes piano arm sundown peaches accordionist surely proust lanterns heroic apricots moment moulin galette generality tentative evanescent betokens impossible demonstrate beauty yet haystack gessner blur trees dance monsieur patron resident sound renoir forever monet thinning underlining sentimental dab cafe debussy catch,experiment_tfidf_poems/poems_5_prompt_0.jpg,experiment_tfidf_poems/poems_5_prompt_1.jpg,experiment_tfidf_poems/poems_5_prompt_2.jpg,experiment_tfidf_poems/poems_5_prompt_3.jpg,experiment_tfidf_poems/poems_5_prompt_4.jpg,experiment_tfidf_poems/poems_5_prompt_5.jpg,experiment_tfidf_poems/poems_5_prompt_6.jpg,experiment_tfidf_poems/poems_5_prompt_7.jpg,"[23.18332290649414, 20.476053324612703, 20.66834259033203]","[23.081878662109375, 20.71980805830522, 20.742013931274414]","[23.409770965576172, 20.848147652365945, 21.423227310180664]","[22.229665756225586, 19.56566012989391, 19.962448120117188]","[24.947620391845703, 21.18607417019931, 21.48060417175293]","[20.522762298583984, 18.282407673922453, 17.960676193237305]","[22.933269500732422, 19.499219027432527, 19.15437889099121]","[20.870332717895508, 19.272680629383434, 19.47124671936035]"
 "My friend went to the piano; spun the stool
 A little higher; left his pipe to cool;
 Picked up a fat green volume from the chest;
@@ -115,23 +1359,7 @@ From the loose net of words to deeds again
 And to all courage! Perilous and sharp
 The last chord shook me as wind shakes a harp!
 . . . And my friend swung round on his stool, and from gods we were men,
-""How pretty!"" we said; and went on with our talk again.",music,swords attempt seal marching nerves leaping banners flashed towns brazen brute slay againand horns adventure keys spun weapon piano lightnings downs swung friend stamps hordes thunderous chord went perilous volume trampling pageant wind stool warsabove whitely resurgence helms indentureto stoola propped stormed bastions parch sharpthe rending toppling carsclanged valiance barbarian,experiment_tfidf_poems/3.jpg,25.001630783081055,21.37031135559082,20.641324996948242
-"Other loves may sink and settle, other loves may loose and slack,
-But I wander like a minstrel with a harp upon my back,
-Though the harp be on my bosom, though I finger and I fret,
-Still, my hope is all before me; for I cannot play it yet.
-In your strings is hid a music that no hand hath e'er let fall,
-In your soul is sealed a pleasure that you have not known at all;
-Pleasure subtle as your spirit, strange and slender as your frame,
-Fiercer than the pain that folds you, softer than your sorrow's name.
-Not as mine, my soul's annointed, not as mine the rude and light
-Easy mirth of many faces, swaggering pride of song and fight;
-Something stranger, something sweeter, something waiting you afar,
-Secret as your stricken senses, magic as your sorrows are.
-But on this, God's harp supernal, stretched but to be stricken once,
-Hoary time is a beginner, Life a bungler, Death a dunce.
-But I will not fear to match them - no by God, I will not fear,
-I will learn you, I will play you and the stars stand still to hear.",music,faces mirth stretched stranger finger loose frame senses wander bosom rude strings god match subtle magic hid slender sink may still afar sorrows sweeter soul softer play fret bungler swaggering sealed loves fear supernal harp settle hoary minstrel fiercer folds pleasure something slack stricken dunce beginner though annointed mine lighteasy,experiment_tfidf_poems/4.jpg,21.95573616027832,20.646006393432618,20.279150009155273
+""How pretty!"" we said; and went on with our talk again.",music,feeble flashed brazen weapon brute seal spun horns swords swung splendid leaping piano marching drums keys attempt downs harp adventure nerves towns perilous banners slay lightnings clanged wind whitely toppling valiance resurgence friend parch trampling barbarian thunderous hordes stool went chord indenture rending volume propped stormed bastions stamps helms pageant,experiment_tfidf_poems/poems_6_prompt_0.jpg,experiment_tfidf_poems/poems_6_prompt_1.jpg,experiment_tfidf_poems/poems_6_prompt_2.jpg,experiment_tfidf_poems/poems_6_prompt_3.jpg,experiment_tfidf_poems/poems_6_prompt_4.jpg,experiment_tfidf_poems/poems_6_prompt_5.jpg,experiment_tfidf_poems/poems_6_prompt_6.jpg,experiment_tfidf_poems/poems_6_prompt_7.jpg,"[27.77208137512207, 24.091072463989256, 23.596397399902344]","[25.6083927154541, 22.8121395111084, 22.24505043029785]","[25.336896896362305, 22.02986717224121, 22.006256103515625]","[25.235546112060547, 23.000225448608397, 22.48186492919922]","[23.434810638427734, 21.651745986938476, 21.685392379760742]","[26.34495735168457, 24.168426513671875, 24.948348999023438]","[25.42922592163086, 22.94264144897461, 22.176637649536133]","[23.6429386138916, 22.532012939453125, 22.024765014648438]"
 "Have you heard of Music
 That casts a spell,
 Enveloping you in its melodious folds?
@@ -191,7 +1419,7 @@ The expression of love,
 The aesthetic experience,
 The boundless bliss -
 Unity of man, music and God,
-A spiritual journey truly rewarding!",music,meetings sojourn rewarding alongthe arabian cascade manyyet kerala fewbut radha along illuminating catchthe musicsoft truly storiesof journey soulful enriching musicthat aesthetic murmurings prodding enveloping seekthe divine kathakali basil dancersportraying hurdles leavesseductive steps meditateon lovecrossing sopanamis sopanamsensitive seaamidst palmsscented krishnatheir palmsin like lyricsweaving music interludesof yearning sopänam melody rideinto spiritual notes,experiment_tfidf_poems/5.jpg,26.886993408203125,24.992349079677037,25.111242294311523
+A spiritual journey truly rewarding!",music,dancers compassionate symphony weaving casts sensitive rapt stretches soulful radha meditate arabian seductive aesthetic recesses enriching legends basil rewarding cascade krishna murmurings jasmine lyrics interludes meetings love hurdles sojourn divine portraying kerala ladder enveloping illuminating truly kathakali melody sopanam palms notes steps spiritual yearning along journey like sopänam music prodding,experiment_tfidf_poems/poems_7_prompt_0.jpg,experiment_tfidf_poems/poems_7_prompt_1.jpg,experiment_tfidf_poems/poems_7_prompt_2.jpg,experiment_tfidf_poems/poems_7_prompt_3.jpg,experiment_tfidf_poems/poems_7_prompt_4.jpg,experiment_tfidf_poems/poems_7_prompt_5.jpg,experiment_tfidf_poems/poems_7_prompt_6.jpg,experiment_tfidf_poems/poems_7_prompt_7.jpg,"[26.313892364501953, 23.848778860909597, 23.385669708251953]","[26.227136611938477, 25.145101274762833, 25.21539878845215]","[25.575223922729492, 24.86935315813337, 24.68207550048828]","[26.802305221557617, 24.025774002075195, 24.263349533081055]","[24.91779136657715, 23.766997746058873, 24.51856231689453]","[27.16792869567871, 24.834314618791854, 25.074302673339844]","[23.10268211364746, 21.095032010759628, 21.453351974487305]","[20.001859664916992, 18.339795793805802, 18.357919692993164]"
 "Once played to attentive faces
 music has broken its frame
 its bodice of always-weak laces
@@ -235,82 +1463,7 @@ the hypnotic one like weed-smoke at a party
 and the muscular one out of farty
 cars that goes Whudda Whudda
 Whudda like the compound oil heart
-of a warrior not of this planet.",music,transmits decayi shoulderslike köchel soneer shrugging zipped harpsichord aural whudda performanceof oncelike whuddawhudda moneythis apartthey miss rhumba cheshthey lifetimethe superiori bodycontinuously curefrom consumers artpours lacesthe meshsonore muzakand zac choicethe timbre verstak penicillium accountancy notesdeep nodit sporransit frameits feelersthought outranks fartycars selectionsof stilton warrensof collectables one facesmusic illy partyand throatsdispense spacesaccompanying,experiment_tfidf_poems/6.jpg,26.429149627685547,21.148221333821613,20.129002571105957
-"The house was empty and
-the people of the house
-gone many months
-Months for the weevil
-for the patient worm
-timbe r-mole softly tunnelling
-;for the parliament of rats
-Footsteps slink past
-damp walls
-down
-long
-& nbsp;     corridors
-< br>Slow feet
-warily scuff
-bare boards
-The much-bitten
-&nbs p;tapestry
-;  holds
-&nb sp;     many
-&n bsp;    moths
-In a certain curtain'd room
-the halting steps evade
-chai rs white shrouded
-To twitch the winding-sheet
-&n bsp;around a grand piano
-thin phalanx of sound
-sharp rat's teeth edge yellow
-with decay
-The much-bitten
-&nbs p;tapestry
-;holds
-man y
-moths
-On rat's teeth-edge
-;fingers preparate
-hesitate
-Then falling send
-as tenantry
-darnp-muffied chords
-rus ting strings
-a still-born song
-Their fortissimo
-The tattered
-scarce
-tapestry
-stirs
-holds
-near
-many
-cobwebs
-moths",music,much rs mole corridors halting parliament twitch phalanx ting sendas sp nbsp roomthe nb slink tunnelling evadechai ymothson monthsmonths tatteredscarcetapestrystirsholdsnearmanycobwebsmoths yellowwith holdsman preparatehesitatethen boardsthe decaythe wallsdownlong weevilfor feetwarily rat bsp muffied fortissimothe tapestry nbs pastdamp chordsrus scuffbare soundsharp edge shroudedto bitten teeth mothsin songtheir stringsa ratsfootsteps wormtimbe housegone tenantrydarnp pianothin,experiment_tfidf_poems/7.jpg,26.080957412719727,23.450315475463867,23.450315475463867
-"When through life unblest we rove,
-Losing all that made life dear,
-Should some notes we used to love,
-In days of boyhood, meet our ear,
-Oh! how welcome breathes the strain!
-Wakening thoughts that long have slept,
-Kindling former smiles again
-In faded eyes that long have wept.
-Like the gale, that sighs along
-Beds of oriental flowers,
-Is the grateful breath of song,
-That once was heard in happier hours.
-Fill'd with balm the gale sighs on,
-Though the flowers have sunk in death;
-So, when pleasure's dream is gone,
-Its memory lives in Music's breath.
-Music, oh, how faint, how weak,
-Language fades before thy spell!
-Why should Feeling ever speak,
-When thou canst breathe her soul so well?
-Friendship's balmy words may feign,
-Love's are even more false than they;
-Oh! 'tis only music's strain
-Can sweetly soothe, and not betray.",music,memory hours smiles fill life pleasure ear losing alongbeds fades breath flowers sweetly music notes againin breathe spell false feign strain oh weak unblest kindling happier language faint grateful canst wept gale faded rove balm former straincan sunk betray sighs long soothe balmy wakening oriental breathes slept boyhood friendship welcome,experiment_tfidf_poems/8.jpg,18.861461639404297,18.4572811126709,18.519929885864258
+of a warrior not of this planet.",music,attentive consumers muzak like miss mesh aural laces continuously zipped shrugging dispense reverberates one suspend instrumental sporrans penicillium chesh zac accompanying prozac outranks soneer selections verstak transmits muscular wearers whudda promiscuous illy everything collectables warrens bodice hypnotic köchel feelers stilton sonore rhumba poe timbre harpsichord compound farty music accountancy rejections,experiment_tfidf_poems/poems_8_prompt_0.jpg,experiment_tfidf_poems/poems_8_prompt_1.jpg,experiment_tfidf_poems/poems_8_prompt_2.jpg,experiment_tfidf_poems/poems_8_prompt_3.jpg,experiment_tfidf_poems/poems_8_prompt_4.jpg,experiment_tfidf_poems/poems_8_prompt_5.jpg,experiment_tfidf_poems/poems_8_prompt_6.jpg,experiment_tfidf_poems/poems_8_prompt_7.jpg,"[23.819578170776367, 22.179493586222332, 22.196699142456055]","[21.173431396484375, 19.910415331522625, 19.814668655395508]","[25.04768943786621, 24.331860542297363, 24.627690315246582]","[24.08861541748047, 22.90951919555664, 22.72671413421631]","[21.87067985534668, 20.254501342773438, 20.565664291381836]","[21.87067985534668, 20.254501342773438, 20.565664291381836]","[21.87067985534668, 20.254501342773438, 20.565664291381836]","[21.87067985534668, 20.254501342773438, 20.565664291381836]"
 "I
 PRELUDE
 Daughter of Psyche, pledge of that last night
@@ -653,7 +1806,918 @@ Until at last we find
 The life to love resigned
 In harmony of joy restored again;
 And songs that cheered our mortal days
-Break on the coast of light in endless hymns of praise.",music,bow dear note heavenly whose sleep sheaf longing notes art sweet come half wilt hunting little horn grief delight heart let rally follow rapture peace thine spirit cellos golden light long joy violins like rest tone queen yearning song tide far love every music thy tune forget thou thee away,experiment_tfidf_poems/9.jpg,26.53675079345703,19.22917401963386,18.940021514892578
+Break on the coast of light in endless hymns of praise.",music,notes half sweet across come harmony strain wilt sleep grief delight little yearning tide thine peace divine follow queen light every let rest song tone art joy rally violins golden music spirit long love thy away forget heart thee hunting cellos horn like far note rapture clear thou measure tune,experiment_tfidf_poems/poems_9_prompt_0.jpg,experiment_tfidf_poems/poems_9_prompt_1.jpg,experiment_tfidf_poems/poems_9_prompt_2.jpg,experiment_tfidf_poems/poems_9_prompt_3.jpg,experiment_tfidf_poems/poems_9_prompt_4.jpg,experiment_tfidf_poems/poems_9_prompt_5.jpg,experiment_tfidf_poems/poems_9_prompt_6.jpg,experiment_tfidf_poems/poems_9_prompt_7.jpg,"[25.337806701660156, 20.274415237316187, 20.205856323242188]","[25.5992374420166, 19.229658444722492, 18.793682098388672]","[27.78571319580078, 20.542715570201043, 19.951871871948242]","[26.58778953552246, 19.35515803185062, 18.838783264160156]","[25.731159210205078, 19.941736857096355, 19.692277908325195]","[27.821922302246094, 21.613430078478828, 21.425474166870117]","[26.359344482421875, 22.19875891312309, 22.194042205810547]","[20.376075744628906, 18.203826102657594, 18.175905227661133]"
+"I become stronger when I am in her presence
+For even she knows that she is my quintessence
+I watch her sleep trying to unveil her identity
+As those pretty coloured eyes open to greet me
+A smile forms on her beautiful face
+Unsurprisingly sleep hasn't left it's trace
+My lips met her lips to greet them to a new day
+Eyes lingering on her wrists as I pull away
+I can feel her heart beginning to race
+As I see the aching pain on her innocent face
+Fresh scars that I never knew exist
+Have taken their place on her fragile wrist
+Taking her hands in mine I kiss the scars on her wrist
+Tears rolled from her eyes the moment I had kissed
+I whisper in her ears that everything will be fine
+Whilst wishing all of her pain becomes mine
+Watching her suffer continues to tear me apart
+Will her childhood memories ever depart
+She cuts herself to ease the unbearable pain
+No matter how hard she tries it's all in vain
+My mind asks how long will this pain go on for?
+Common sense tells me I can't take no more
+Instinct reassures me that I will make it through
+After all the advice I still don’t know what to do
+I wonder when the healing process will start
+So that her past and present can drift apart
+Will pain take mercy on her innocent soul
+Or will it crush her wings causing her to fall
+I wait for her pain to be washed away by the rain
+So that she can forget her past to start all over again",childhood,kissed suffer whilst pull exist trace mercy away forms rolled lips scars process aching start depart advice greet instinct wrists identity take unsurprisingly wishing face causing fragile reassures continues healing past crush wrist lingering quintessence washed pain eyes tries cuts unbearable asks unveil mine sleep stronger innocent drift apart coloured,experiment_tfidf_poems/poems_10_prompt_0.jpg,experiment_tfidf_poems/poems_10_prompt_1.jpg,experiment_tfidf_poems/poems_10_prompt_2.jpg,experiment_tfidf_poems/poems_10_prompt_3.jpg,experiment_tfidf_poems/poems_10_prompt_4.jpg,experiment_tfidf_poems/poems_10_prompt_5.jpg,experiment_tfidf_poems/poems_10_prompt_6.jpg,experiment_tfidf_poems/poems_10_prompt_7.jpg,"[23.902833938598633, 23.14291763305664, 23.399784088134766]","[24.439529418945312, 23.596817016601562, 23.566795349121094]","[19.134130477905273, 18.54603930882045, 18.704666137695312]","[19.86382484436035, 18.856436320713588, 18.718996047973633]","[18.524669647216797, 17.65507779802595, 17.871543884277344]","[22.859771728515625, 21.854982921055385, 21.702606201171875]","[22.173547744750977, 21.424576895577566, 21.740459442138672]","[18.524669647216797, 17.65507779802595, 17.871543884277344]"
+"OH there is blessing in this gentle breeze,
+A visitant that while it fans my cheek
+Doth seem half-conscious of the joy it brings
+From the green fields, and from yon azure sky.
+Whate'er its mission, the soft breeze can come
+To none more grateful than to me; escaped
+From the vast city, where I long had pined
+A discontented sojourner: now free,
+Free as a bird to settle where I will.
+What dwelling shall receive me? in what vale
+Shall be my harbour? underneath what grove
+Shall I take up my home? and what clear stream
+Shall with its murmur lull me into rest?
+The earth is all before me. With a heart
+Joyous, nor scared at its own liberty,
+I look about; and should the chosen guide
+Be nothing better than a wandering cloud,
+I cannot miss my way. I breathe again!
+Trances of thought and mountings of the mind
+Come fast upon me: it is shaken off,
+That burthen of my own unnatural self,
+The heavy weight of many a weary day
+Not mine, and such as were not made for me.
+Long months of peace (if such bold word accord
+With any promises of human life),
+Long months of ease and undisturbed delight
+Are mine in prospect; whither shall I turn,
+By road or pathway, or through trackless field,
+Up hill or down, or shall some floating thing
+Upon the river point me out my course?
+Dear Liberty! Yet what would it avail
+But for a gift that consecrates the joy?
+For I, methought, while the sweet breath of heaven
+Was blowing on my body, felt within
+A correspondent breeze, that gently moved
+With quickening virtue, but is now become
+A tempest, a redundant energy,
+Vexing its own creation. Thanks to both,
+And their congenial powers, that, while they join
+In breaking up a long-continued frost,
+Bring with them vernal promises, the hope
+Of active days urged on by flying hours,--
+Days of sweet leisure, taxed with patient thought
+Abstruse, nor wanting punctual service high,
+Matins and vespers of harmonious verse!
+Thus far, O Friend! did I, not used to make
+A present joy the matter of a song,
+Pour forth that day my soul in measured strains
+That would not be forgotten, and are here
+Recorded: to the open fields I told
+A prophecy: poetic numbers came
+Spontaneously to clothe in priestly robe
+A renovated spirit singled out,
+Such hope was mine, for holy services.
+My own voice cheered me, and, far more, the mind's
+Internal echo of the imperfect sound;
+To both I listened, drawing from them both
+A cheerful confidence in things to come.
+Content and not unwilling now to give
+A respite to this passion, I paced on
+With brisk and eager steps; and came, at length,
+To a green shady place, where down I sate
+Beneath a tree, slackening my thoughts by choice
+And settling into gentler happiness.
+'Twas autumn, and a clear and placid day,
+With warmth, as much as needed, from a sun
+Two hours declined towards the west; a day
+With silver clouds, and sunshine on the grass,
+And in the sheltered and the sheltering grove
+A perfect stillness. Many were the thoughts
+Encouraged and dismissed, till choice was made
+Of a known Vale, whither my feet should turn,
+Nor rest till they had reached the very door
+Of the one cottage which methought I saw.
+No picture of mere memory ever looked
+So fair; and while upon the fancied scene
+I gazed with growing love, a higher power
+Than Fancy gave assurance of some work
+Of glory there forthwith to be begun,
+Perhaps too there performed. Thus long I mused,
+Nor e'er lost sight of what I mused upon,
+Save when, amid the stately grove of oaks,
+Now here, now there, an acorn, from its cup
+Dislodged, through sere leaves rustled, or at once
+To the bare earth dropped with a startling sound.
+From that soft couch I rose not, till the sun
+Had almost touched the horizon; casting then
+A backward glance upon the curling cloud
+Of city smoke, by distance ruralised;
+Keen as a Truant or a Fugitive,
+But as a Pilgrim resolute, I took,
+Even with the chance equipment of that hour,
+The road that pointed toward the chosen Vale.
+It was a splendid evening, and my soul
+Once more made trial of her strength, nor lacked
+Aeolian visitations; but the harp
+Was soon defrauded, and the banded host
+Of harmony dispersed in straggling sounds,
+And lastly utter silence! 'Be it so;
+Why think of anything but present good?'
+So, like a home-bound labourer, I pursued
+My way beneath the mellowing sun, that shed
+Mild influence; nor left in me one wish
+Again to bend the Sabbath of that time
+To a servile yoke. What need of many words?
+A pleasant loitering journey, through three days
+Continued, brought me to my hermitage.
+I spare to tell of what ensued, the life
+In common things--the endless store of things,
+Rare, or at least so seeming, every day
+Found all about me in one neighbourhood--
+The self-congratulation, and, from morn
+To night, unbroken cheerfulness serene.
+But speedily an earnest longing rose
+To brace myself to some determined aim,
+Reading or thinking; either to lay up
+New stores, or rescue from decay the old
+By timely interference: and therewith
+Came hopes still higher, that with outward life
+I might endue some airy phantasies
+That had been floating loose about for years,
+And to such beings temperately deal forth
+The many feelings that oppressed my heart.
+That hope hath been discouraged; welcome light
+Dawns from the east, but dawns to disappear
+And mock me with a sky that ripens not
+Into a steady morning: if my mind,
+Remembering the bold promise of the past,
+Would gladly grapple with some noble theme,
+Vain is her wish; where'er she turns she finds
+Impediments from day to day renewed.
+And now it would content me to yield up
+Those lofty hopes awhile, for present gifts
+Of humbler industry. But, oh, dear Friend!
+The Poet, gentle creature as he is,
+Hath, like the Lover, his unruly times;
+His fits when he is neither sick nor well,
+Though no distress be near him but his own
+Unmanageable thoughts: his mind, best pleased
+While she as duteous as the mother dove
+Sits brooding, lives not always to that end,
+But like the innocent bird, hath goadings on
+That drive her as in trouble through the groves;
+With me is now such passion, to be blamed
+No otherwise than as it lasts too long.
+When, as becomes a man who would prepare
+For such an arduous work, I through myself
+Make rigorous inquisition, the report
+Is often cheering; for I neither seem
+To lack that first great gift, the vital soul,
+Nor general Truths, which are themselves a sort
+Of Elements and Agents, Under-powers,
+Subordinate helpers of the living mind:
+Nor am I naked of external things,
+Forms, images, nor numerous other aids
+Of less regard, though won perhaps with toil
+And needful to build up a Poet's praise.
+Time, place, and manners do I seek, and these
+Are found in plenteous store, but nowhere such
+As may be singled out with steady choice;
+No little band of yet remembered names
+Whom I, in perfect confidence, might hope
+To summon back from lonesome banishment,
+And make them dwellers in the hearts of men
+Now living, or to live in future years.
+Sometimes the ambitious Power of choice, mistaking
+Proud spring-tide swellings for a regular sea,
+Will settle on some British theme, some old
+Romantic tale by Milton left unsung;
+More often turning to some gentle place
+Within the groves of Chivalry, I pipe
+To shepherd swains, or seated harp in hand,
+Amid reposing knights by a river side
+Or fountain, listen to the grave reports
+Of dire enchantments faced and overcome
+By the strong mind, and tales of warlike feats,
+Where spear encountered spear, and sword with sword
+Fought, as if conscious of the blazonry
+That the shield bore, so glorious was the strife;
+Whence inspiration for a song that winds
+Through ever-changing scenes of votive quest
+Wrongs to redress, harmonious tribute paid
+To patient courage and unblemished truth,
+To firm devotion, zeal unquenchable,
+And Christian meekness hallowing faithful loves.
+Sometimes, more sternly moved, I would relate
+How vanquished Mithridates northward passed,
+And, hidden in the cloud of years, became
+Odin, the Father of a race by whom
+Perished the Roman Empire: how the friends
+And followers of Sertorius, out of Spain
+Flying, found shelter in the Fortunate Isles,
+And left their usages, their arts and laws,
+To disappear by a slow gradual death,
+To dwindle and to perish one by one,
+Starved in those narrow bounds: but not the soul
+Of Liberty, which fifteen hundred years
+Survived, and, when the European came
+With skill and power that might not be withstood,
+Did, like a pestilence, maintain its hold
+And wasted down by glorious death that race
+Of natural heroes: or I would record
+How, in tyrannic times, some high-souled man,
+Unnamed among the chronicles of kings,
+Suffered in silence for Truth's sake: or tell,
+How that one Frenchman, through continued force
+Of meditation on the inhuman deeds
+Of those who conquered first the Indian Isles,
+Went single in his ministry across
+The Ocean; not to comfort the oppressed,
+But, like a thirsty wind, to roam about
+Withering the Oppressor: how Gustavus sought
+Help at his need in Dalecarlia's mines:
+How Wallace fought for Scotland; left the name
+Of Wallace to be found, like a wild flower,
+All over his dear Country; left the deeds
+Of Wallace, like a family of Ghosts,
+To people the steep rocks and river banks,
+Her natural sanctuaries, with a local soul
+Of independence and stern liberty.
+Sometimes it suits me better to invent
+A tale from my own heart, more near akin
+To my own passions and habitual thoughts;
+Some variegated story, in the main
+Lofty, but the unsubstantial structure melts
+Before the very sun that brightens it,
+Mist into air dissolving! Then a wish,
+My last and favourite aspiration, mounts
+With yearning toward some philosophic song
+Of Truth that cherishes our daily life;
+With meditations passionate from deep
+Recesses in man's heart, immortal verse
+Thoughtfully fitted to the Orphean lyre;
+But from this awful burthen I full soon
+Take refuge and beguile myself with trust
+That mellower years will bring a riper mind
+And clearer insight. Thus my days are past
+In contradiction; with no skill to part
+Vague longing, haply bred by want of power,
+From paramount impulse not to be withstood,
+A timorous capacity, from prudence,
+From circumspection, infinite delay.
+Humility and modest awe, themselves
+Betray me, serving often for a cloak
+To a more subtle selfishness; that now
+Locks every function up in blank reserve,
+Now dupes me, trusting to an anxious eye
+That with intrusive restlessness beats off
+Simplicity and self-presented truth.
+Ah! better far than this, to stray about
+Voluptuously through fields and rural walks,
+And ask no record of the hours, resigned
+To vacant musing, unreproved neglect
+Of all things, and deliberate holiday.
+Far better never to have heard the name
+Of zeal and just ambition, than to live
+Baffled and plagued by a mind that every hour
+Turns recreant to her task; takes heart again,
+Then feels immediately some hollow thought
+Hang like an interdict upon her hopes.
+This is my lot; for either still I find
+Some imperfection in the chosen theme,
+Or see of absolute accomplishment
+Much wanting, so much wanting, in myself,
+That I recoil and droop, and seek repose
+In listlessness from vain perplexity,
+Unprofitably travelling toward the grave,
+Like a false steward who hath much received
+And renders nothing back.
+Was it for this
+That one, the fairest of all rivers, loved
+To blend his murmurs with my nurse's song,
+And, from his alder shades and rocky falls,
+And from his fords and shallows, sent a voice
+That flowed along my dreams? For this, didst thou,
+O Derwent! winding among grassy holms
+Where I was looking on, a babe in arms,
+Make ceaseless music that composed my thoughts
+To more than infant softness, giving me
+Amid the fretful dwellings of mankind
+A foretaste, a dim earnest, of the calm
+That Nature breathes among the hills and groves.
+When he had left the mountains and received
+On his smooth breast the shadow of those towers
+That yet survive, a shattered monument
+Of feudal sway, the bright blue river passed
+Along the margin of our terrace walk;
+A tempting playmate whom we dearly loved.
+Oh, many a time have I, a five years' child,
+In a small mill-race severed from his stream,
+Made one long bathing of a summer's day;
+Basked in the sun, and plunged and basked again
+Alternate, all a summer's day, or scoured
+The sandy fields, leaping through flowery groves
+Of yellow ragwort; or, when rock and hill,
+The woods, and distant Skiddaw's lofty height,
+Were bronzed with deepest radiance, stood alone
+Beneath the sky, as if I had been born
+On Indian plains, and from my mother's hut
+Had run abroad in wantonness, to sport
+A naked savage, in the thunder shower.
+Fair seed-time had my soul, and I grew up
+Fostered alike by beauty and by fear:
+Much favoured in my birth-place, and no less
+In that beloved Vale to which erelong
+We were transplanted;--there were we let loose
+For sports of wider range. Ere I had told
+Ten birth-days, when among the mountain slopes
+Frost, and the breath of frosty wind, had snapped
+The last autumnal crocus, 'twas my joy
+With store of springes o'er my shoulder hung
+To range the open heights where woodcocks run
+Along the smooth green turf. Through half the night,
+Scudding away from snare to snare, I plied
+That anxious visitation;--moon and stars
+Were shining o'er my head. I was alone,
+And seemed to be a trouble to the peace
+That dwelt among them. Sometimes it befell
+In these night wanderings, that a strong desire
+O'erpowered my better reason, and the bird
+Which was the captive of another's toil
+Became my prey; and when the deed was done
+I heard among the solitary hills
+Low breathings coming after me, and sounds
+Of undistinguishable motion, steps
+Almost as silent as the turf they trod.
+Nor less, when spring had warmed the cultured Vale,
+Moved we as plunderers where the mother-bird
+Had in high places built her lodge; though mean
+Our object and inglorious, yet the end
+Was not ignoble. Oh! when I have hung
+Above the raven's nest, by knots of grass
+And half-inch fissures in the slippery rock
+But ill sustained, and almost (so it seemed)
+Suspended by the blast that blew amain,
+Shouldering the naked crag, oh, at that time
+While on the perilous ridge I hung alone,
+With what strange utterance did the loud dry wind
+Blow through my ear! the sky seemed not a sky
+Of earth--and with what motion moved the clouds!
+Dust as we are, the immortal spirit grows
+Like harmony in music; there is a dark
+Inscrutable workmanship that reconciles
+Discordant elements, makes them cling together
+In one society. How strange, that all
+The terrors, pains, and early miseries,
+Regrets, vexations, lassitudes interfused
+Within my mind, should e'er have borne a part,
+And that a needful part, in making up
+The calm existence that is mine when I
+Am worthy of myself! Praise to the end!
+Thanks to the means which Nature deigned to employ;
+Whether her fearless visitings, or those
+That came with soft alarm, like hurtless light
+Opening the peaceful clouds; or she would use
+Severer interventions, ministry
+More palpable, as best might suit her aim.
+One summer evening (led by her) I found
+A little boat tied to a willow tree
+Within a rocky cave, its usual home.
+Straight I unloosed her chain, and stepping in
+Pushed from the shore. It was an act of stealth
+And troubled pleasure, nor without the voice
+Of mountain-echoes did my boat move on;
+Leaving behind her still, on either side,
+Small circles glittering idly in the moon,
+Until they melted all into one track
+Of sparkling light. But now, like one who rows,
+Proud of his skill, to reach a chosen point
+With an unswerving line, I fixed my view
+Upon the summit of a craggy ridge,
+The horizon's utmost boundary; far above
+Was nothing but the stars and the grey sky.
+She was an elfin pinnace; lustily
+I dipped my oars into the silent lake,
+And, as I rose upon the stroke, my boat
+Went heaving through the water like a swan;
+When, from behind that craggy steep till then
+The horizon's bound, a huge peak, black and huge,
+As if with voluntary power instinct,
+Upreared its head. I struck and struck again,
+And growing still in stature the grim shape
+Towered up between me and the stars, and still,
+For so it seemed, with purpose of its own
+And measured motion like a living thing,
+Strode after me. With trembling oars I turned,
+And through the silent water stole my way
+Back to the covert of the willow tree;
+There in her mooring-place I left my bark,--
+And through the meadows homeward went, in grave
+And serious mood; but after I had seen
+That spectacle, for many days, my brain
+Worked with a dim and undetermined sense
+Of unknown modes of being; o'er my thoughts
+There hung a darkness, call it solitude
+Or blank desertion. No familiar shapes
+Remained, no pleasant images of trees,
+Of sea or sky, no colours of green fields;
+But huge and mighty forms, that do not live
+Like living men, moved slowly through the mind
+By day, and were a trouble to my dreams.
+Wisdom and Spirit of the universe!
+Thou Soul that art the eternity of thought
+That givest to forms and images a breath
+And everlasting motion, not in vain
+By day or star-light thus from my first dawn
+Of childhood didst thou intertwine for me
+The passions that build up our human soul;
+Not with the mean and vulgar works of man,
+But with high objects, with enduring things--
+With life and nature--purifying thus
+The elements of feeling and of thought,
+And sanctifying, by such discipline,
+Both pain and fear, until we recognise
+A grandeur in the beatings of the heart.
+Nor was this fellowship vouchsafed to me
+With stinted kindness. In November days,
+When vapours rolling down the valley made
+A lonely scene more lonesome, among woods,
+At noon and 'mid the calm of summer nights,
+When, by the margin of the trembling lake,
+Beneath the gloomy hills homeward I went
+In solitude, such intercourse was mine;
+Mine was it in the fields both day and night,
+And by the waters, all the summer long.
+And in the frosty season, when the sun
+Was set, and visible for many a mile
+The cottage windows blazed through twilight gloom,
+I heeded not their summons: happy time
+It was indeed for all of us--for me
+It was a time of rapture! Clear and loud
+The village clock tolled six,--I wheeled about,
+Proud and exulting like an untired horse
+That cares not for his home. All shod with steel,
+We hissed along the polished ice in games
+Confederate, imitative of the chase
+And woodland pleasures,--the resounding horn,
+The pack loud chiming, and the hunted hare.
+So through the darkness and the cold we flew,
+And not a voice was idle; with the din
+Smitten, the precipices rang aloud;
+The leafless trees and every icy crag
+Tinkled like iron; while far distant hills
+Into the tumult sent an alien sound
+Of melancholy not unnoticed, while the stars
+Eastward were sparkling clear, and in the west
+The orange sky of evening died away.
+Not seldom from the uproar I retired
+Into a silent bay, or sportively
+Glanced sideway, leaving the tumultuous throng,
+To cut across the reflex of a star
+That fled, and, flying still before me, gleamed
+Upon the glassy plain; and oftentimes,
+When we had given our bodies to the wind,
+And all the shadowy banks on either side
+Came sweeping through the darkness, spinning still
+The rapid line of motion, then at once
+Have I, reclining back upon my heels,
+Stopped short; yet still the solitary cliffs
+Wheeled by me--even as if the earth had rolled
+With visible motion her diurnal round!
+Behind me did they stretch in solemn train,
+Feebler and feebler, and I stood and watched
+Till all was tranquil as a dreamless sleep.
+Ye Presences of Nature in the sky
+And on the earth! Ye Visions of the hills!
+And Souls of lonely places! can I think
+A vulgar hope was yours when ye employed
+Such ministry, when ye, through many a year
+Haunting me thus among my boyish sports,
+On caves and trees, upon the woods and hills,
+Impressed, upon all forms, the characters
+Of danger or desire; and thus did make
+The surface of the universal earth,
+With triumph and delight, with hope and fear,
+Work like a sea?
+Not uselessly employed,
+Might I pursue this theme through every change
+Of exercise and play, to which the year
+Did summon us in his delightful round.
+We were a noisy crew; the sun in heaven
+Beheld not vales more beautiful than ours;
+Nor saw a band in happiness and joy
+Richer, or worthier of the ground they trod.
+I could record with no reluctant voice
+The woods of autumn, and their hazel bowers
+With milk-white clusters hung; the rod and line,
+True symbol of hope's foolishness, whose strong
+And unreproved enchantment led us on
+By rocks and pools shut out from every star,
+All the green summer, to forlorn cascades
+Among the windings hid of mountain brooks.
+--Unfading recollections! at this hour
+The heart is almost mine with which I felt,
+From some hill-top on sunny afternoons,
+The paper kite high among fleecy clouds
+Pull at her rein like an impetuous courser;
+Or, from the meadows sent on gusty days,
+Beheld her breast the wind, then suddenly
+Dashed headlong, and rejected by the storm.
+Ye lowly cottages wherein we dwelt,
+A ministration of your own was yours;
+Can I forget you, being as you were
+So beautiful among the pleasant fields
+In which ye stood? or can I here forget
+The plain and seemly countenance with which
+Ye dealt out your plain comforts? Yet had ye
+Delights and exultations of your own.
+Eager and never weary we pursued
+Our home-amusements by the warm peat-fire
+At evening, when with pencil, and smooth slate
+In square divisions parcelled out and all
+With crosses and with cyphers scribbled o'er,
+We schemed and puzzled, head opposed to head
+In strife too humble to be named in verse:
+Or round the naked table, snow-white deal,
+Cherry or maple, sate in close array,
+And to the combat, Loo or Whist, led on
+A thick-ribbed army; not, as in the world,
+Neglected and ungratefully thrown by
+Even for the very service they had wrought,
+But husbanded through many a long campaign.
+Uncouth assemblage was it, where no few
+Had changed their functions: some, plebeian cards
+Which Fate, beyond the promise of their birth,
+Had dignified, and called to represent
+The persons of departed potentates.
+Oh, with what echoes on the board they fell!
+Ironic diamonds,--clubs, hearts, diamonds, spades,
+A congregation piteously akin!
+Cheap matter offered they to boyish wit,
+Those sooty knaves, precipitated down
+With scoffs and taunts, like Vulcan out of heaven:
+The paramount ace, a moon in her eclipse,
+Queens gleaming through their splendour's last decay,
+And monarchs surly at the wrongs sustained
+By royal visages. Meanwhile abroad
+Incessant rain was falling, or the frost
+Raged bitterly, with keen and silent tooth;
+And, interrupting oft that eager game,
+From under Esthwaite's splitting fields of ice
+The pent-up air, struggling to free itself,
+Gave out to meadow grounds and hills a loud
+Protracted yelling, like the noise of wolves
+Howling in troops along the Bothnic Main.
+Nor, sedulous as I have been to trace
+How Nature by extrinsic passion first
+Peopled the mind with forms sublime or fair,
+And made me love them, may I here omit
+How other pleasures have been mine, and joys
+Of subtler origin; how I have felt,
+Not seldom even in that tempestuous time,
+Those hallowed and pure motions of the sense
+Which seem, in their simplicity, to own
+An intellectual charm; that calm delight
+Which, if I err not, surely must belong
+To those first-born affinities that fit
+Our new existence to existing things,
+And, in our dawn of being, constitute
+The bond of union between life and joy.
+Yes, I remember when the changeful earth,
+And twice five summers on my mind had stamped
+The faces of the moving year, even then
+I held unconscious intercourse with beauty
+Old as creation, drinking in a pure
+Organic pleasure from the silver wreaths
+Of curling mist, or from the level plain
+Of waters coloured by impending clouds.
+The sands of Westmoreland, the creeks and bays
+Of Cumbria's rocky limits, they can tell
+How, when the Sea threw off his evening shade,
+And to the shepherd's hut on distant hills
+Sent welcome notice of the rising moon,
+How I have stood, to fancies such as these
+A stranger, linking with the spectacle
+No conscious memory of a kindred sight,
+And bringing with me no peculiar sense
+Of quietness or peace; yet have I stood,
+Even while mine eye hath moved o'er many a league
+Of shining water, gathering as it seemed,
+Through every hair-breadth in that field of light,
+New pleasure like a bee among the flowers.
+Thus oft amid those fits of vulgar joy
+Which, through all seasons, on a child's pursuits
+Are prompt attendants, 'mid that giddy bliss
+Which, like a tempest, works along the blood
+And is forgotten; even then I felt
+Gleams like the flashing of a shield;--the earth
+And common face of Nature spake to me
+Rememberable things; sometimes, 'tis true,
+By chance collisions and quaint accidents
+(Like those ill-sorted unions, work supposed
+Of evil-minded fairies), yet not vain
+Nor profitless, if haply they impressed
+Collateral objects and appearances,
+Albeit lifeless then, and doomed to sleep
+Until maturer seasons called them forth
+To impregnate and to elevate the mind.
+--And if the vulgar joy by its own weight
+Wearied itself out of the memory,
+The scenes which were a witness of that joy
+Remained in their substantial lineaments
+Depicted on the brain, and to the eye
+Were visible, a daily sight; and thus
+By the impressive discipline of fear,
+By pleasure and repeated happiness,
+So frequently repeated, and by force
+Of obscure feelings representative
+Of things forgotten, these same scenes so bright,
+So beautiful, so majestic in themselves,
+Though yet the day was distant, did become
+Habitually dear, and all their forms
+And changeful colours by invisible links
+Were fastened to the affections.
+I began
+My story early--not misled, I trust,
+By an infirmity of love for days
+Disowned by memory--ere the breath of spring
+Planting my snowdrops among winter snows:
+Nor will it seem to thee, O Friend! so prompt
+In sympathy, that I have lengthened out
+With fond and feeble tongue a tedious tale.
+Meanwhile, my hope has been, that I might fetch
+Invigorating thoughts from former years;
+Might fix the wavering balance of my mind,
+And haply meet reproaches too, whose power
+May spur me on, in manhood now mature
+To honourable toil. Yet should these hopes
+Prove vain, and thus should neither I be taught
+To understand myself, nor thou to know
+With better knowledge how the heart was framed
+Of him thou lovest; need I dread from thee
+Harsh judgments, if the song be loth to quit
+Those recollected hours that have the charm
+Of visionary things, those lovely forms
+And sweet sensations that throw back our life,
+And almost make remotest infancy
+A visible scene, on which the sun is shining?
+One end at least hath been attained; my mind
+Hath been revived, and if this genial mood
+Desert me not, forthwith shall be brought down
+Through later years the story of my life.
+The road lies plain before me;--'tis a theme
+Single and of determined bounds; and hence
+I choose it rather at this time, than work
+Of ampler or more varied argument,
+Where I might be discomfited and lost:
+And certain hopes are with me, that to thee
+This labour will be welcome, honoured Friend!",childhood,chosen almost time liberty better shall along nature power earth many plain days hopes hung soul summer hath sky moved one visible long groves years things sun left joy vulgar might thoughts yet vale wallace hope theme day motion among like mine thus forms er hills fields upon ye mind,experiment_tfidf_poems/poems_11_prompt_0.jpg,experiment_tfidf_poems/poems_11_prompt_1.jpg,experiment_tfidf_poems/poems_11_prompt_2.jpg,experiment_tfidf_poems/poems_11_prompt_3.jpg,experiment_tfidf_poems/poems_11_prompt_4.jpg,experiment_tfidf_poems/poems_11_prompt_5.jpg,experiment_tfidf_poems/poems_11_prompt_6.jpg,experiment_tfidf_poems/poems_11_prompt_7.jpg,"[24.166601181030273, 19.49846685616074, 19.3763427734375]","[24.574207305908203, 20.30983061091915, 20.187604904174805]","[25.00176429748535, 20.748933275793767, 20.61412239074707]","[26.71405601501465, 23.11417269858585, 23.13466453552246]","[23.883190155029297, 19.15718628342744, 19.148799896240234]","[24.98324203491211, 22.357017164777037, 22.53421974182129]","[23.09454917907715, 18.820533904300373, 18.963565826416016]","[24.169401168823242, 20.326929001291845, 20.42604637145996]"
+"I
+The bitterness. the misery, the wretchedness of childhood
+Put me out of love with God.
+I can't believe in God's goodness;
+I can believe
+In many avenging gods.
+Most of all I believe
+In gods of bitter dullness,
+Cruel local gods
+Who scared my childhood.
+II
+I've seen people put
+A chrysalis in a match-box,
+""To see,"" they told me, ""what sort of moth would come.""
+But when it broke its shell
+It slipped and stumbled and fell about its prison
+And tried to climb to the light
+For space to dry its wings.
+That's how I was.
+Somebody found my chrysalis
+And shut it in a match-box.
+My shrivelled wings were beaten,
+Shed their colours in dusty scales
+Before the box was opened
+For the moth to fly.
+III
+I hate that town;
+I hate the town I lived in when I was little;
+I hate to think of it.
+There wre always clouds, smoke, rain
+In that dingly little valley.
+It rained; it always rained.
+I think I never saw the sun until I was nine --
+And then it was too late;
+Everything's too late after the first seven years.
+The long street we lived in
+Was duller than a drain
+And nearly as dingy.
+There were the big College
+And the pseudo-Gothic town-hall.
+There were the sordid provincial shops --
+The grocer's, and the shops for women,
+The shop where I bought transfers,
+And the piano and gramaphone shop
+Where I used to stand
+Staring at the huge shiny pianos and at the pictures
+Of a white dog looking into a gramaphone.
+How dull and greasy and grey and sordid it was!
+On wet days -- it was always wet --
+I used to kneel on a chair
+And look at it from the window.
+The dirty yellow trams
+Dragged noisily along
+With a clatter of wheels and bells
+And a humming of wires overhead.
+They threw up the filthy rain-water from the hollow lines
+And then the water ran back
+Full of brownish foam bubbles.
+There was nothing else to see --
+It was all so dull --
+Except a few grey legs under shiny black umbrellas
+Running along the grey shiny pavements;
+Sometimes there was a waggon
+Whose horses made a strange loud hollow sound
+With their hoofs
+Through the silent rain.
+And there was a grey museum
+Full of dead birds and dead insects and dead animals
+And a few relics of the Romans -- dead also.
+There was a sea-front,
+A long asphalt walk with a bleak road beside it,
+Three piers, a row of houses,
+And a salt dirty smell from the little harbour.
+I was like a moth --
+Like one of those grey Emperor moths
+Which flutter through the vines at Capri.
+And that damned little town was my match-box,
+Against whose sides I beat and beat
+Until my wings were torn and faded, and dingy
+As that damned little town.
+IV
+At school it was just as dull as that dull High Street.
+The front was dull;
+The High Street and the other street were dull --
+And there was a public park, I remember,
+And that was damned dull, too,
+With its beds of geraniums no one was allowed to pick,
+And its clipped lawns you weren't allowed to walk on,
+And the gold-fish pond you mustn't paddle in,
+And the gate made out of a whale's jaw-bones,
+And the swings, which were for ""Board-School children,""
+And its gravel paths.
+And on Sundays they rang the bells,
+From Baptist and Evangelical and Catholic churches.
+They had a Salvation Army.
+I was taken to a High Church;
+The parson's name was Mowbray,
+""Which is a good name but he thinks too much of it --""
+That's what I heard people say.
+I took a little black book
+To that cold, grey, damp, smelling church,
+And I had to sit on a hard bench,
+Wriggle off it to kneel down when they sang psalms
+And wriggle off it to kneel down when they prayed,
+And then there was nothing to do
+Except to play trains with the hymn-books.
+There was nothing to see,
+Nothing to do,
+Nothing to play with,
+Except that in an empty room upstairs
+There was a large tin box
+Containing reproductions of the Magna Charta,
+Of the Declaration of Independence
+And of a letter from Raleigh after the Armada.
+There were also several packets of stamps,
+Yellow and blue Guatemala parrots,
+Blue stags and red baboons and birds from Sarawak,
+Indians and Men-of-war
+From the United States,
+And the green and red portraits
+Of King Francobello
+Of Italy.
+V
+I don't believe in God.
+I do believe in avenging gods
+Who plague us for sins we never sinned
+But who avenge us.
+That's why I'll never have a child,
+Never shut up a chrysalis in a match-box
+For the moth to spoil and crush its brght colours,
+Beating its wings against the dingy prison-wall.",childhood,pseudo wet front childhood never little colours dirty brght reproductions armada allowed believe bells street shut avenging prison damned rain dingy rained dingly dull moth kneel shops shop wre match mowbray gods wriggle shiny town grey dead chrysalis sordid church box except transfers wings hate high francobello gramaphone nothing hollow,experiment_tfidf_poems/poems_12_prompt_0.jpg,experiment_tfidf_poems/poems_12_prompt_1.jpg,experiment_tfidf_poems/poems_12_prompt_2.jpg,experiment_tfidf_poems/poems_12_prompt_3.jpg,experiment_tfidf_poems/poems_12_prompt_4.jpg,experiment_tfidf_poems/poems_12_prompt_5.jpg,experiment_tfidf_poems/poems_12_prompt_6.jpg,experiment_tfidf_poems/poems_12_prompt_7.jpg,"[28.079593658447266, 22.72067916870117, 22.252151489257812]","[24.81707000732422, 20.352909278869628, 20.847017288208008]","[24.82120704650879, 19.545475311279297, 19.63086700439453]","[25.77783203125, 21.369511795043945, 21.51423454284668]","[24.71015739440918, 22.1694694519043, 22.083038330078125]","[25.787166595458984, 21.74835968017578, 21.68954849243164]","[22.27068328857422, 19.59422016143799, 19.871368408203125]","[23.3001708984375, 21.226347427368164, 21.30402946472168]"
+"I lay my head sideways on the desk,
+My fingers interlocked under my cheekbones,
+My eyes closed. It was a three-room schoolhouse,
+White, with a small bell tower, an oak tree.
+From where I sat, on still days, I'd watch
+The oak, the prisoner of that sky, or read
+The desk carved with adults' names: Marietta
+Martin, Truman Finnell, Marjorie Elm;
+The wood hacked or lovingly hollowed, the flies
+Settling on the obsolete & built-in inkwells.
+I remember, tonight, only details, how
+Mrs. Avery, now gone, was standing then
+In her beige dress, its quiet, gazelle print
+Still dark with lines of perspiration from
+The day before; how Gracie Chin had just
+Shown me how to draw, with chalk, a Chinese
+Ideogram. Where did she go, white thigh
+With one still freckle, lost in silk?
+No one would say for sure, so that I'd know,
+So that all shapes, for days after, seemed
+Brushstrokes in Chinese: countries on maps
+That shifted, changed colors, or disappeared:
+Lithuania, Prussia, Bessarabia;
+The numbers four & seven; the question mark.
+That year, I ate almost nothing.
+I thought my parents weren't my real parents,
+I thought there'd been some terrible mistake.
+At recess I would sit alone, seeing
+In the print of each leaf shadow, an ideogram—
+Still, indecipherable, beneath the green sound
+The bell still made, even after it had faded,
+When the dust-covered leaves of the oak tree
+Quivered, slightly, if I looked up in time.
+And my father, so distant in those days,
+Where did he go, that autumn, when he chose
+The chaste, faint ideogram of ash, & I had
+To leave him there, white bones in a puzzle
+By a plum tree, the sun rising over
+The Sierras? It is not Chinese, but English—
+When the past tense, when you first learn to use it
+As a child, throws all the verbs in the language
+Into the long, flat shade of houses you
+Ride past, & into town. Your father's driving.
+On winter evenings, the lights would come on earlier.
+People would be shopping for Christmas. Each hand,
+With the one whorl of its fingerprints, with twenty
+Delicate bones inside it, reaching up
+To touch some bolt of cloth, or choose a gift,
+A little different from any other hand.
+You know how the past tense turns a sentence dark,
+But leaves names, lovers, places showing through:
+Gracie Chin, my father, Lithuania;
+A beige dress where dark gazelles hold still?
+Outside, it's snowing, cold, & a New Year.
+The trees & streets are turning white.
+I always thought he would come back like this.
+I always thought he wouldn't dare be seen.",childhood,year obsolete hollowed fingerprints hacked verbs gazelle cheekbones prussia truman whorl perspiration freckle sierras brushstrokes interlocked schoolhouse gazelles parents names finnell bell days bones inkwells english— marietta ideogram— dark marjorie bessarabia indecipherable tree dress avery father past chin gracie oak tense desk ideogram still thought white chinese print lithuania beige,experiment_tfidf_poems/poems_13_prompt_0.jpg,experiment_tfidf_poems/poems_13_prompt_1.jpg,experiment_tfidf_poems/poems_13_prompt_2.jpg,experiment_tfidf_poems/poems_13_prompt_3.jpg,experiment_tfidf_poems/poems_13_prompt_4.jpg,experiment_tfidf_poems/poems_13_prompt_5.jpg,experiment_tfidf_poems/poems_13_prompt_6.jpg,experiment_tfidf_poems/poems_13_prompt_7.jpg,"[25.234777450561523, 21.780189367441032, 21.728498458862305]","[24.15590476989746, 22.258694281944862, 22.328357696533203]","[25.13069725036621, 23.322109662569485, 23.274131774902344]","[24.252275466918945, 21.971128317025993, 21.57060432434082]","[23.96937370300293, 21.61975464454064, 21.775014877319336]","[26.082229614257812, 23.966389142549954, 23.939943313598633]","[24.892724990844727, 22.807350452129658, 23.103544235229492]","[23.164295196533203, 21.46686686002291, 21.039539337158203]"
+"I cannot reach it; and my striving eye
+Dazzles at it, as at eternity.
+Were now that chronicle alive,
+Those white designs which children drive,
+And the thoughts of each harmless hour,
+With their content, too, in my power,
+Quickly would I make my path even,
+And by mere playing go to heaven.
+Why should men love
+A wolf more than a lamb or dove?
+Or choose hell-fire and brimstone streams
+Before bright stars and God's own beams?
+Who kisseth thorns will hurt his face,
+But flowers do both refresh and grace,
+And sweetly living - fie on men! -
+Are, when dead, medicinal then;
+If seeing much should make staid eyes,
+And long experience should make wise,
+Since all that age doth teach is ill,
+Why should I not love childhood still?
+Why, if I see a rock or shelf,
+Shall I from thence cast down myself?
+Or by complying with the world,
+From the same precipice be hurled?
+Those observations are but foul
+Which make me wise to lose my soul.
+And yet the practice worldlings call
+Business, and weighty action all,
+Checking the poor child for his play,
+But gravely cast themselves away.
+Dear, harmless age! the short, swift span
+Where weeping Virtue parts with man;
+Where love without lust dwells, and bends
+What way we please without self-ends.
+An age of mysteries! which he
+Must live twice that would God's face see;
+Which angels guard, and with it play,
+Angels! which foul men drive away.
+How do I study now, and scan
+Thee more than e'er I studied man,
+And only see through a long night
+Thy edges and thy bordering light!
+Oh for thy center and midday!
+For sure that is the narrow way!",childhood,study thence dwells center thorns wolf face lamb bends fie striving edges make weighty studied dazzles designs chronicle foul without kisseth medicinal see precipice brimstone span hurled drive love age checking gravely complying midday cast mysteries angels harmless bordering thy practice play wise shelf worldlings observations men refresh staid scan,experiment_tfidf_poems/poems_14_prompt_0.jpg,experiment_tfidf_poems/poems_14_prompt_1.jpg,experiment_tfidf_poems/poems_14_prompt_2.jpg,experiment_tfidf_poems/poems_14_prompt_3.jpg,experiment_tfidf_poems/poems_14_prompt_4.jpg,experiment_tfidf_poems/poems_14_prompt_5.jpg,experiment_tfidf_poems/poems_14_prompt_6.jpg,experiment_tfidf_poems/poems_14_prompt_7.jpg,"[25.5853271484375, 23.138444185256958, 22.426339149475098]","[24.998197555541992, 21.863889932632446, 21.338923454284668]","[23.591421127319336, 21.183286666870117, 20.761423110961914]","[22.340723037719727, 20.144779205322266, 19.89010715484619]","[21.572702407836914, 19.92501139640808, 20.187463760375977]","[22.040569305419922, 20.22161030769348, 20.280475616455078]","[24.962574005126953, 21.955874919891357, 21.772038459777832]","[24.221269607543945, 22.1350576877594, 22.097383499145508]"
 "Footsteps in the dark marching on the hearts
 Of the stark winter terrain that was the family’s farm
 Food shortage in the barn malnutrition starts to harm
@@ -678,7 +2742,7 @@ Any luscious dinners with their cries of injustice
 Crush peaceful marchers with tanks and sniper archers
 Shoot into the crowd at anything moving around
 In books and newspapers they write a different caption
-Business as usual like the whole thing never happened",animal,barn status lavish relatives eclipse tolerance basis arguments aroundin luscious dinners shortage newspapers legends tanks diplomatic malnutrition sniper climbers deemeditself proteins heartsof injusticecrush regime lipsrags heroeszero misfitsbecause terrain teamas cliffsbrain disruptedany lifestyles opposedto harmno marchers archersshoot lethalpredicated stabilize rooting policybroken publicincluding dehydration foesand peopleattained shiftsthe cellsstomachs tellfrozen politysloppily captionbusiness farmfood,experiment_tfidf_poems/10.jpg,19.905868530273438,18.76472625732422,18.735132217407227
+Business as usual like the whole thing never happened",animal,injustice focus people hips deemed lavish barn rags including eclipse hits damage cells status relatives zero tolerance opposed basis shifts policy attained diplomatic marchers dinners arguments regime stabilize malnutrition newspapers dehydration disrupted legends lifestyles sniper rooting lethal climbers shortage luscious tanks sloppily terrain caption polity misfits predicated proteins stomachs archers,experiment_tfidf_poems/poems_15_prompt_0.jpg,experiment_tfidf_poems/poems_15_prompt_1.jpg,experiment_tfidf_poems/poems_15_prompt_2.jpg,experiment_tfidf_poems/poems_15_prompt_3.jpg,experiment_tfidf_poems/poems_15_prompt_4.jpg,experiment_tfidf_poems/poems_15_prompt_5.jpg,experiment_tfidf_poems/poems_15_prompt_6.jpg,experiment_tfidf_poems/poems_15_prompt_7.jpg,"[25.588247299194336, 20.542603302001954, 19.8613338470459]","[23.68950843811035, 20.63701972961426, 20.811569213867188]","[22.086463928222656, 18.438938331604003, 17.34766960144043]","[19.817459106445312, 17.527911567687987, 17.221303939819336]","[23.450183868408203, 20.02552719116211, 19.899770736694336]","[23.034997940063477, 21.73798484802246, 21.59469223022461]","[22.703842163085938, 19.036888122558594, 17.742692947387695]","[23.102928161621094, 22.257993698120117, 22.35917091369629]"
 "Like the easily startled deer,
 A horse is prone to fear.
 Millennia of being prey,
@@ -722,92 +2786,7 @@ Called Tonk of course!
 David Letterman let the world know,
 When our heroes appeared on his show.
 This gentle giant made so many smile,
-And forget their worries for quite a while.",animal,worries startled david made jaws drenched tonk headlong prone weapon boy fear millennia scary horse ignored nervous percheron chose erin draft stay pound holster claws last fight stallion bravest charged valiant afterwards 2011 fearsome medallion flight instinct rider hand doe similar grizzly letterman 700 bear chased bolster white appeared upset,experiment_tfidf_poems/11.jpg,29.227781295776367,24.276155744280135,23.75508689880371
-"Man, and animal
-Confused, can't take a side
--like forward in football
--who shoots but is offside.
-I have lived a long life
--have had, seen animals
--hugged, fed them as my dolls
--and for them have cried…
-But also ate the meat
--of chicken, lambs, llamas
--as well as fish and cows.
-My clothes from wool
--of skin have worn shoes.
-How can I ever judge?
-How can I be the right?
-But questions I can have:
-- ""What should be relations
--with them as one and all? ""
-The Natives caught one and
--shared it; were satisfied.
-Came Europe with the gun
--destroyed the wildlife
--said: ""We are civilized! ""
-Others were savages! ! !
-Now butchers, restaurants
--kill in mass, make kebab
--from pig, lamb, and cows
--but praise the pet dogs
--as was once, horse to ride.
-Don't trust the mankind
--mostly if civilized…
-- ""He is most brutal! """,animal,caught skin kill worn clothes ride fish horse forward fed mankind shared judge dogs gun football questions meat animals destroyed shoes mass lamb ate mostly satisfied europe chicken lambs brutal wool pet llamas shoots butchers hugged savages pig natives restaurants civilized dolls civilized… relations animalconfused cows offside kebab cried…but wildlife,experiment_tfidf_poems/12.jpg,21.99535369873047,20.736732482910156,21.438901901245117
-"There lived a girl called Lovina,
-Whose animal-love was great;
-Tall, she was and so much lean, ah!
-She sang songs for a treat.
-She had a sister, with whom she fought,
-Right from her child-hood days!
-Both were aged, a year’s diff’rence;
-And so they fight-her mother says.
-She did her home-work, in a short time,
-Dreamt while her mother cooks!
-In argument, she was so good,
-And loved to read animal-books.
-Once there fell down, a small Squirrel,
-As she stood ‘neath a Mango-tree;
-She laid it gently in a box,
-The Squirrel-babe was no more free!
-She fed the Squirrel, fruit and nut,
-And lullabied it to a sleep;
-The baby Squirrel loved her much,
-Their friendship grew so deep.
-She sang to it and fondled it,
-And talked to it whenever free;
-She kept it cosy, neat and clean;
-Her holidays, went off in glee!
-One day, the Squirrel fell so ill;
-Perhaps, it thought of its mother!
-So, you must set the Squirrel free;
-Her doctor-uncle advised her.
-With Squirrel ill, her heart  turned sad,
-Poor Lovina, could not sleep well;
-For long, she kept awake and cried;
-Was the Squirrel ill ‘cause it fell?
-The poor girl prayed, all night and day;
-She prayed to God to make it well;
-And wished, she could become a fay!
-Her life now seemed to look like hell!
-She kissed her Squirrel, one more time;
-Her Uncle let it up a tree;
-The Squirrel squeaked and wagged its tail;
-And jumped with joy, away, afree!
-Lovina too now wept with joy;
-Her pet-Squirrel seemed quite alright!
-Her heart leapt like the Squirrel, Boy!
-Her Uncle’s words were quite correct.
-But Lovina missed her Squirrel;
-She visited the Mango-tree;
-She hopes to meet her pet some day,
-Her friend, never turned up to see!
-Ye love your God through animals!
-Ye love thy sister first, then else;
-Man hath a soul, animals don’t,
-“Love thy neighbour, ”the Poet tells!
-specially dedicated to my neice Rubina, an animal-lover herself, a true incident in her life!",animal,correct argument neighbour leapt joy fell sister sang loved wagged pet thy day animal quite uncle sleep holidays seemed animals cosy fondled nut rubina squirrel ye girl specially diff ill advised incident afree poor tree rence fay turned lullabied ‘ kept squeaked mother free lovina cooks neice prayed mango love,experiment_tfidf_poems/13.jpg,26.318132400512695,23.363248825073242,24.01359462738037
+And forget their worries for quite a while.",animal,worries made startled 700 millennia chased 2011 erin chose charged nervous appeared prone bear instinct percheron stallion boy pound letterman bravest holster drenched draft white hand upset afterwards tonk medallion bolster stay jaws flight weapon similar scary last headlong fearsome ignored grizzly doe david fear rider valiant horse fight claws,experiment_tfidf_poems/poems_16_prompt_0.jpg,experiment_tfidf_poems/poems_16_prompt_1.jpg,experiment_tfidf_poems/poems_16_prompt_2.jpg,experiment_tfidf_poems/poems_16_prompt_3.jpg,experiment_tfidf_poems/poems_16_prompt_4.jpg,experiment_tfidf_poems/poems_16_prompt_5.jpg,experiment_tfidf_poems/poems_16_prompt_6.jpg,experiment_tfidf_poems/poems_16_prompt_7.jpg,"[29.262432098388672, 23.54802703857422, 22.8675479888916]","[28.928089141845703, 23.850714547293528, 23.420148849487305]","[28.50705337524414, 23.026750837053573, 22.173782348632812]","[26.687469482421875, 21.91556521824428, 21.70619010925293]","[23.703617095947266, 20.723038264683314, 20.676958084106445]","[23.64940071105957, 21.752197265625, 21.76449966430664]","[25.712636947631836, 22.929861886160715, 22.845129013061523]","[25.902124404907227, 24.839405877249582, 25.018701553344727]"
 "And now to what remains!- Since I've resolved
 By what arrangements all things come to pass
 Through the blue regions of the mighty world,-
@@ -1024,39 +3003,7 @@ Can still ne'er be begotten with their stems
 Begrafted into one; but each sole thing
 Proceeds according to its proper wont
 And all conserve their own distinctions based
-In Nature's fixed decree.",animal,fore earliest valour mighty adopted innumerable status race betwixt vigour begotten aeons limbs monsters thenwould many centaurs members young first earth stock wherefore creatures ne eld lo lapsing nature gruesome begetting aft things man foods forge wont unto guardianship since generations never telluric delightsome one abounding draft beasts breedsand divers,experiment_tfidf_poems/14.jpg,28.678640365600586,22.50124100019347,22.090967178344727
-"We’re marching for animal rights.
-We have the right to fight.
-Remember to hold you banners  high
-As if they were going to touch the sky.
-Walk with the turtles, especially old Myrtle.
-She’s crawling slowly at the back.
-Take Douglass the duck and Winslow the cat.
-and push old Myrtle up the line,
-She’s 102 ya know and still looking fine.
-Today we march for all to see.
-Come join with us, give us company.
-We want to live and blend with you,
-be your faithful companions too.
-We live in a country of prosperity,
-yet their are those  who treat us like dirt you see.
-Give us what we deserve, we’ve paid our dues,
-or we may take charge and turn on you.
-We are your pets, should be your pride and joy.
-Yet you treat us sometimes as if we were  toys.
-We want our coats brushed, our wings fluffed
-our backs shined, not all but most of the time.
-Look those two old hens look like pretty good friends.
-the dogs and cats are side by side,
-three little mice are trying to hide.
-The ducks and geese are walking proud,
-and the monkeys are screeching out loud.
-Pay attention to our demands,
-We want love and gentle patting hands.
-We want to be fed on time each day
-and given attention while we play.
-We want you to protect our right to live.
-In turn we have much love to give.",animal,company charge deserve dayand dirt especially yet banners ya duck crawling coats prosperity geese demands blend look toys companions marching cats backs take right shined brushed turn ducks mice pets hens monkeys dues side turtles screeching winslow treat douglass old myrtle patting attention highas us live fluffedour 102 want give,experiment_tfidf_poems/15.jpg,22.208223342895508,19.205766359965008,18.7917423248291
+In Nature's fixed decree.",animal,er divers ne gruesome frame eld merited draft world aft young upsprung centaurs kinds begetting delightsome aliment race begat never grasses bulks wherefore members wont breeds guardianship monsters creatures generations stock nature things first age beasts aeons many begot lo man since foods lapsing unto earth limbs abounding one telluric,experiment_tfidf_poems/poems_17_prompt_0.jpg,experiment_tfidf_poems/poems_17_prompt_1.jpg,experiment_tfidf_poems/poems_17_prompt_2.jpg,experiment_tfidf_poems/poems_17_prompt_3.jpg,experiment_tfidf_poems/poems_17_prompt_4.jpg,experiment_tfidf_poems/poems_17_prompt_5.jpg,experiment_tfidf_poems/poems_17_prompt_6.jpg,experiment_tfidf_poems/poems_17_prompt_7.jpg,"[26.290145874023438, 21.14972897295682, 21.39828872680664]","[27.909639358520508, 22.44740144261774, 22.356542587280273]","[29.341217041015625, 22.561039510762917, 22.40349578857422]","[25.43622589111328, 22.04231690460781, 21.823699951171875]","[25.257766723632812, 20.73164918287745, 20.309377670288086]","[21.723276138305664, 19.21846447350844, 19.381319046020508]","[26.83103370666504, 21.228255901696546, 21.22364616394043]","[21.723276138305664, 19.21846447350844, 19.381319046020508]"
 "To sum up all, I'm old -- and that's
 A fact the years decide;
 It is a common thing with cats
@@ -1088,72 +3035,7 @@ A miracle of joy.
 But my look out to occupy
 And make the most of that.
 You must be quite as old as I,
-If not yourself a Cat!",animal,common bless miracle cat make destroy lap come prey avoid decide alike gently fact blessing lays comfort old resignedand dainty progress occupyand goodfor scrap catsand failing cats caters secluded true strengthin paw lengthin shrinking freefrom youwhat footstep lackand thing spoils kindhow knowby must mea reckless lawfor sa foea quite sum,experiment_tfidf_poems/16.jpg,22.69503402709961,20.9222053527832,20.497018814086914
-"Walking 'round my yard, I just wanted to see, if any
-little friends wanted company..
-I saw Mrs. Robin sitting in a tree, guarding her nest,
-and her children three..
-She was busy at the moment, and said, ' go visit Mr. Squirrel..
-He just broke up with his cute little girl..'
-I said, ' how do you do, Mr. Squirrel so blue, I
-have some nuts, I'd like to share with you..'
-He replied, 'keep the nuts, I don't want to be fed,
-I'm feeling so sad, I'm going back to bed..
-I left in a hurry to catch Mr. Rabbit, he was hopping along,
-in his usual habit..  I said, 'hi Mr. Rabbit good to see you,
-He replied, good to see you too but I got a lot of work to do..
-As I strolled around the house, I saw the Groundhog,
-and the Grouse..  The were both very busy, so I went
-to see Mrs. Mouse..  Mrs. Mouse is usually home, 'cause
-she rarely leaves the house..  She put a sign on the wall,
-that was flapping in the breeze..  It read, ' Open House Today,
-please bring your own cheese..' No one today wants to
-talk or play.. I guess I'll read a book.. But first let me see,
-if the Animals are all safe.. It's worth a second look..",animal,catch book sitting wants safe robin hurry sign company usual hi cheese yard visit fed nest good saw animals guess rarely flapping cute broke usually habit hopping strolled grouse read busy wentto mouse totalk causeshe guarding nuts replied anylittle groundhog today mrs ihave mr house see squirrel wanted said rabbit,experiment_tfidf_poems/17.jpg,25.33251953125,22.77772445678711,23.302019119262695
-"Blizzards, wildfires, Tsunamis and hurricanes caused no trauma
-Nor earthquakes & erupted volcanoes did any catostopic drama
-Bam, boom, bang, humanbomb blasted in a jungle causing death
-With shuddering, trembling & tearing as a misery struck
-Horrible horror, terrible terror, mass violence spread, yuck!
-Unleashing death, havoc, riots, & unrest in the absolute mayhem
-Amphigory, focus-refocus-defocus on the animal farm: an allegory!
-Mountains of debris, seas of smoke, dust & rust burst over them
-The harmless animals - ducks, chicks, goats're perplexed, o man!
-Running, rushing, shouting, yelling, and fainting, they began
-Watching at the heap of torn bodies, they forgot to take breath
-Wars, massacres, and all forms of evil activities took place
-Bullies, rowdies, ruffians, and hooligans ruled without grace
-Amphigory, focus-refocus-defocus on the animal farm: an allegory!
-Committed crimes, passed the buck on others with an attack
-Mistreating, abusing, plotting made them hard nuts to crack
-Conflicts on complex matters divided animals into entangled boughs
-Corruption, injustice, rottenness and bloodshed are common shows
-Virtues buried down in the sea and vices rose up to the sky
-Barbarism and terrorism inflicted on them, oh it's not a lie
-The poor animals lost peace & morals that ruled for centuries
-All are caught in chains of iron rules enforced by all countries.
-Amphigory, focus-refocus-defocus on the animal farm; an allegory!
-Ferocious animals ran roughshod with bioweapons in Dragon-woods
-Chancing to pounce on the lesser animals of neighboring woods
-With veto power: Animalia, pigs violated rules in the pigtatorship
-nursing venom in their bosom, commited monstrous harms with a whip
-They know how to cook goose, take booze, kick those everywhere
-And when and how to cast invisible nets to catch fish with a snare.
-Amphigory, focus-refocus-defocus on the animal farm: an allegory!
-Two small goats were quarreling in another animal farm for toys
-Some hyenas of powerful forest rushed to spot rising noise
-For their howling at high pitch, bleating became unheard song mime
-Bovines, bisons, hippos & rhinos joined the feast with a cruel rhyme
-Sheep, cattle, cat, deer & hare with tears ran out of the farm
-Mass struggles, class clashes, dreadful ruckus ruled in the same farm
-Amphigory, focus-refocus-defocus on the animal farm: an allegory!
-With the sudden demise of Napoleon: the pigtator, beasts cheered
-Camels, zebras, dogs, monkeys, donkeys & ordinary ones reappeared
-In ensuing battle for power, brutal lions emerged victorious
-Shared power with wild boars, bears, chetahs & foxes atrocious
-By defeating all farms, the bestial rules: animalia, are imposed
-Ration's cut, spirit is crushed and to danger, beasts are exposed.
-Amphigory, focus-refocus-defocus on the animal farm: an allegory!",animal,farmmass veto bisons clashes skybarbarism woodschancing rottenness mimebovines refocus farmamphigory reappearedin farm animals power rhymesheep focus rowdies attackmistreating crackconflicts showsvirtues bioweapons breathwars rhinos boughscorruption dramabam mayhemamphigory struckhorrible allegory humanbomb amphigory roughshod rules centuriesall traumanor toyssome catostopic zebras ruled defocus pigtator imposedration pigtatorshipnursing animal placebullies beganwatching beasts noisefor cheeredcamels goats animalia,experiment_tfidf_poems/18.jpg,26.524690628051758,22.569364070892334,22.24973487854004
+If not yourself a Cat!",animal,soft beyond law length comfort gently reckless prey destroy progress true lays fact avoid strength come quite foe perhaps takes lap spoils miracle lack common alike dainty decide make old occupy talk resigned scrap failing cat bless paw learn footstep sum blessing thing shrinking secluded hide wake must cats caters,experiment_tfidf_poems/poems_18_prompt_0.jpg,experiment_tfidf_poems/poems_18_prompt_1.jpg,experiment_tfidf_poems/poems_18_prompt_2.jpg,experiment_tfidf_poems/poems_18_prompt_3.jpg,experiment_tfidf_poems/poems_18_prompt_4.jpg,experiment_tfidf_poems/poems_18_prompt_5.jpg,experiment_tfidf_poems/poems_18_prompt_6.jpg,experiment_tfidf_poems/poems_18_prompt_7.jpg,"[23.20063018798828, 20.943081665039063, 20.689058303833008]","[22.558866500854492, 20.408642196655272, 20.06343650817871]","[27.44672966003418, 25.27514228820801, 24.51022720336914]","[25.87582778930664, 25.18955879211426, 25.79821014404297]","[21.98243522644043, 21.510482406616212, 21.877765655517578]","[24.732797622680664, 23.36746940612793, 23.093318939208984]","[24.100109100341797, 23.036123275756836, 23.11815643310547]","[18.745586395263672, 18.21169509887695, 18.640151977539062]"
 "We are hell bent on committing animal cruelty
 Thousands of unknown diseases emanate from poultry
 They are culled in thousands under the pretext of containment
@@ -1201,108 +3083,7 @@ We are not here to challenge it completely beat
 There may be some preventive laws
 It lacks will power and has many flaws
 We must try to reason out and draw
-A complete full proof plan to show",animal,somethingit eyeit freenature ammunitionthe fearswe freshthey poultrythey settleit cattlethe anythingit beatthere preciselywe relationif preventive miseriesnature houseswe culled centuriesthey weit concernit fleshwhy crueltythousands outlivewhat solutionthey latelythe rightsthey annihilationnature us must allowed allow fortunatelyit natural slaughter arouseis raise seatwe lawsit flawswe drawa cattle disproportionatelywe complete containmenthave continuationuseful daypossibly source situationwe may enough,experiment_tfidf_poems/19.jpg,21.367774963378906,19.66990041732788,19.529181480407715
-"If you look for evil good you cannot see
-For your eyes only tell you what they want you in others to see
-Of good and bad races you keep telling me
-But your opinions are different to mine we see things differently.
-I've worked with those of different races and backgrounds and in truth I can say
-That people as a whole are quite good in their own way
-Of different beliefs and cultures but I found them to be okay
-If you show respect for others respect to you they will pay.
-When you start comparing races you I do not wish to hear
-your ignorance on such matters only based on your fear
-Of those you see as different to you difference you cannot embrace
-'Tis wrong to condemn people because of their race.
-If you are only looking for flaws in those who are different to you then flaws you will find
-To the good that is in them you do become blind
-In this multicultural World your thinking renders you as small
-One must admire those who believe in a fair go for all.",evil,whole become looking wrong bad tis race pay evil start quite telling embrace see thinking worked difference ignorance admire saythat based mebut matters not people condemn beliefs wayof can opinions cultures fearof findto good different seefor comparing races renders multicultural flaws okayif hearyour respect backgrounds smallone differently others blindin seeof,experiment_tfidf_poems/20.jpg,25.673017501831055,24.384161472320557,24.48285675048828
-"It’s a beautiful land
-It’s a home for many
-Many lived with peace
-Lived with unity and love
-With smiles on each face
-Children play with its mud
-Farms dance with its soil
-Rivers flow on its bed
-Flowers glow all around
-Nature loves that land
-Life is very simple there
-Children go to school
-Men and Women work
-Old ones enjoy life
-People lived happily
-People pray in church
-People pray in mosque
-People pray as they wish
-It has different beliefs
-But all are united
-Its unity is questioned
-Questioned by an evil
-Its name is ‘WAR’
-It bombed that land
-And killed everything
-Destroyed homes of many
-Many lived in fear
-Many cried in pain
-In pain of lost ones
-Taken away by evil
-Some can’t kick football
-Some can’t write proper
-Some tears can’t run down
-Many got wounded
-Wounded by the evil
-Schools got bombed
-Books got burned
-Playground in silent
-Kids didn’t grow up
-Evil axed even tulips
-Farms caught fire
-Fruits weren’t picked
-Rivers flowed red
-Water wasn’t tasted
-Evil ruined the nature
-Church bells stopped ringing
-Mosque no longer stands
-Culture no longer rejoiced
-Beautiful land is ragged
-In the hands of evil
-Evil, who’s name is WAR
-Its only aim is blood
-Blood of many innocent lives
-Life is the gift of god
-God’s message is peace and love
-So let’s spread his message
-And kill this evil forever
-And free this world forever
-Forever from its bloody hands
-Into the hands of peace forever",evil,mudfarms naturechurch liveslife tastedevil redwater bedflowers lifepeople wishit fearmany foreverforever happilypeople pickedrivers downmany bombedbooks mosquepeople peacelived landlife landit ringingmosque aroundnature evilits standsculture therechildren pray handsinto lived raggedin burnedplayground unity evilschools tulipsfarms bloodblood everythingdestroyed manymany unitedits rejoicedbeautiful evilsome beliefsbut onestaken firefruits got questionedquestioned facechildren messageand upevil churchpeople workold propersome footballsome soilrivers,experiment_tfidf_poems/21.jpg,21.644519805908203,18.468886375427246,17.608927726745605
-"Im here bounded for life
-Come to me
-Break these chains that hold me back
-help me bring my life back
-I know, I kno
-This may all frighten you
-But please free me from this life of torment
-Cause if you dont I will surely die
-With these final words out of my bloody mouth
-Who will remember me now
-Not as this decaying evil soul
-That I most proudly show
-But as this peaceful hearted man
-That I desperatly hold withen
-These two sides of me fights for everlasting control
-Good Vs. Evil
-If one finaly wins
-Will I still be me
-Or would i become pure good
-And bring forth peacefull things to the end my life
-Or will I become absolute evil
-To remain bound to my chains for all eternity
-As these being my final words
-Just go and leave this hideus creature
-Bound in chains for the sins he has made",evil,remain surely im proudly peaceful hearted dont sins sides bloody everlasting absolute meor youbut fights goodand backi bounded hold manthat decaying frighten vs become desperatly bring evilto peacefull showbut nownot soulthat wordsjust diewith lifeor finaly knothis controlgood eternityas mouthwho evilif creaturebound hideus chains winswill final withenthese backhelp mebreak lifecome tormentcause,experiment_tfidf_poems/22.jpg,23.522953033447266,22.043070475260418,21.341960906982422
+A complete full proof plan to show",animal,abundance entertainment committing diseases thousands culled precisely natural houses nature extinction policies day population source enough emanate fortunately continuation pretext must raise preventive parish satisfactory land solution alternative complete slaughter flaws allowed outlive discouraged may allow us option annihilation disproportionately arouse concern containment poultry miseries lacks cattle use dimension ammunition,experiment_tfidf_poems/poems_19_prompt_0.jpg,experiment_tfidf_poems/poems_19_prompt_1.jpg,experiment_tfidf_poems/poems_19_prompt_2.jpg,experiment_tfidf_poems/poems_19_prompt_3.jpg,experiment_tfidf_poems/poems_19_prompt_4.jpg,experiment_tfidf_poems/poems_19_prompt_5.jpg,experiment_tfidf_poems/poems_19_prompt_6.jpg,experiment_tfidf_poems/poems_19_prompt_7.jpg,"[24.161602020263672, 23.134461561838787, 23.118019104003906]","[18.1489315032959, 16.95017155011495, 16.866291999816895]","[20.00065040588379, 17.579633951187134, 17.285400390625]","[24.703617095947266, 20.826311429341633, 20.116435050964355]","[26.25330352783203, 23.20828676223755, 23.070009231567383]","[22.629756927490234, 20.459334055582683, 20.4677095413208]","[24.23016357421875, 21.82849057515462, 21.942218780517578]","[24.398271560668945, 22.6647211710612, 22.78767204284668]"
 "The good wins,
 On the day when there is an end of all sins.
 The evil is fragile,
@@ -1326,68 +3107,7 @@ Hug each other and be gathered.
 Let the good win again,
 And diminish all pains.
 Let’s take one more endeavor,
-And remove the evil dirt.",evil,thinking present pay win fret nations stepping ups helpless pains loss bomb remove elements fragile even hug gathered countries mile join sins situation price everywhere due dirt strife deeds people embarrassing independently depressed worried harassed sinister property good situations relations negative diminish wins fume orphan seeing apocalypse endeavor evil let,experiment_tfidf_poems/23.jpg,21.145387649536133,19.89219903945923,19.563018798828125
-"Evil, I am calling!
-Evil, do you hear?
-Evil, I’m imploring!
-Please – I beg your ear!
-Evil, I beseech you Sir!
-Evil, be you near?
-Evil, might you spare some time?
-Please – you must appear!
-Deep in barren ground I feel a rumble and a quake:
-Evil stirs beneath me now – oh how the earth doth shake!
-Dark begins retreating back and gives to eerie glow:
-Light of hues appeal to mind in glory of His show!
-I, so truly worthy, view Evil’s phosphorescence!
-I, so truly honoured,  scent Evil’s rancid essence!
-Whenceforth He rose – ‘twas Evil’s phantasm!
-Climax unfolds in Evil’s orgasm!
-He lowered His sight to peer my form
-From orbits sunk in fiery storm.
-Incredulous now, and twice in awe, I
-Harkened close to Evil’s roar:
-‘I Evil, appear at your request!
-Pray tell, of what is thine behest!
-Your say must be bold, for you do not run, and
-You’re evil enough – is my work not done?
-So speak of your wanting, my impious serf,
-To hail my cathedral so deep in this earth. ’
-I pulled up with pride and pushed out my chest:
-‘Though I be Man in all his great fame,
-My evil is lacking – my damage is lame –
-I crave for the power that you can instill, to
-Heighten my evil and drive up the thrill! '
-Evil stared in disbelief:
-Could I see a trace of grief?
-‘I, Evil, must say unto you:
-I see wars of destruction – both savage and wild –
-People lay dying – that’s woman and child!
-All of mankind lay poisoned and green
-From virus of hatred – oh this I have seen!
-You fight and you kill and maim animals and all:
-Much blood do you spill while you torture and maul.
-You build up a town to destroy with your bombs then
-Stab with your knives as you ravage your tombs!
-You’re evil bar none, you ignorant fool:
-I’ve no more to give – you already rule!
-Evil am I - but only in noun:
-You are the Lord that stands in your gown of
-Evil and death – and terminal breath!
-A figure is all that I am unto you –
-A mirror to show and reflect
-The evil in actions of all that you do:
-Appeasement and love?  You reject! '
-I stood there in silence to ponder his words -
-And remained deep in thought ever since.
-Copyright © Mark R Slaughter 2009
-< br>
-< br>
-evil evil evil evil evil evil evil evil evil evil
-evil evil evil evil evil evil evil evil evil evil
-evil evil evil evil evil evil evil evil evil evil
-evil evil evil evil evil evil evil evil evil evil
-evil evil evil evil evil evil evil evil evil evil",evil,impious quake eerie behest retreating andyou unfolds imploring instill virus ravage show appeasement phosphorescence maim whenceforth greenfrom thenstab terminal reflectthe unto please climax formfrom disbelief serf beseech maul phantasm truly noun –a ofevil rancid incredulous orgasm lay must orbits –i toheighten –people evil evilevil iharkened appear i ‘ deep br,experiment_tfidf_poems/24.jpg,26.856220245361328,24.83818215590257,25.384727478027344
+And remove the evil dirt.",evil,heavy pay present everywhere strife win loss join price due deeds fragile helpless nations situation even pains gathered dirt hug mile remove sins countries depressed let bomb diminish fret people good relations elements embarrassing property endeavor sinister situations apocalypse orphan independently worried fume stepping wins ups negative harassed seeing evil,experiment_tfidf_poems/poems_20_prompt_0.jpg,experiment_tfidf_poems/poems_20_prompt_1.jpg,experiment_tfidf_poems/poems_20_prompt_2.jpg,experiment_tfidf_poems/poems_20_prompt_3.jpg,experiment_tfidf_poems/poems_20_prompt_4.jpg,experiment_tfidf_poems/poems_20_prompt_5.jpg,experiment_tfidf_poems/poems_20_prompt_6.jpg,experiment_tfidf_poems/poems_20_prompt_7.jpg,"[22.378664016723633, 19.87723731994629, 19.105076789855957]","[18.2757625579834, 17.05901288986206, 16.772409439086914]","[20.40496063232422, 19.59451675415039, 19.537638664245605]","[19.707853317260742, 18.824591636657715, 18.713841438293457]","[22.7718448638916, 22.128742218017578, 22.18974018096924]","[23.07623863220215, 21.93022918701172, 21.935662269592285]","[19.50315284729004, 18.41963529586792, 18.377845764160156]","[23.159271240234375, 22.063864707946777, 22.14552593231201]"
 "The modern world seems crazy to the core;
 We strike a balance in most things we do;
 Money appears to solve problems many;
@@ -1416,43 +3136,7 @@ God’s mercy may not save them from Hell’s fire;
 The upright souls will get rewards from God;
 The God of goodness loves the righteous;
 He takes them to His own Abode- Heaven.
-Copyright by Dr John Celes 3-2-2008",evil,crimes balance abode lazy crash seal judgment core ghastly rope merit celes citizens upright guides decisions paying fates men earth bubbles allows evil bureaucrat reckoning fizzle punishments nevertheless money things lasts soap taxes doers livelihood media merchants solve righteous detail celebrities muscle disclosed untruth eke roost dishonesty rewards taxed god,experiment_tfidf_poems/25.jpg,19.59896469116211,18.08981590270996,18.63222885131836
-"We are born with luck
-which is to say with gold in our mouth.
-As new and smooth as a grape,
-as pure as a pond in Alaska,
-as good as the stem of a green bean-
-we are born and that ought to be enough,
-we ought to be able to carry on from that
-but one must learn about evil,
-learn what is subhuman,
-learn how the blood pops out like a scream,
-one must see the night
-before one can realize the day,
-one must listen hard to the animal within,
-one must walk like a sleepwalker
-on the edge of a roof,
-one must throw some part of her body
-into the devil's mouth.
-Odd stuff, you'd say.
-But I'd say
-you must die a little,
-have a book of matches go off in your hand,
-see your best friend copying your exam,
-visit an Indian reservation and see
-their plastic feathers,
-the dead dream.
-One must be a prisoner just once to hear
-the lock twist into his gut.
-After all that
-one is free to grasp at the trees, the stones,
-the sky, the birds that make sense out of air.
-But even in a telephone booth
-evil can seep out of the receiver
-and we must cover it with a mattress,
-and then tear it from its roots
-and bury it,
-bury it.",evil,visit animal scream realize edge devil stuff indian pond grasp feathers say pops born nightbefore thatone plastic sleepwalkeron reservation bury sayyou boothevil thatbut rootsand hearthe subhuman luckwhich mouth telephone twist seetheir learn gut odd alaska seep must mattress prisoner bean receiverand one grape exam ought matches stem bodyinto copying lock,experiment_tfidf_poems/26.jpg,22.634843826293945,19.651514689127605,19.387587547302246
+Copyright by Dr John Celes 3-2-2008",evil,dr core evil allows solve earth men media celes reckoning fates money celebrities soap merchants citizens doers untruth decisions merit lazy rewards rope muscle abode roost bureaucrat taxes taxed judgment disclosed guides eke lasts upright punishments detail balance fizzle seal righteous livelihood dishonesty bubbles things crash paying ghastly nevertheless god,experiment_tfidf_poems/poems_21_prompt_0.jpg,experiment_tfidf_poems/poems_21_prompt_1.jpg,experiment_tfidf_poems/poems_21_prompt_2.jpg,experiment_tfidf_poems/poems_21_prompt_3.jpg,experiment_tfidf_poems/poems_21_prompt_4.jpg,experiment_tfidf_poems/poems_21_prompt_5.jpg,experiment_tfidf_poems/poems_21_prompt_6.jpg,experiment_tfidf_poems/poems_21_prompt_7.jpg,"[22.342679977416992, 21.611171340942384, 21.65398406982422]","[20.638376235961914, 19.273079681396485, 20.13335609436035]","[21.354753494262695, 19.7392520904541, 20.614194869995117]","[21.487062454223633, 20.585200119018555, 20.57189178466797]","[23.32292938232422, 22.071934127807616, 22.10186195373535]","[22.807308197021484, 21.624208831787108, 22.03217315673828]","[23.41864013671875, 22.14196662902832, 22.376235961914062]","[22.459999084472656, 21.90506935119629, 22.15709114074707]"
 "Even this great mist that drowned the forest,
 Relented to Him: grey billows gave, and
 flanked servilely as He moved forwards -
@@ -1476,7 +3160,7 @@ Succumbing to His steady drift towards me - along perfect line -
 I let Him impose His levy.
 Soon I would be engulfed; swallowed; deformed
 To a new self: what of me then?
-What to do, when evil becomes you?",evil,spoken aim victim stirred swallowed audience damn countenance billows tone rode let concealed prelude sensed quaking impose intentions novel engulfed response chills glint forwards relented deformedto dermis pillarsof towards succumbing new confirmation andflanked comportment levy cranium resonating befogged servilely sine subterfuge bourdonof sundered toneless reeked reaffirm mindfocussed gravitas loathed basal,experiment_tfidf_poems/27.jpg,22.992759704589844,22.023595809936523,22.116710662841797
+What to do, when evil becomes you?",evil,spoken victim damn rode let stirred aim tone billows concealed swallowed audience countenance response pillars chills novel intentions glint engulfed flanked prelude resonating deformed impose sundered quaking confirmation levy loathed sensed forwards focussed subterfuge relented new servilely towards cranium toneless comportment basal reaffirm gravitas succumbing reeked sine dermis befogged bourdon,experiment_tfidf_poems/poems_22_prompt_0.jpg,experiment_tfidf_poems/poems_22_prompt_1.jpg,experiment_tfidf_poems/poems_22_prompt_2.jpg,experiment_tfidf_poems/poems_22_prompt_3.jpg,experiment_tfidf_poems/poems_22_prompt_4.jpg,experiment_tfidf_poems/poems_22_prompt_5.jpg,experiment_tfidf_poems/poems_22_prompt_6.jpg,experiment_tfidf_poems/poems_22_prompt_7.jpg,"[22.724105834960938, 22.075355529785156, 22.116601943969727]","[21.971359252929688, 20.874874591827393, 21.115053176879883]","[22.75309944152832, 21.508885383605957, 21.64295196533203]","[23.856306076049805, 23.06666851043701, 23.111957550048828]","[24.655611038208008, 23.16415548324585, 23.218400955200195]","[22.092041015625, 21.139070987701416, 21.383960723876953]","[24.972496032714844, 24.00540542602539, 24.163360595703125]","[23.780248641967773, 22.66197156906128, 22.70203399658203]"
 "But hold on a minute –
 who set this league up?
 Is it a fair game? Are the teams
@@ -1559,7 +3243,7 @@ feel good about yourself..
 boy, we’d sure miss
 those old Manicheans; life would be just so dull
 without a bit of drama…oh…
-have a nice Thanksgiving Day..",evil,currentdevotees dullwithout baddies hearts…saint buried…politicians getsall …basically opportunities…it survivalmeans confessional…just quitethrew them…if theirextended ref… round…it teamsequally clearcut… drama…oh…have terraces mankindin again…some battle ornever manicheans puttingemergency quicklyto film…it rubbishing rename…the yourself…take place…sorry on…feel wayneplayed mercenaries oldestreligion butwe guys support soundbite guyswe say thoseinternational …some side mazda devoutadherent got protection…no name…some believethere,experiment_tfidf_poems/28.jpg,22.543176651000977,19.922093200683594,19.826982498168945
+have a nice Thanksgiving Day..",evil,apartments looks manipulating cheeked sponsors augustine evil ‘ name… hearts… wayne again… round… on… yourself… old counselling good ref them… wimpy agnostic protection… side say soundbite briefing terraces clearcut… mercenaries support rubbishing course… film… opportunities… adherent got guys battle drama…oh… confessional…just mazda baddies buried… game freewill ref… place… rename… manicheans,experiment_tfidf_poems/poems_23_prompt_0.jpg,experiment_tfidf_poems/poems_23_prompt_1.jpg,experiment_tfidf_poems/poems_23_prompt_2.jpg,experiment_tfidf_poems/poems_23_prompt_3.jpg,experiment_tfidf_poems/poems_23_prompt_4.jpg,experiment_tfidf_poems/poems_23_prompt_5.jpg,experiment_tfidf_poems/poems_23_prompt_6.jpg,experiment_tfidf_poems/poems_23_prompt_7.jpg,"[18.62652587890625, 15.53214168548584, 15.295010566711426]","[21.596519470214844, 19.068110020955405, 18.652347564697266]","[20.898204803466797, 17.871824391682942, 17.49299430847168]","[19.81887435913086, 17.504259427388508, 17.45222282409668]","[20.132951736450195, 18.369426854451497, 18.450611114501953]","[21.033897399902344, 19.333117548624674, 19.488311767578125]","[22.056222915649414, 19.91958033243815, 19.95161247253418]","[22.233617782592773, 20.81419626871745, 20.845949172973633]"
 "And one of the elders of the city said, ""Speak to us of Good and Evil.""
 And he answered:
 Of the good in you I can speak, but not of the evil.
@@ -1588,4 +3272,170 @@ In your longing for your giant self lies your goodness: and that longing is in a
 But in some of you that longing is a torrent rushing with might to the sea, carrying the secrets of the hillsides and the songs of the forest.
 And in others it is a flat stream that loses itself in angles and bends and lingers before it reaches the shore.
 But let not him who longs much say to him who longs little, ""Wherefore are you slow and halting?""
-For the truly good ask not the naked, ""Where is your garment?"" nor the houseless, ""What has befallen your house?""",evil,lingers clings perilous angles verily isles receiving stumbling garment loses abundance thieves need elders gain can good even houseless thirsts sucks deeming aimlessly fruit house hillsides yet loitering swiftness limping limp turtles giving tongue speak strengthen not evil rudder strive halting sluggard root divided befallen longs speech longing stags staggers,experiment_tfidf_poems/29.jpg,23.676881790161133,21.04106791814168,20.98008918762207
+For the truly good ask not the naked, ""Where is your garment?"" nor the houseless, ""What has befallen your house?""",evil,lame garment clings loses thieves isles abundance need perilous sucks angles receiving stumbling verily elders not can aimlessly rudder deeming loitering staggers halting hillsides limping strengthen speak befallen houseless swiftness turtles sluggard speech good tongue gain divided longs longing giving evil house root stags limp even yet thirsts fruit strive,experiment_tfidf_poems/poems_24_prompt_0.jpg,experiment_tfidf_poems/poems_24_prompt_1.jpg,experiment_tfidf_poems/poems_24_prompt_2.jpg,experiment_tfidf_poems/poems_24_prompt_3.jpg,experiment_tfidf_poems/poems_24_prompt_4.jpg,experiment_tfidf_poems/poems_24_prompt_5.jpg,experiment_tfidf_poems/poems_24_prompt_6.jpg,experiment_tfidf_poems/poems_24_prompt_7.jpg,"[25.566383361816406, 21.571163654327393, 21.12881088256836]","[25.429922103881836, 22.251888910929363, 21.77200984954834]","[25.14097023010254, 21.403567632039387, 21.376708984375]","[23.477596282958984, 20.40786298116048, 20.486499786376953]","[23.610614776611328, 20.03914674123128, 19.52510929107666]","[22.46119499206543, 20.732590357462566, 20.478408813476562]","[23.448375701904297, 22.122105439503986, 22.25313377380371]","[23.17222023010254, 20.788736979166668, 20.69339370727539]"
+"It's funny how hello is always accompanied with goodbye
+It's funny how good memories can start to make you cry
+It's funny how forever never seems to really last
+It's funny how much you'd loose if you forgot about your past
+It's funny how friends can just leave you when you're down
+It's funny how when you need someone they're never around
+It's funny how people can change and think they're so much better
+It's funny how many lies can be packed in one ''love letter''
+It's funny how people can forgive even though they can't forget
+It's funny how one night can contain so much regret
+It's funny how ironic life turns out to be,
+But the funniest part,
+Is that none of it is funny...
+To me.",funny,forbidding forbes though friends love life need cry better past night last make leave forbids around many always think good even forever funny lies much seems letter memories packed start ironic one forget change never turns really regret contain loose forgot part accompanied hello goodbye people forgive none someone funniest,experiment_tfidf_poems/poems_25_prompt_0.jpg,experiment_tfidf_poems/poems_25_prompt_1.jpg,experiment_tfidf_poems/poems_25_prompt_2.jpg,experiment_tfidf_poems/poems_25_prompt_3.jpg,experiment_tfidf_poems/poems_25_prompt_4.jpg,experiment_tfidf_poems/poems_25_prompt_5.jpg,experiment_tfidf_poems/poems_25_prompt_6.jpg,experiment_tfidf_poems/poems_25_prompt_7.jpg,"[18.924787521362305, 17.71096420288086, 17.71096420288086]","[17.275531768798828, 16.79904556274414, 16.79904556274414]","[17.98583984375, 17.88411235809326, 17.88411235809326]","[18.845977783203125, 18.526057243347168, 18.526057243347168]","[20.80859375, 20.577199935913086, 20.577199935913086]","[21.646318435668945, 21.17483425140381, 21.17483425140381]","[19.422935485839844, 19.10747718811035, 19.10747718811035]","[21.704673767089844, 21.564836502075195, 21.564836502075195]"
+"Many people are involved in a so-called monetary unjust,
+With a hoop and a holler, turning a minor into a major fuss,
+So, the newest one dollar coin is missing, “In God We Trust, ”
+They’re calling the absent phrase a religious and political bust.
+Hey, an email and the sender is extremely upset about the lack,
+No, “In God We Trust” to the post office she wants to give it back,
+A lot of families are hard hit as news programs document the lack,
+But when cameras get close we see cigarettes and plenty of Jack.
+The respect and use of any countries money has never changed,
+Shekel, Denari, Peso, Yen, even solid gold, what’s in a name?
+May in church circles will not even bother to pay their 10% tithes,
+On that note, does it really matter and if so please elaborate why?
+It’s not how much you have but what is done with it that counts,
+The old woman put in two copper mites yet it was a greater amount,
+Than those who gave plenty more out of their abundant wealth,
+And no matter how much money you have it still can’t buy health.
+“Silver & gold have I not but in the name of Jesus stand up & walk, ”
+Oh yeah, “In God We Trust” was not on currency but in his talk,
+Remember the phrase that, “a fool and money his soon will part, ”
+Any amount is useless unless it’s written upon the spender’s heart.
+Peter fetched a shekel from the mouth of a fish for taxes to pay,
+What phrase and whose picture was on money back in the day?
+The very best way to deal is by none other than barter and trade,
+It is the one and only way to get out the exact amount you paid.
+Undercover hit men are hired to kill a spouse yet they wind up in jail,
+Rapists and drunks are released on insignificant amounts of bail,
+Committing their crimes again, any one have a similar story to tell?
+How many people carry money but still lie, cheat and raise hell?
+And here’s the strangest situation, I just have to tell you this one,
+A minister wanted to use “In God We Trust” money to buy a gun,
+Not for the purpose of home protection they already had a target,
+Funny! Murder on the mind from a perched position in the pulpit.
+Okay! This helps to explain why there is a certain type of attrition,
+Bullet manufacturers work 24/7, there’s a shortage of ammunition,
+Not enough “In God We Trust” for lunch programs or Head Start,
+However, way more than enough to brutally rip each other apart.
+Yes, many people see this inscription as being a fresh new start,
+“They honor Me with their lips but despise Me with their heart, ”
+If “In God We Trust” on money was all that needed to be done,
+Then God would never have needed to sacrifice His only Son.
+'In God We Trust' was actually passed Into law only as a motto,
+Good to know because this makes it even more shallow & hollow,
+Teddy Roosevelt said sacrilegious, Supreme Court Would not relent,
+So it's, 'lost through rote repetition any significant religious content.'
+A very slick imposter hustler slides into ACORN seeking money,
+With a hidden camera and his equally fake hooker looking honey,
+Just to be sure there was no misunderstanding or optical illusion,
+Staff told how to hide “In God We Trust” made from prostitution.
+Assuredly, just as sure as Thursday follows Wednesday & without fail,
+Before helping another in serious need some woman will do her nails,
+And, certainly a priority will arise however if it is not one of their own,
+Most people will first tip the driver who brings fried rice to their home.
+As many are screaming for assistance their sounds fall on deaf ears,
+Closest family and friends are more apt to buy fried chicken and beer,
+Without a doubt everyone knows someone who’s in severe dire need,
+Just make sure it’s for essentials, not cocaine, heroin, wine or weed.
+By the way, it was all just an error on some, a simple mistake,
+However, those coins are selling for $50 so they can’t be fake,
+Dig this, without the inscription they’re worth a whole lot more,
+And so the fact that they have more value might make Him sore.
+Today’s currency is used for less good and way too much harm,
+Drugs, sex, the black market, fraudulent claims and illegal arms,
+The new dollar coin in missing, “In God We Trust” that is so funny,
+Think God wants His name on anybody's uncircumcised money?",funny,roosevelt use even monetary misunderstanding mites undercover optical attrition hit tithes sure religious much hooker missing coin hustler people plenty fried denari needed lack funny dollar one without lot peso wants uncircumcised many fake way pay spender name rapists buy god inscription shekel trust however phrase currency money programs amount,experiment_tfidf_poems/poems_26_prompt_0.jpg,experiment_tfidf_poems/poems_26_prompt_1.jpg,experiment_tfidf_poems/poems_26_prompt_2.jpg,experiment_tfidf_poems/poems_26_prompt_3.jpg,experiment_tfidf_poems/poems_26_prompt_4.jpg,experiment_tfidf_poems/poems_26_prompt_5.jpg,experiment_tfidf_poems/poems_26_prompt_6.jpg,experiment_tfidf_poems/poems_26_prompt_7.jpg,"[27.27048110961914, 23.975401798884075, 23.98504066467285]","[27.037302017211914, 23.10990564028422, 23.589985847473145]","[26.409513473510742, 22.891272226969402, 23.13279438018799]","[25.93581771850586, 22.02135928471883, 22.573710441589355]","[22.756380081176758, 20.45989994208018, 20.783910751342773]","[25.06270980834961, 20.525470455487568, 20.951863288879395]","[25.462528228759766, 20.954553882280987, 21.873729705810547]","[23.68993377685547, 20.64647873242696, 20.59846019744873]"
+"Isn't life funny sometimes?
+The ups, the downs,
+The smiles, the frowns
+The utter beautiful confusion
+We find ourselves in?
+When doors close and others open
+When the rainclouds disperse
+And the sunshine warms your face
+Rainbows dancing in your garden
+But you can't hold that pot of gold?
+And then there's love.. love?
+What is that? Is it a mutual sharing
+A pairing of souls that 'match'
+A slow dance in your irises
+And a flash of lightning in your heart?
+Or is it a cold, harsh thunderstorm
+That doesn't abate, that ultimately
+Leads to that word, 'hate'?
+I don't like that word, really no
+Hate isn't something for me
+But I enjoy living, and feeling
+Even if that feeling is often
+Hard and difficult to understand
+And faith, when held in your hand
+Is so fragile, delicate and pure
+This tango of life, this passion
+That jumps into my heart and spins
+Trips over itself, haunts me
+Is all I ever want to feel, to be..
+And I am so unashamedly thankful
+To everyone that has ever touched me
+And made me, Me.. otherwise
+What would I be? Just another lost soul
+Walking along the road of life
+Without ever scuffing their feet
+I love that my soles have blisters
+And that scars are worn with pride
+That this happy, fantastic wonderous ride
+Is a journey I'm glad I didn't miss
+It is surely, utterly, bliss",funny,sunshine touched leads lightning funny doors flash fragile word pairing disperse ultimately harsh trips confusion life tango haunts utterly jumps scuffing feeling thunderstorm hate unashamedly wonderous irises frowns thankful spins mutual soles utter abate ever otherwise blisters scars ups warms rainbows sharing rainclouds love downs delicate difficult match pot fantastic,experiment_tfidf_poems/poems_27_prompt_0.jpg,experiment_tfidf_poems/poems_27_prompt_1.jpg,experiment_tfidf_poems/poems_27_prompt_2.jpg,experiment_tfidf_poems/poems_27_prompt_3.jpg,experiment_tfidf_poems/poems_27_prompt_4.jpg,experiment_tfidf_poems/poems_27_prompt_5.jpg,experiment_tfidf_poems/poems_27_prompt_6.jpg,experiment_tfidf_poems/poems_27_prompt_7.jpg,"[24.21352195739746, 22.19307295481364, 21.90172004699707]","[23.860815048217773, 22.649727821350098, 22.259836196899414]","[21.198368072509766, 20.511302947998047, 20.732128143310547]","[21.87986183166504, 20.92543824513753, 20.701170921325684]","[29.098493576049805, 26.794100125630695, 26.35775852203369]","[21.574649810791016, 19.564037958780926, 19.61736488342285]","[22.63455581665039, 21.27807903289795, 21.259735107421875]","[22.075464248657227, 19.70049285888672, 19.73375701904297]"
+"I want to untwine
+my youthful body aches
+more pills make it go away
+it's mind blowing
+intertwining worlds, of hate blood
+horror pain and mud
+you've become a shadow of yourself
+your eyelids shake when your eyes close
+yes you are still all alone
+you are the endless stars
+you are the colors in the sky
+you are the sun that finally shun
+to remind me another day had just begun
+destroy, create, repair,
+it's all in the open air
+and I'm back again.
+Dissect my quivering relapses
+before everything collapses.",funny,forebodings day eyes still away go sun sky make back mind want alone pain horror begun finally close collapses endless quivering become stars blowing create pills colors eyelids youthful shake remind dissect another blood untwine destroy everything repair hate yes open relapses shun aches worlds mud intertwining shadow air body,experiment_tfidf_poems/poems_28_prompt_0.jpg,experiment_tfidf_poems/poems_28_prompt_1.jpg,experiment_tfidf_poems/poems_28_prompt_2.jpg,experiment_tfidf_poems/poems_28_prompt_3.jpg,experiment_tfidf_poems/poems_28_prompt_4.jpg,experiment_tfidf_poems/poems_28_prompt_5.jpg,experiment_tfidf_poems/poems_28_prompt_6.jpg,experiment_tfidf_poems/poems_28_prompt_7.jpg,"[19.70895004272461, 19.70895004272461, 19.70895004272461]","[19.926151275634766, 19.926151275634766, 19.926151275634766]","[19.20821762084961, 19.20821762084961, 19.20821762084961]","[19.949214935302734, 19.949214935302734, 19.949214935302734]","[20.92635726928711, 20.92635726928711, 20.92635726928711]","[20.621225357055664, 20.621225357055664, 20.621225357055664]","[21.55158042907715, 21.55158042907715, 21.55158042907715]","[20.082565307617188, 20.082565307617188, 20.082565307617188]"
+"i am funny
+i cry upon hearing the pleas
+of the goats
+transported from the
+market to the
+slaughterhouse
+it is ridiculous
+as others think of the
+goat meat well spiced
+for their next
+sumptuous dinner
+i am funny
+thinking about the mass killing
+of natives in the south
+as other still think of the gain
+on the next delivery of
+guns and ammunition
+i am not just funny
+i am crazy
+and they are not ridiculous
+they are serious
+for wars to come and shall never end
+for the violence they create
+so they may have all the profits
+and gain
+reality is not funny
+war is a serious business
+the government is crazy
+worshiping a master
+this great puppeteer",funny,forbidder still never forbidding come well shall may upon great reality war create killing mass dinner end hearing others thinking south wars violence cry business meat master government ammunition crazy next gain spiced natives guns delivery ridiculous sumptuous profits slaughterhouse think serious pleas transported goat market worshiping funny goats puppeteer,experiment_tfidf_poems/poems_29_prompt_0.jpg,experiment_tfidf_poems/poems_29_prompt_1.jpg,experiment_tfidf_poems/poems_29_prompt_2.jpg,experiment_tfidf_poems/poems_29_prompt_3.jpg,experiment_tfidf_poems/poems_29_prompt_4.jpg,experiment_tfidf_poems/poems_29_prompt_5.jpg,experiment_tfidf_poems/poems_29_prompt_6.jpg,experiment_tfidf_poems/poems_29_prompt_7.jpg,"[24.371906280517578, 22.465981483459473, 22.465981483459473]","[25.59807014465332, 21.809585571289062, 21.809585571289062]","[23.859832763671875, 21.382526397705078, 21.382526397705078]","[26.961904525756836, 23.943774223327637, 23.943774223327637]","[26.66596221923828, 24.992810249328613, 24.992810249328613]","[23.182065963745117, 23.14145565032959, 23.14145565032959]","[23.54796028137207, 23.208953857421875, 23.208953857421875]","[21.093908309936523, 20.50951099395752, 20.50951099395752]"

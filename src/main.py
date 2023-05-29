@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import os
-os.environ['CUDA_VISIBLE_DEVICES']='2'
+os.environ['CUDA_VISIBLE_DEVICES']='1'
 from doc2img.dataloader import get_raw_dataset
 from doc2img.generating_images import generate_image
 from doc2img.summarization import get_summary
@@ -14,7 +14,6 @@ from pdb import set_trace as bp
 config_file = sys.argv[1]
 with open(config_file) as cf_file:
     config = yaml.safe_load( cf_file.read())
-
 
 DATASET_TYPE = config['datasets']['type']  # poems or nyt
 print("Dataset : ", DATASET_TYPE)
@@ -30,7 +29,7 @@ print("Generating summaries")
 df = get_summary(df_full, df_mini, config)
 
 print("Generating Images")
-df = generate_image(df)
+df = generate_image(df, config['prompts'])
 
 print("Getting CLIP scores")
 df = get_pretrained_clip_scores(df, config)
